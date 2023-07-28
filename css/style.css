@@ -1,0 +1,86 @@
+body{
+  max-width:1400px;
+  margin:0 0;
+  background-color:#000000; 
+  font-family: 'Karla', sans-serif;
+  font-family: 'Newsreader', serif;
+  scroll-behavior:smooth;}
+img{max-width: 100%; display:block;}
+/*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
+.marchio{background-color: #e9aae5; max-width: 90px; display:inline-block; justify-content:start; padding: 21px 0 0 55px;}
+/*.contenuto{display: flex; justify-content: start; align-items: start;}*/
+header{
+  position:-webkit-sticky; position:sticky; top:0;
+  background-color:rgb(89, 166, 230); 
+  max-width:100%; 
+  margin:0 55px 0 0;
+  padding:21px 0 0 0;}
+header a{text-decoration:none; color:white; border:1px solid red;}
+nav{display:flex; justify-content:end; align-items:end;}
+nav ul{
+  background-color:#000; 
+  border-radius:30px; 
+  text-align:center; 
+  padding:5px 0 5px 0;}
+li{display:inline; margin:0 34px 0 34px;}
+h1{
+  max-width:400px; 
+  background-color:#f9f936;
+  margin:0; 
+  padding:0 0 0 55px; 
+  font-family:'Newsreader', serif;
+  font-size:64px;
+  font-weight:400;}
+.titolo{max-width:100%; margin:0; padding:0; font-size: 55px;}
+.funziona{background-color:#38da69;} 
+/*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
+main{background-color:#575757; padding:233px 0 233px 0; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
+  max-width:1200px; margin:auto}
+/*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
+.specie h2, .specie p{max-width:290px; margin:0; padding:0; font-size:18px;}
+.specie p{background-color:#fff; padding:8px; margin:8px 0 0 0;}
+.grid{display:grid; grid-template-columns:repeat(3, 5fr); gap:55px}
+.grid .item img{height:200px; width:100%; object-fit:contain;}
+.bottoneuno{max-width: 306px; display: flex; justify-content: end; align-items: end;}
+.bottonecard{
+  background-color:#e3e8a6;
+  border:none;    
+  text-decoration:none; 
+  border-bottom:5px solid; 
+  color:#000;}
+.continuacard{text-decoration:none; color:#000; font-weight: 800;}
+/*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
+footer{background-color:#000; padding:5px;}
+footer a{text-decoration:none; color:#fff;}
+/*_______________________________________________________________________________________________________________________________________*/
+@media (max-width: 35em) {
+.marchio{background-color: #e9aae5; max-width: 45px; display:inline-block; justify-content:start; padding: 8px 0 0 13px;}
+  /*.contenuto{display: flex; justify-content: start; align-items: start;}*/
+header{
+  position:-webkit-sticky; position:sticky; top:0;
+  background-color:rgb(89, 166, 230); 
+  max-width:100%; 
+  margin:0 21px 0 0;
+  padding:8px 0 0 0;}
+header a{text-decoration:none; color:white; border:1px solid red;}
+nav{display:flex; justify-content:end; align-items:end;}
+nav ul{
+  background-color:#000; 
+  border-radius:30px; 
+  text-align:center; 
+  padding:3px 0 3px 0;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;}
+li{display:inline; margin:0 13px 0 13px;}
+h1{
+  max-width:200px; 
+  background-color:#f9f936;
+  margin:0; 
+  padding:0 0 55px 13px; 
+  font-family:'Newsreader', serif;
+  font-size:24px;
+  font-weight:400;}
+.titolo{max-width:100%; margin:0; padding:0; font-size: 55px;}
+.funziona{background-color:#38da69;}
+}
