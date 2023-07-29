@@ -77,4 +77,6 @@ li{margin:0 8px 0 0;}
   border-bottom:5px solid; 
   color:#000;}
 .continuacard{text-decoration:none; color:#000; font-weight: 800;}
+.item{border:1px solid greenyellow;}
+.item:hover{background-color:rgb(rgb(202, 219, 206), green, blue);}
 }
