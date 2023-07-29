@@ -1,60 +1,97 @@
 body{
   margin:0 0;
-  background-color:#d4d4d4; 
+  background-color:#e1e1e1; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width: 100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
-.marchio{background-color: #e9aae5; max-width: 90px; display:inline-block; justify-content:space-between; padding: 8px 8px;}
 header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   position:-webkit-sticky; position:sticky; top:0;
-  background-color:rgb(89, 166, 230); 
+  background-color:#c4efd0; border:1px dotted blue;
   max-width:100%; 
   margin:0;
   padding:21px 0 0 0;}
-header a{text-decoration:none; color:white; border:1px solid red;}
-nav{display:flex; justify-content:end; align-items:end;}
+header a{text-decoration:none; 
+  color:#000; 
+  border:1px solid red; 
+  font-family:'Karla', sans-serif; 
+  font-size:16px; 
+  font-weight:700;}
+.marchio{width:143px; height:99px; padding:0 0 6.13rem 14.56rem; background-color:rgba(188, 188, 188, 0.683);}  
+nav{display:flex; align-items:center;}
 nav ul{
-  background-color:#000; 
-  border-radius:30px;
-  text-align:center; 
-  padding:5px 0 5px 0;}
+  background-color:rgba(188, 188, 188, 0.683);
+  margin:0;
+  padding:0; 
+  border-right:8px solid #000; 
+  border-radius:0; 
+  font-family:'Karla', sans-serif;
+  font-weight:400;
+  text-align:right;}
 li{display:inline; margin:0 34px 0 34px;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
-main{background-color:#575757; padding:0 0 233px 0; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
-  max-width:1200px; margin:auto}
+main{background-color:#c4efd0; padding:0 0 233px 0; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
+  max-width:1200px; 
+  margin:auto;
+  border:1px solid blue;}
 h1{
-  max-width:400px; 
-  background-color:#f9f936;
+  max-width:39.74rem; 
+  max-height:10.21rem;
   margin:0; 
-  padding:0 0 0 55px; 
   font-family:'Newsreader', serif;
-  font-size:64px;
-  font-weight:400;}
-.titolo{max-width:100%; margin:0; padding:0; font-size: 55px;}
-.funziona{background-color:#38da69;}  
+  font-size:6.47rem;
+  font-weight:400;
+  line-height:90px;
+  background-color: rgba(188, 188, 188, 0.683);}
+.hero{padding:0 0 23.5rem 14.56rem; background-color:rgba(0, 0, 0, 0.475)}
+.hero_sottotitolo{font-family:'Newsreader', serif; font-size:39px; font-weight:400; line-height:1.2;}
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
 .specie h2, .specie p{max-width:290px; margin:0; padding:0; font-size:18px;}
+.titolo_card{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1.2; margin-top:12px; margin-bottom:12px;}
+p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin-top:12px; margin-bottom:12px;}
 .specie p{background-color:#fff; padding:8px; margin:8px 0 0 0;}
 .grid{display:grid; grid-template-columns:repeat(3, 5fr); gap:55px}
-.grid .item img{height:200px; width:100%; object-fit:contain;}
-.bottoneuno{max-width: 306px; display: flex; justify-content: end; align-items: end;}
+.grid .item img{height:180px; max-width:85%; object-fit:contain;}
+.bottoneuno{max-width: 306px; display: flex; justify-content:end; align-items:end;}
 .bottonecard{
-  background-color:#e3e8a6;
+  font-family:'Karla', sans-serif;
+  font-size:16px;
+  font-weight:700;
+  line-height:1.2;
   border:none;    
   text-decoration:none; 
-  border-bottom:5px solid; 
-  color:#000;}
-.continuacard{text-decoration:none; color:#000; font-weight: 800;}
+  border-bottom:5px solid;
+  width:130px;
+  color:#000;
+  background-color:#c4efd0;
+  text-align:center;
+  margin-top:12px;
+  margin-bottom:8px;}
+.scopricard{text-decoration:none; color:#000; font-weight:800;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 /*footer{background-color:#000; padding:5px;}
 footer a{text-decoration:none; color:#fff;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-@media (max-width: 35em) {
-.marchio{background-color: #e9aae5; max-width: 45px; padding:8px 0 0 13px; display:flex; justify-content:space-between;}
-header{background-color:#7ade44; margin:0; padding:0;}
+@media (max-width:500px) {
+html{font-size:10px;}  
+.marchio{background-color:#e9aae5; 
+  max-width:12.30rem; 
+  max-height:8.58rem; 
+  display:flex; 
+  justify-content:space-between; 
+  padding:0;
+  margin:0 0 0 2.7rem;}
+header{background-color:#7ade44; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;}
 header a{text-decoration:none; color:#000; border:0; display:flex;}
+/*_______________________________________________________________________________________________________________________________________*/
 nav ul{
   display:grid;
   place-content: end;
@@ -65,10 +102,36 @@ nav ul{
   font-weight:400;
   text-align:right;}
 li{margin:0 8px 0 0;}
+/*_______________________________________________________________________________________________________________________________________*/
+.hero{display:flex; justify-content:center;}
+h1{
+  max-width:23.6rem; 
+  max-height:7.0em; 
+  font-family:'Newsreader', serif;
+  font-size:4.2em;
+  font-weight:400;
+  line-height:1;
+  background-color: rgba(74, 252, 255, 0.683);}
+.hero{
+  padding:0;
+  margin:0 0;
+  background-color:rgba(0, 0, 0, 0.475)}
+  .frame_illustrazione{margin:37.7rem 0 0 0;}
+/*_______________________________________________________________________________________________________________________________________*/
+.sottotitolo{display:flex; justify-content:center;}
+.hero_sottotitolo{
+  max-width:39.48rem;
+  max-height:13.11rem;
+  font-family:'Newsreader', 
+  serif; font-size:16px; 
+  font-weight:400; 
+  line-height:1.2;}
+/*_______________________________________________________________________________________________________________________________________*/
 .specie h2, .specie p{max-width:290px; margin:0; padding:0; font-size:18px;}
 .specie p{background-color:#fff; padding:8px; margin:8px 0 0 0;}
 .grid{display:flex; flex-direction:column; align-items:center;}
 .grid .item img{max-width:320px; object-fit:contain;}
+/*_______________________________________________________________________________________________________________________________________*/
 .bottoneuno{max-width:306px; display: flex; justify-content: end; align-items: end;}
 .bottonecard{
   background-color:#fb4a4a;
@@ -78,5 +141,5 @@ li{margin:0 8px 0 0;}
   color:#000;}
 .continuacard{text-decoration:none; color:#000; font-weight: 800;}
 .item{border:1px solid greenyellow;}
-.item:hover{background-color:rgb(rgb(202, 219, 206), green, blue);}
+/*_______________________________________________________________________________________________________________________________________*/
 }
