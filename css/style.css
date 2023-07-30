@@ -141,12 +141,38 @@ h1{
 /*_______________________________________________________________________________________________________________________________________*/
 .sottotitolo{background-color:#e9aae5; display:flex; justify-content:center;}
 .hero_sottotitolo{
-  max-width:39.48rem;
-  max-height:13.11rem;
+  max-width:25rem;
+  max-height:8.1rem;
   font-family:'Newsreader', 
   serif; font-size:16px; 
   font-weight:400; 
-  line-height:1.2;}
+  line-height:1.2;
+  margin-bottom:5.5rem;} 
+/*_______________________________________________________________________________________________________________________________________*/
+.lineettadue{
+  max-width:24.5rem; 
+  height:0.5rem; 
+  background: #000; 
+  margin:auto; 
+  margin-bottom:8.9rem;}  
+/*_______________________________________________________________________________________________________________________________________*/
+.corpo{display:flex; flex-direction:column; align-items:center; justify-content:center;}
+.corpouno{
+  max-width:27rem;
+  max-height:8.1rem;
+  font-family:'Newsreader', 
+  serif; font-size:16px; 
+  font-weight:400; 
+  line-height:1.2;
+  margin-bottom:5.5rem}
+.corpodue{
+  max-width:26rem;
+  max-height:8.1rem;
+  font-family:'Newsreader', 
+  serif; font-size:16px; 
+  font-weight:400; 
+  line-height:1.2;
+  margin-bottom:5.5rem}
 /*_______________________________________________________________________________________________________________________________________*/
 .specie h2{max-width:250px; margin:0; padding:0; font-size:18px;}
 .specie p{max-width:250px; background-color:#fff; padding:8px; margin:8px 0 0 0;}
