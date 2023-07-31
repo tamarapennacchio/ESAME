@@ -1,6 +1,6 @@
 body{
   margin:0 0;
-  background-color:#c4efd0; 
+  background-color:#fffffc; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
@@ -35,7 +35,7 @@ nav ul{
   text-align:right;}
 li{display:inline; margin:0 34px 0 34px;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
-main{background-color:#c4efd0; padding:0 0 233px 0; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
+main{background-color:#fffffc; padding:0 0 233px 0; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
   max-width:1200px; 
   margin:auto;
   border:1px solid blue;}
