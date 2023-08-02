@@ -30,7 +30,7 @@ nav ul{
 li{display:inline;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  background-color:#d7d7d7; 
+  background-color:#adc8bc; 
   max-width:1200px;
   margin:0 auto;
   border:1px solid blue;}
@@ -42,7 +42,7 @@ h1{
   font-size:6.47rem;
   font-weight:400;
   line-height:90px;}
-.hero{padding:0 0 23.5rem 14.56rem;}
+/*.hero{padding:0 0 23.5rem 14.56rem;}
 .hero_image{
   display:flex; 
   align-items:center; 
@@ -51,7 +51,7 @@ h1{
   gap:23.3rem;}
 .hero_image_uno{max-width:17%;}
 .hero_image_due{max-width:11%;}
-.hero_sottotitolo{font-family:'Newsreader', serif; font-size:39px; font-weight:400; line-height:1.2;}
+.hero_sottotitolo{font-family:'Newsreader', serif; font-size:39px; font-weight:400; line-height:1.2;}*/
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
 .specie h2, .specie p{max-width:290px; margin:0; padding:0; font-size:18px;}
 .titolo_card{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1.2; margin-top:12px; margin-bottom:12px;}
@@ -132,45 +132,45 @@ h1{
 .hero_image_uno{max-width:22%;}
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.sottotitolo{background-color:#e9aae5; display:flex; justify-content:center;}
+main{max-width:25.4rem;}
+.sottotitolo{background-color:#cbe6d8; display:flex; justify-content:center; border:1px solid blue;}
 .hero_sottotitolo{
-  max-width:25rem;
-  max-height:8.1rem;
   font-family:'Newsreader', serif; 
   font-size:16px; 
   font-weight:400; 
   line-height:1.2;
-  margin-bottom:5.5rem;} 
+  margin:1.2rem 0 1.2rem 0;} 
 /*_______________________________________________________________________________________________________________________________________*/
-.lineettadue{
-  max-width:24.5rem; 
+.lineetta{ 
   height:0.5rem; 
-  background: #000; 
-  margin:auto; 
-  margin-bottom:8.9rem;}  
+  margin:5.5rem 0 9.8rem 0;
+  background: #000;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.corpo{background-color:#e9aae5;; display:flex; flex-direction:column; align-items:center; justify-content:center;}
+.corpo{background-color:#e9e5aa; display:flex; flex-direction:column; justify-content:center;}
 .corpouno{
-  max-width:27rem;
-  max-height:8.1rem;
+  justify-content:center;
   font-family:'Newsreader', serif; 
   font-size:16px; 
   font-weight:400; 
   line-height:1.2;
-  margin-bottom:0.5rem;}
+  margin:1.2rem 0 1.2rem 0;
+  padding:0 0 0.5rem 0;}
 .corpodue{
-  max-width:26rem;
-  max-height:8.1rem;
   font-family:'Newsreader', serif; 
   font-size:16px; 
   font-weight:400; 
   line-height:1.2;
-  margin-bottom:14.4rem;}
+  margin:1.2rem 0 1.2rem 0;}
 span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-.calls{display:grid; margin:auto; max-width:24.8rem; margin-bottom:9.8rem;}
-.titolo_calluno{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1; margin:0;}
-.corpo_calluno{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
+.calls{background-color:#8fbee6; display:grid; margin:14.4rem 0 0 0;}
+.titolo_calluno{
+  font-family:'Karla', sans-serif; 
+  font-size:16px; 
+  font-weight:700; 
+  line-height:1; 
+  margin:0;}
+.corpo_calluno{background-color:#f6b316; max-width:250px; font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
 .bottonecall{display:flex; justify-content:end;}
 .bottone_calluno{
   background-color:#c4efd0;
@@ -178,7 +178,8 @@ span{font-weight:700;}
   text-decoration:none; 
   border:none;
   border-bottom:5px solid #000;
-  margin:0 0 0.8rem 0;}
+  margin:1.2rem 0 0 0;
+  padding:1.2rem 0 0.8rem 0;}
 .continuacall{
   font-family:'Karla', sans-serif; 
   font-weight:16px;
@@ -187,6 +188,7 @@ span{font-weight:700;}
   color:#000;
   border:none;}
 /*_______________________________________________________________________________________________________________________________________*/
+.titolocards{display:flex; margin:auto;}
 .specie h2{max-width:400px; margin:0; padding:0; font-size:18px;}
 .specie p{max-width:250px; background-color:#fff; padding:8px; margin:8px 0 0 0;}
 .grid{display:flex; flex-direction:column; align-items:center;}
