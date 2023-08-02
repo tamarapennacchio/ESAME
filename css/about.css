@@ -1,2 +1,55 @@
-body {background-color: #c2c2c2;}
-h2 {color: green;}
+body{
+  margin:0 0;
+  padding:0;
+  background-color:#fffffc; 
+  font-family: 'Karla', sans-serif;
+  font-family: 'Newsreader', serif;
+  scroll-behavior:smooth;}
+img{max-width: 100%; display:block;}
+/*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
+header{
+  background-color:#c4efd0;
+  max-width:100%; 
+  max-height:9.8rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:start;
+  position:-webkit-sticky; 
+  position:sticky; 
+  top:0;
+  margin:0;    
+  padding:3.4rem 5.5rem 0 0;}
+header a{
+  text-decoration:none; 
+  color:#000; 
+  font-family:'Karla', sans-serif; 
+  font-size:16px; 
+  font-weight:700;}
+.marchio{width:143px; height:99px; padding:0 0 6.13rem 14.56rem;}  
+nav{display:flex; align-items:center;}
+nav ul{
+  margin:0;
+  padding:0; 
+  border-right:8px solid #000; 
+  border-radius:0; 
+  font-family:'Karla', sans-serif;
+  font-weight:400;
+  text-align:right;}
+li{display:inline; margin:0 34px 0 34px;}
+.briciole{
+  background-color:#d1d1d1;
+  color:#646464;
+  margin:0;
+  padding:0;
+  display:flex; 
+  align-items:center; 
+  justify-content:start;
+  font-family:'Karla', sans-serif;
+  font-size:24px;
+  font-weight:700;
+  margin-bottom:0 0 3.4rem 0;}
+.pane{background-color:#b8e69e;; color:#646464; text-decoration:none; margin:0; padding:0;}
+span{border-bottom:0.3rem solid #646464; margin-bottom:0.2rem;}
+/*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
+.illustrazione{display:flex; justify-content:end; margin:0 6.05rem 0 0;}
+img.profilo{max-width:25.5rem; border:0.5rem solid #000;}
