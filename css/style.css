@@ -59,7 +59,7 @@ p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:
 .specie p{background-color:#fff; padding:8px; margin:8px 0 0 0;}
 .grid{display:grid; grid-template-columns:repeat(3, 5fr); gap:55px}
 .grid .item img{height:180px; max-width:85%; object-fit:contain;}
-.bottoneuno{max-width: 30.0rem; display:flex; justify-content:end; align-items:end;}
+.bottoneuno{max-width:30.0rem; display:flex; justify-content:end; align-items:end;}
 .bottonecard{
   font-family:'Karla', sans-serif;
   font-size:16px;
@@ -98,8 +98,8 @@ header a{
   flex-direction:column;}
 header a:hover{text-decoration:line-through;}
 .marchio{ 
-  max-width:12.30rem;
-  max-height:8.58rem;}
+  max-width:7.6rem;
+  max-height:5.3rem;}
 /*_______________________________________________________________________________________________________________________________________*/
 nav ul{
   display:grid;
@@ -132,8 +132,8 @@ h1{
 .hero_image_uno{max-width:22%;}
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
-main{max-width:25.4rem;}
-.sottotitolo{background-color:#cbe6d8; display:flex; justify-content:center; border:1px solid blue;}
+main{max-width:27rem;}
+.sottotitolo{background-color:#cbe6d8; border:1px solid blue;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
@@ -144,9 +144,9 @@ main{max-width:25.4rem;}
 .lineetta{ 
   height:0.5rem; 
   margin:5.5rem 0 9.8rem 0;
-  background: #000;}  
+  background:#000;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.corpo{background-color:#e9e5aa; display:flex; flex-direction:column; justify-content:center;}
+.corpo{background-color:#e9efc4; display:flex; flex-direction:column;}
 .corpouno{
   justify-content:center;
   font-family:'Newsreader', serif; 
@@ -170,7 +170,7 @@ span{font-weight:700;}
   font-weight:700; 
   line-height:1; 
   margin:0;}
-.corpo_calluno{background-color:#f6b316; max-width:250px; font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
+.corpo_calluno{max-width:25,0rem; font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
 .bottonecall{display:flex; justify-content:end;}
 .bottone_calluno{
   background-color:#c4efd0;
@@ -180,6 +180,7 @@ span{font-weight:700;}
   border-bottom:5px solid #000;
   margin:1.2rem 0 0 0;
   padding:1.2rem 0 0.8rem 0;}
+.bottone_calluno:hover{background-color:#f32424;}
 .continuacall{
   font-family:'Karla', sans-serif; 
   font-weight:16px;
@@ -187,11 +188,18 @@ span{font-weight:700;}
   text-decoration:none;
   color:#000;
   border:none;}
+.continuacall:hover{color:#fff;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.titolocards{display:flex; margin:auto;}
+.titolocards{
+  max-width:25rem; 
+  font-size:26px; 
+  font-weight:700; 
+  line-height:1; 
+  margin:1rem 0 1rem 0;}
+.quindici{text-align:center;}
 .specie h2{max-width:400px; margin:0; padding:0; font-size:18px;}
 .specie p{max-width:250px; background-color:#fff; padding:8px; margin:8px 0 0 0;}
-.grid{display:flex; flex-direction:column; align-items:center;}
+.grid{display:flex; flex-direction:column; align-content:center;}
 .grid .item img{max-width:265px; object-fit:contain;}
 /*_______________________________________________________________________________________________________________________________________*/
 .bottoneuno{display:flex; justify-content:center;}
