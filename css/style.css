@@ -208,12 +208,11 @@ span{font-weight:700;}
   margin:9.8rem 0 5.5rem 0;}
 /*_______________________________________________________________________________________________________________________________________*/
 .grid{
-  border:1px solid rgb(0, 123, 255);
   display:flex; 
   flex-direction:column; 
   align-content:center; 
   background-color:#fffffc;}
-.item{margin:0 0 9.8rem 0; align-items:center; border:1px solid red;}  
+.item{margin:0 0 9.8rem 0; align-items:center;}  
 .specie h2{
   font-family:'Karla', sans-serif; 
   font-weight:700; 
@@ -244,22 +243,20 @@ img.erba{margin:0 auto; object-fit:cover;}
   text-decoration:none;}
 .scopricard{text-decoration:none; color:#000; background-color: #fffffc;}
 /*_______________________________________________________________________________________________________________________________________*/
-.verbo{background-color:#249df3; display:grid; margin:4.6rem 0 9.8rem 0;}
+.verbo{display:grid; margin:4.6rem 0 9.8rem 0;}
 .titolo_verbo{
-  background-color:#e98bf7;
   font-family:'Karla', sans-serif; 
   font-size:16px; 
   font-weight:700; 
   line-height:1; 
   margin:0;}
-.corpo_verbo{
-  background-color:#d0f92a; 
+.corpo_verbo{ 
   font-family:'Newsreader', 
   serif; font-size:16px; 
   font-weight:400; 
   line-height:1.2; 
   margin:1.2rem 0 1.2rem 0;}
-.bottoneverbo{background-color:#79d0e8; display:flex; justify-content:end;}
+.bottoneverbo{display:flex; justify-content:end;}
 .bottone_verbo{
   background-color:#fffffc;
   max-width:6.9rem;    
