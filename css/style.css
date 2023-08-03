@@ -113,16 +113,17 @@ nav ul{
   border-right:0.8rem solid #000;}
 li{margin:0 0.8rem 0 0;}
 /*_______________________________________________________________________________________________________________________________________*/
+.titolo{display:flex; justify-content:center; margin:0;}
 .hero{
+  max-width:27rem;
   display:flex; 
-  justify-content:center;
-  padding:0;
-  margin:0 0;}
+  align-items:center;
+  justify-content:center;}
 h1{
   max-width:23.6rem; 
-  max-height:7.0em; 
+  max-height:7.0rem; 
   font-family:'Newsreader', serif;
-  font-size:4.2em;
+  font-size:4.2rem;
   font-weight:400;
   line-height:1;
   margin:9.8rem 0 0 0;}
@@ -136,7 +137,7 @@ h1{
 .hero_image_uno{max-width:22%;}
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
-main{max-width:26rem;}
+main{max-width:27rem;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
@@ -149,14 +150,14 @@ main{max-width:26rem;}
   margin:5.5rem 0 9.8rem 0;
   background:#000;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.corpo{display:flex; flex-direction:column;}
+.corpo{display:flex; flex-direction:column; justify-content:center;}
 .corpouno{
-  justify-content:center;
+  margin:0 auto;
   font-family:'Newsreader', serif; 
   font-size:16px; 
   font-weight:400; 
   line-height:1.2;
-  margin:1.2rem 0 1.2rem 0;
+  /*margin:1.2rem 0 1.2rem 0;*/
   padding:0 0 0.5rem 0;}
 .corpodue{
   font-family:'Newsreader', serif; 
