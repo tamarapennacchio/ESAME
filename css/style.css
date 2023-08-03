@@ -82,7 +82,6 @@ html{font-size:10px;}
 header{ 
   display:flex;
   justify-content:space-around;
-  display:flex;
   margin:2.1rem 0 0 0;}
 header a{
   font-family:'Karla', sans-serif;
@@ -94,7 +93,7 @@ header a{
   color:#000; 
   display:flex;
   flex-direction:column;}
-header a:hover{text-decoration:line-through;}
+header a:hover{text-decoration:underline; text-decoration-style:wavy;}
 .marchio{ 
   max-width:7.6rem;
   max-height:5.3rem;}
@@ -160,22 +159,22 @@ main{max-width:27rem;}
   margin:1.2rem 0 1.2rem 0;}
 span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-.calluno{display:grid; margin:14.4rem 0 0 0;}
-.titolo_calluno{
+.aiuto{display:grid; margin:14.4rem 0 0 0;}
+.titolo_aiuto{
   font-family:'Karla', sans-serif; 
   font-size:16px; 
   font-weight:700; 
   line-height:1; 
   margin:0;}
-.corpo_calluno{
-  max-width:25,0rem; 
+.corpo_aiuto{
+  max-width:25.0rem; 
   font-family:'Newsreader', 
   serif; font-size:16px; 
   font-weight:400; 
   line-height:1.2; 
   margin:1.2rem 0 1.2rem 0;}
-.bottonecall{display:flex; justify-content:end;}
-.bottone_calluno{
+.bottoneaiuto{display:flex; justify-content:end;}
+.bottone_aiuto{
   background-color:#fffffc;
   max-width:6.9rem;    
   text-decoration:none; 
@@ -183,15 +182,15 @@ span{font-weight:700;}
   border-bottom:5px solid #000;
   margin:1.2rem 0 0 0;
   padding:1.2rem 0 0.8rem 0;}
-.bottone_calluno:hover{background-color:#f32424;}
-.continuacall{
+.bottone_aiuto:hover{background-color:#f32424;}
+.continuauno{
   font-family:'Karla', sans-serif; 
   font-weight:16px;
   font-weight:700;
   text-decoration:none;
   color:#000;
   border:none;}
-.continuacall:hover{color:#fff;}  
+.continuauno:hover{color:#fff;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .quindici{display:flex; justify-content:center; text-align:center;}
 .titolocards{
@@ -202,11 +201,12 @@ span{font-weight:700;}
   margin:9.8rem 0 5.5rem 0;}
 /*_______________________________________________________________________________________________________________________________________*/
 .grid{
+  border:1px solid rgb(0, 123, 255);
   display:flex; 
   flex-direction:column; 
   align-content:center; 
   background-color:#fffffc;}
-.item{margin:0 0 9.8rem 0; align-items:center;}  
+.item{margin:0 0 9.8rem 0; align-items:center; border:1px solid red;}  
 .specie h2{
   font-family:'Karla', sans-serif; 
   font-weight:700; 
@@ -237,30 +237,32 @@ img.erba{margin:0 auto; object-fit:cover;}
   text-decoration:none;}
 .scopricard{text-decoration:none; color:#000; background-color: #fffffc;}
 /*_______________________________________________________________________________________________________________________________________*/
-.calldue{display:grid; margin:14.4rem 0 0 0; background-color:#daaecc;}
-.titolo_calldue{
-  background-color:#ed9128;
+.verbo{background-color:#249df3; display:grid; margin:4.6rem 0 0 0;}
+.titolo_verbo{
+  background-color: #e98bf7;
   font-family:'Karla', sans-serif; 
   font-size:16px; 
   font-weight:700; 
   line-height:1; 
   margin:0;}
-.corpo_calldue{
-  background-color:#b6b608; 
+.corpo_verbo{
+  background-color: #d0f92a;
+  max-width:25.0rem; 
   font-family:'Newsreader', 
   serif; font-size:16px; 
-  font-weight:100; 
+  font-weight:400; 
   line-height:1.2; 
   margin:1.2rem 0 1.2rem 0;}
-.bottonecalldue{display:flex; justify-content:end;}
-.bottone_calldue{
+.bottoneverbo{background-color: #79d0e8; display:flex; justify-content:end;}
+.bottone_verbo{
+  background-color:#fffffc;
   max-width:6.9rem;    
   text-decoration:none; 
   border:none;
   border-bottom:5px solid #000;
   margin:1.2rem 0 0 0;
   padding:1.2rem 0 0.8rem 0;}
-.bottone_calldue:hover{background-color:#f32424;}
+.bottone_verbo:hover{background-color:#f32424;}
 .continuacall{
   font-family:'Karla', sans-serif; 
   font-weight:16px;
