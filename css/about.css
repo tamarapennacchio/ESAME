@@ -1,41 +1,33 @@
-body{
-  margin:0 0;
-  padding:0;
-  background-color:#fffffc; 
-  font-family: 'Karla', sans-serif;
-  font-family: 'Newsreader', serif;
-  scroll-behavior:smooth;}
-img{max-width: 100%; display:block;}
-/*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
-header{
-  background-color:#c4efd0;
-  max-width:100%; 
-  max-height:9.8rem;
-  display:flex;
-  justify-content:space-between;
-  align-items:start;
-  position:-webkit-sticky; 
-  position:sticky; 
-  top:0;
-  margin:0;    
-  padding:3.4rem 5.5rem 0 0;}
-header a{
-  text-decoration:none; 
-  color:#000; 
-  font-family:'Karla', sans-serif; 
-  font-size:16px; 
-  font-weight:700;}
-.marchio{width:143px; height:99px; padding:0 0 6.13rem 14.56rem;}  
-nav{display:flex; align-items:center;}
-nav ul{
-  margin:0;
-  padding:0; 
-  border-right:8px solid #000; 
-  border-radius:0; 
-  font-family:'Karla', sans-serif;
-  font-weight:400;
-  text-align:right;}
-li{display:inline; margin:0 34px 0 34px;}
+/*_______________________________________________________________________________________________________________________________________*/
+@media (max-width:500px) {
+  html{font-size:10px;}
+  header{ 
+    display:flex;
+    justify-content:space-around;
+    margin:2.1rem 0 0 0;}
+  header a{
+    font-family:'Karla', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:1;
+    text-align:right;
+    text-decoration:none;
+    color:#000; 
+    display:flex;
+    flex-direction:column;}
+  header a:hover{text-decoration:underline; text-decoration-style:wavy;}
+  .marchio{ 
+    max-width:7.6rem;
+    max-height:5.3rem;}
+  /*_______________________________________________________________________________________________________________________________________*/
+  nav ul{
+    display:grid;
+    gap:0.8rem;
+    max-height:8.8rem;                                        
+    max-width:34.0rem;
+    border-right:0.8rem solid #000;}
+  li{margin:0 0.8rem 0 0;}
+  /*_______________________________________________________________________________________________________________________________________*/
 .briciole{
   background-color:#d1d1d1;
   color:#646464;
@@ -51,5 +43,7 @@ li{display:inline; margin:0 34px 0 34px;}
 .pane{background-color:#b8e69e;; color:#646464; text-decoration:none; margin:0; padding:0;}
 span{border-bottom:0.3rem solid #646464; margin-bottom:0.2rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
+main{max-width:26rem;}
 .illustrazione{display:flex; justify-content:end; margin:0 6.05rem 0 0;}
-img.profilo{max-width:16.5rem; border:0.5rem solid #000;}
+img.profilo{max-width:20.5rem; border:0.5rem solid #000;}
+}
