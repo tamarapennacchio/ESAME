@@ -4,10 +4,10 @@ body{
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
-img{max-width: 100%; display:block;}
+img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#efdec4;
+  background-color:#fffffc;
   max-width:100%;
   max-height:9.8rem; 
   position:-webkit-sticky; 
@@ -30,10 +30,8 @@ nav ul{
 li{display:inline;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  background-color:#adc8bc; 
   max-width:1200px;
-  margin:0 auto;
-  border:1px solid blue;}
+  margin:0 auto;}
 h1{
   max-width:39.74rem; 
   max-height:10.21rem;
@@ -133,7 +131,6 @@ h1{
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
 main{max-width:27rem;}
-.sottotitolo{background-color:#cbe6d8; border:1px solid blue;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
@@ -146,7 +143,7 @@ main{max-width:27rem;}
   margin:5.5rem 0 9.8rem 0;
   background:#000;}  
 /*_______________________________________________________________________________________________________________________________________*/
-.corpo{background-color:#e9efc4; display:flex; flex-direction:column;}
+.corpo{display:flex; flex-direction:column;}
 .corpouno{
   justify-content:center;
   font-family:'Newsreader', serif; 
@@ -163,7 +160,7 @@ main{max-width:27rem;}
   margin:1.2rem 0 1.2rem 0;}
 span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-.calls{background-color:#8fbee6; display:grid; margin:14.4rem 0 0 0;}
+.calls{display:grid; margin:14.4rem 0 0 0;}
 .titolo_calluno{
   font-family:'Karla', sans-serif; 
   font-size:16px; 
@@ -173,7 +170,6 @@ span{font-weight:700;}
 .corpo_calluno{max-width:25,0rem; font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
 .bottonecall{display:flex; justify-content:end;}
 .bottone_calluno{
-  background-color:#c4efd0;
   max-width:6.9rem;    
   text-decoration:none; 
   border:none;
@@ -192,7 +188,6 @@ span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
 .quindici{display:flex; justify-content:center; text-align:center;}
 .titolocards{
-  border:1px solid red;
   max-width:25rem; 
   font-size:26px; 
   font-weight:700; 
@@ -203,10 +198,9 @@ span{font-weight:700;}
   display:flex; 
   flex-direction:column; 
   align-content:center; 
-  background-color:#f5e9da;}
-.item{border:1px solid #000; margin:0 0 9.8rem 0; align-items:center;}  
+  background-color:#f5f5f5;}
+.item{margin:0 0 9.8rem 0; align-items:center;}  
 .specie h2{
-  background-color:#cea0a0;
   font-family:'Karla', sans-serif; 
   font-weight:700; 
   font-size:16px; 
@@ -217,9 +211,8 @@ span{font-weight:700;}
   font-size:16px;
   font-weight:400;
   max-width:25.4rem; 
-  background-color:#fff; 
   padding:1.2rem 0.8rem 1.2rem 0.8rem;}
-img.erba{border:1px solid red; margin:0 auto; object-fit:cover;}
+img.erba{margin:0 auto; object-fit:cover;}
 /*_______________________________________________________________________________________________________________________________________*/
 .bottoneuno{display:flex; justify-content:end; }
 .bottonecard{
@@ -227,7 +220,39 @@ img.erba{border:1px solid red; margin:0 auto; object-fit:cover;}
   font-weight:700;
   font-size:16px;  
   text-decoration:none; 
+  border:none;
   border-bottom:5px solid #000;}
-.scoprispecie{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; text-decoration:none; color:#000;}
+.scoprispecie{
+  font-family:'Karla', sans-serif; 
+  font-size:16px; 
+  font-weight:700; 
+  text-decoration:none;}
+.scopricard{text-decoration:none; color:#000;}
 /*_______________________________________________________________________________________________________________________________________*/
+.calls{display:grid; margin:14.4rem 0 0 0; background-color: #daaecc;}
+.titolo_calldue{
+  background-color:#ed9128;
+  font-family:'Karla', sans-serif; 
+  font-size:16px; 
+  font-weight:700; 
+  line-height:1; 
+  margin:0;}
+.corpo_calldue{background-color:#b6b608; font-family:'Newsreader', serif; font-size:16px; font-weight:100; line-height:1.2; margin:1.2rem 0 1.2rem 0;}
+.bottonecall{display:flex; justify-content:end;}
+.bottone_calldue{
+  max-width:6.9rem;    
+  text-decoration:none; 
+  border:none;
+  border-bottom:5px solid #000;
+  margin:1.2rem 0 0 0;
+  padding:1.2rem 0 0.8rem 0;}
+.bottone_calldue:hover{background-color:#f32424;}
+.continuacall{
+  font-family:'Karla', sans-serif; 
+  font-weight:16px;
+  font-weight:700;
+  text-decoration:none;
+  color:#000;
+  border:none;}
+.continuacall:hover{color:#fff;}
 }
