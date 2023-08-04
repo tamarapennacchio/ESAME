@@ -1,60 +1,120 @@
 body{
-  margin:0;
-  background-color:#fffffc; 
+  margin:0 0;
+  background-color:#f1f1f0; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#fffffc;
   max-width:100%;
-  max-height:9.8rem; 
+  background-color:#f1f1f0;
   position:-webkit-sticky; 
   position:sticky; 
-  top:0;}
-header a{
-  text-decoration:none; 
-  color:#000; 
-  font-family:'Karla', sans-serif; 
-  font-size:16px; 
-  font-weight:700;}
-.marchio{width:14.3rem; height:9.9rem;}  
-nav ul{
+  top:0;
   margin:0;
-  padding:0; 
-  border-right:8px solid #000; 
+  padding:3.44rem 0 0.82rem 0}
+nav{
+  display:flex; 
+  flex-wrap:wrap;  
+  justify-content:space-between;
+  margin:0 8.94rem 0 8.94rem;}  
+ul li{
+  display:inline-block;
   font-family:'Karla', sans-serif;
-  font-weight:400;
-  text-align:right;}
-li{display:inline;}
+  font-size:24px;
+  font-weight:700;
+  line-height:1;
+  margin:0 3.44rem 0 0;
+  list-style:none;}
+ul>li>a{text-decoration:none; margin:0; color:#000;} 
+ul{border-right:0.5rem solid #000;} 
+.tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
   max-width:1200px;
   margin:0 auto;}
 h1{
-  max-width:39.74rem; 
-  max-height:10.21rem;
-  margin:0; 
+  max-width:24.57rem; 
+  max-height:6.32rem;
   font-family:'Newsreader', serif;
-  font-size:6.47rem;
+  font-size:64px;
   font-weight:400;
-  line-height:90px;}
-/*.hero{padding:0 0 23.5rem 14.56rem;}
+  line-height:90%;
+  margin:6.13rem 0 0 0;}
+.hero{padding:0 0 0 8.94rem;}
 .hero_image{
+  max-height:23.56rem;
   display:flex; 
-  align-items:center; 
-  justify-content:center; 
-  display:flex; 
-  gap:23.3rem;}
-.hero_image_uno{max-width:17%;}
-.hero_image_due{max-width:11%;}
-.hero_sottotitolo{font-family:'Newsreader', serif; font-size:39px; font-weight:400; line-height:1.2;}*/
+  align-items:end; 
+  justify-content:end; 
+  display:flex;
+  gap:3.44rem;}
+.hero_image_uno{max-width:12.5%; padding:0 0 6.13rem 0;}
+.hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
+.hero_sottotitolo{
+  max-width:65rem;
+  max-height:5.82rem;
+  font-family:'Newsreader', serif; 
+  font-size:39px;
+  line-height:1.2; 
+  font-weight:400;
+  margin:0 0 6.13rem 0;}
+hr{width:987px; height:8px; background-color:#000; border-style:none; margin:auto}  
+/*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
+.corpo{max-width:45.57rem; margin:auto;}
+.corpouno{
+  margin:14.57rem 0 0 0; 
+  font-family:'Newsreader', serif; 
+  font-size:24px; 
+  line-height:1.2;
+  font-weight:400;}
+.corpodue{
+  margin:0; 
+  font-family:'Newsreader', serif; 
+  font-size:24px; 
+  line-height:1.2;
+  font-weight:400;}
+span{font-weight:700;}  
+/*--------------------------------------------------------------- A I U T O -------------------------------------------------------------*/  
+.aiuto{background-color: #a76969; display:flex; flex-wrap:wrap; justify-content:start; margin:14.57rem; max-width:51.13rem;}
+.titolo_aiuto{
+  font-family:'Karla', sans-serif;
+  font-size:24px;
+  line-height:90%;
+  font-weight:700;
+  margin:0;}
+.corpo_aiuto{
+  background-color: #a9b4c1;
+  max-width:31.63rem;
+  font-family:'Newsreader', serif;
+  font-size:24px;
+  line-height:1.2;
+  font-weight:400;
+  margin:1.13rem 9.1rem 1.13rem 0;}
+.bottoneaiuto{display:flex; justify-content:center; align-items:center;}
+.bottone_aiuto{
+  background-color:#f1f1f0;
+  color:#000;
+  max-width:6.9rem;
+  text-decoration:none; 
+  border:none;
+  border-bottom:5px solid #000;
+  margin:0.75rem 0 0.75rem 0;}
+.bottone_aiuto:hover{background-color:#f32424;}
+.continuauno{
+  font-family:'Karla', sans-serif;
+  font-size:16px;
+  font-weight:700;
+  line-height:90%;
+  text-decoration:none; 
+  color:#000;
+  margin:1.3rem 0;}
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
-/*.specie h2, .specie p{max-width:290px; margin:0; padding:0; font-size:18px;}
+.specie h2, .specie p{  max-width:290px; margin:0; padding:0; font-size:18px;}
 .titolo_card{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1.2; margin-top:12px; margin-bottom:12px;}
 p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin-top:12px; margin-bottom:12px;}
-.specie p{background-color:#fff; padding:8px; margin:8px 0 0 0;}
+.specie p{background-color:#ebebeb; padding:8px; margin:8px 0 0 0;}
 .grid{display:grid; grid-template-columns:repeat(3, 5fr); gap:55px}
 .grid .item img{height:180px; max-width:85%; object-fit:contain;}
 .bottoneuno{max-width:30.0rem; display:flex; justify-content:end; align-items:end;}
@@ -72,9 +132,9 @@ p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:
   text-align:center;
   margin-top:12px;
   margin-bottom:8px;}
-.scopricard{text-decoration:none; color:#000; font-weight:800;}*/
+.scopricard{text-decoration:none; color:#000; font-weight:800;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
-/*footer{background-color:#d45959; padding:5px;}
+footer{background-color:#d45959; padding:5px;}
 footer a{
   text-decoration:none; 
   color:#fff; 
@@ -82,36 +142,42 @@ footer a{
   sans-serif; 
   font-size:16px; 
   line-height:90%;
-font-weight:700;}/*
+font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:500px) {
 html{font-size:10px;}
-header{ 
-  display:flex;
-  justify-content:space-around;
-  margin:2.1rem 0 0 0;}
-header a{
+header{
+  max-width:100%;
+  background-color:#ebe4e4;
+  position:-webkit-sticky; 
+  position:sticky; 
+  top:0;
+  margin:0;
+  padding:5.5rem 0 1.3rem 0}
+nav{
+  background-color:#acebf6;
+  display:flex; 
+  flex-wrap:wrap; 
+  align-items:center; 
+  justify-content:space-between;
+  margin:0 2.7rem 0 2.7rem;}  
+ul li{
+  background-color: #f6ecbc;
+  display:inline-block;
   font-family:'Karla', sans-serif;
   font-size:16px;
-  font-weight:400;
+  font-weight:700;
   line-height:1;
-  text-align:right;
-  text-decoration:none;
-  color:#000; 
-  display:flex;
-  flex-direction:column;}
-header a:hover{text-decoration:underline; text-decoration-style:wavy;}
-.marchio{ 
-  max-width:7.6rem;
-  max-height:5.3rem;}
+  margin:0 2.1rem 0 0;
+  list-style:none;}
+ul>li>a{text-decoration:none; margin:0; color:#000;} 
+ul{border-right:0.5rem solid #000;} 
+.tradem{max-width:9.8rem; margin:0;}
 /*_______________________________________________________________________________________________________________________________________*/
 nav ul{
   display:grid;
-  gap:0.8rem;
-  max-height:8.8rem;                                        
-  max-width:34.0rem;
+  gap:0.8rem;                                        
   border-right:0.8rem solid #000;}
-li{margin:0 0.8rem 0 0;}
 /*_______________________________________________________________________________________________________________________________________*/
 .titolo{display:flex; justify-content:center; margin:0;}
 .hero{
@@ -145,6 +211,7 @@ main{max-width:27rem;}
   line-height:1.2;} 
 /*_______________________________________________________________________________________________________________________________________*/
 .lineetta{
+  max-width:233px;
   height:0.5rem; 
   margin:5.5rem 0 9.8rem 0;
   background:#000;}  
