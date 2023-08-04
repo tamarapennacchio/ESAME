@@ -7,23 +7,19 @@ body{
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  border:1px solid red;
   max-height:9.8rem;
-  background-color:#f1f1f0;
   position:-webkit-sticky; 
   position:sticky; 
   top:0;
   margin:0;
   padding:3.44rem 0 0.82rem 0}
 nav{
-  background-color: #9abdc4;
   display:flex; 
   flex-wrap:wrap;  
   align-items: end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li{
-  background-color: #dad5d5;
   display:inline-flex;
   font-family:'Karla', sans-serif;
   font-size:24px;
@@ -151,23 +147,22 @@ font-weight:700;}*/
 @media (max-width:39.3rem) {
 html{font-size:10px;}
 header{
-  border:1px solid red;
+  background-color:#f1f1f0;
+  max-height:10.7rem;
   position:-webkit-sticky; 
   position:sticky; 
   top:0;
   margin:0;
   padding:0;}
-.tradem{max-width:7.6rem; /*margin:2.1rem 0 1.3rem 2.7rem;*/ border:1px solid red;}  
+.tradem{max-width:7.6rem;}  
 nav{
+  background-color:#f1f1f0;
   align-items:center;
-  background-color: #e4dce1;
-  margin:2.1rem 2.7rem 1.3rem 2.7rem;
-  padding:0;}
+  margin:2.1rem 2.7rem 0 2.7rem;
+  padding:0 0 1.3rem 0;}
 ul{display:flex; gap: 1.3rem; flex-direction:column; align-items:end;}  
 ul li{
-  border:1px solid red;
   max-height:7.3rem;
-  background-color: #def0f3;  
   font-family:'Karla', sans-serif;
   font-size:1.6rem;
   font-weight:700;
