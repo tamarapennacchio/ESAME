@@ -15,12 +15,15 @@ header{
   margin:0;
   padding:3.44rem 0 0.82rem 0}
 nav{
+  background-color: #9abdc4;
   display:flex; 
   flex-wrap:wrap;  
+  align-items: end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li{
-  display:inline-block;
+  background-color: #dad5d5;
+  display:inline-flex;
   font-family:'Karla', sans-serif;
   font-size:24px;
   font-weight:700;
