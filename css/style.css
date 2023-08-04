@@ -144,7 +144,7 @@ footer a{
   line-height:90%;
 font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-@media (max-width:500px) {
+@media (max-width:360px) {
 html{font-size:10px;}
 header{
   max-width:100%;
@@ -153,14 +153,12 @@ header{
   position:sticky; 
   top:0;
   margin:0;
-  padding:5.5rem 0 1.3rem 0}
+  padding:2.1rem 0.8rem 1.3rem 0.8rem}
 nav{
   background-color:#acebf6;
-  display:flex; 
-  flex-wrap:wrap; 
-  align-items:center; 
+  display:wrap;
   justify-content:space-between;
-  margin:0 2.7rem 0 2.7rem;}  
+  margin:0;}  
 ul li{
   background-color: #f6ecbc;
   display:inline-block;
@@ -168,15 +166,15 @@ ul li{
   font-size:16px;
   font-weight:700;
   line-height:1;
-  margin:0 2.1rem 0 0;
-  list-style:none;}
+  margin:0 0.8rem 0 0;
+  list-style:none;
+  text-align:right;}
 ul>li>a{text-decoration:none; margin:0; color:#000;} 
 ul{border-right:0.5rem solid #000;} 
-.tradem{max-width:9.8rem; margin:0;}
 /*_______________________________________________________________________________________________________________________________________*/
 nav ul{
   display:grid;
-  gap:0.8rem;                                        
+  gap:1.3rem;                                        
   border-right:0.8rem solid #000;}
 /*_______________________________________________________________________________________________________________________________________*/
 .titolo{display:flex; justify-content:center; margin:0;}
