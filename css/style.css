@@ -159,10 +159,10 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem; /*margin:2.1rem 0 1.3rem 2.7rem;*/ border:1px solid red;}  
 nav{
-  background-color: #e8dccc;
+  background-color: #e4dce1;
   margin:2.1rem 2.7rem 1.3rem 2.7rem;
   padding:0;}
-ul{display:flex; gap: 0.8rem; flex-direction:column;}  
+ul{display:flex; gap: 1.3rem; flex-direction:column; align-items:end;}  
 ul li{
   border:1px solid red;
   max-height:7.3rem;
