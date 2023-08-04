@@ -159,6 +159,7 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem; /*margin:2.1rem 0 1.3rem 2.7rem;*/ border:1px solid red;}  
 nav{
+  align-items:center;
   background-color: #e4dce1;
   margin:2.1rem 2.7rem 1.3rem 2.7rem;
   padding:0;}
