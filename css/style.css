@@ -157,19 +157,19 @@ header{
   margin:0;
   padding:2.1rem 0.8rem 1.3rem 0.8rem}
 nav{
-  flex-wrap:nowrap;
-  justify-content:space-between;
+  flex-wrap:grid;
+  justify-content:start;
+  align-items:start;
   margin:0;
   padding:0;}  
 ul li{
-  display:inline-block;
-  justify-content:end;
-  align-items:end;
+  display:grid;
+  justify-content:start;
   font-family:'Karla', sans-serif;
-  font-size:15px;
+  font-size:16px;
   font-weight:700;
   line-height:1;
-  margin:0 0.8rem 0 0;
+  margin:0 5rem 0 0;
   padding:0;
   list-style:none;
   text-align:right;
@@ -180,9 +180,9 @@ nav ul{
   display:grid;
   justify-content:end;
   align-items:end;
-  gap:1.3rem;                                        
+  gap:0.8rem;                                        
   border-right:0.8rem solid #000;
-  margin:0;
+  margin:2.1rem 0 0 0;
   padding:0;}
 .nav:hover{color:#d45959;}
 .tradem{max-height:4rem; margin:0; padding:0;}
