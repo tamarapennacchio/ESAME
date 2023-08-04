@@ -8,6 +8,7 @@ img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
   max-width:100%;
+  max-height:9.8rem;
   background-color:#f1f1f0;
   position:-webkit-sticky; 
   position:sticky; 
@@ -35,9 +36,9 @@ ul{border-right:0.5rem solid #000;}
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  max-width:1200px;
+  max-width:36rem;
   margin:0 auto;}
-h1{
+/*h1{
   max-width:24.57rem; 
   max-height:6.32rem;
   font-family:'Newsreader', serif;
@@ -45,17 +46,17 @@ h1{
   font-weight:400;
   line-height:90%;
   margin:6.13rem 0 0 0;}
-.hero{padding:0 0 0 8.94rem;}
-.hero_image{
+.hero{padding:0 0 0 8.94rem;}*/
+/*.hero_image{
   max-height:23.56rem;
   display:flex; 
   align-items:end; 
   justify-content:end; 
   display:flex;
-  gap:3.44rem;}
-.hero_image_uno{max-width:12.5%; padding:0 0 6.13rem 0;}
-.hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
-.hero_sottotitolo{
+  gap:3.44rem;}*/
+/*.hero_image_uno{max-width:12.5%; padding:0 0 6.13rem 0;}*/
+/*.hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}*/
+/*.hero_sottotitolo{
   max-width:65rem;
   max-height:5.82rem;
   font-family:'Newsreader', serif; 
@@ -63,9 +64,9 @@ h1{
   line-height:1.2; 
   font-weight:400;
   margin:0 0 6.13rem 0;}
-hr{width:987px; height:8px; background-color:#000; border-style:none; margin:auto}  
+hr{; height:8px; background-color:#000; border-style:none; margin:auto}  */
 /*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
-.corpo{max-width:45.57rem; margin:auto;}
+/*.corpo{max-width:45.57rem; margin:auto;}
 .corpouno{
   margin:14.57rem 0 0 0; 
   font-family:'Newsreader', serif; 
@@ -78,9 +79,9 @@ hr{width:987px; height:8px; background-color:#000; border-style:none; margin:aut
   font-size:24px; 
   line-height:1.2;
   font-weight:400;}
-span{font-weight:700;}  
+span{font-weight:700;}  */
 /*--------------------------------------------------------------- A I U T O -------------------------------------------------------------*/  
-.aiuto{background-color: #a76969; display:flex; flex-wrap:wrap; justify-content:start; margin:14.57rem; max-width:51.13rem;}
+/*.aiuto{background-color: #a76969; display:flex; flex-wrap:wrap; justify-content:start; margin:14.57rem; max-width:51.13rem;}
 .titolo_aiuto{
   font-family:'Karla', sans-serif;
   font-size:24px;
@@ -112,9 +113,9 @@ span{font-weight:700;}
   line-height:90%;
   text-decoration:none; 
   color:#000;
-  margin:1.3rem 0;}
+  margin:1.3rem 0;}*/
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
-.specie h2, .specie p{  max-width:290px; margin:0; padding:0; font-size:18px;}
+/*.specie h2, .specie p{  max-width:290px; margin:0; padding:0; font-size:18px;}
 .titolo_card{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1.2; margin-top:12px; margin-bottom:12px;}
 p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin-top:12px; margin-bottom:12px;}
 .specie p{background-color:#ebebeb; padding:8px; margin:8px 0 0 0;}
@@ -135,9 +136,9 @@ p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:
   text-align:center;
   margin-top:12px;
   margin-bottom:8px;}
-.scopricard{text-decoration:none; color:#000; font-weight:800;}
+.scopricard{text-decoration:none; color:#000; font-weight:800;}*/
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
-footer{background-color:#d45959; padding:5px;}
+/*footer{background-color:#d45959; padding:5px;}
 footer a{
   text-decoration:none; 
   color:#fff; 
@@ -145,86 +146,60 @@ footer a{
   sans-serif; 
   font-size:16px; 
   line-height:90%;
-font-weight:700;}
+font-weight:700;}*/
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:360px) {
 html{font-size:10px;}
-header{
-  max-width:100%;
-  position:-webkit-sticky; 
-  position:sticky; 
-  top:0;
-  margin:0;
-  padding:2.1rem 0.8rem 1.3rem 0.8rem}
-nav{
-  flex-wrap:grid;
-  justify-content:start;
-  align-items:start;
-  margin:0;
-  padding:0;}  
-ul li{
-  display:grid;
-  justify-content:start;
-  font-family:'Karla', sans-serif;
-  font-size:16px;
-  font-weight:700;
-  line-height:1;
-  margin:0 5rem 0 0;
-  padding:0;
-  list-style:none;
-  text-align:right;
-  padding:0;}
-ul>li>a{text-decoration:none; color:#000000; margin:0; padding:0;} 
+/*nav{
+  max-width:36rem;
+  display:flex; 
+  flex-direction:column;
+  margin:3.4rem 0.8rem 2.1rem 0.8rem;}
+.nav{font-size:16px;}
+ul{margin:2.1rem 0 0 0; padding:0;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-nav ul{
-  display:grid;
-  justify-content:end;
-  align-items:end;
-  gap:0.8rem;                                        
-  border-right:0.8rem solid #000;
-  margin:2.1rem 0 0 0;
-  padding:0;}
-.nav:hover{color:#d45959;}
-.tradem{max-height:4rem; margin:0; padding:0;}
-/*_______________________________________________________________________________________________________________________________________*/
-.titolo{display:flex; justify-content:center; margin:0;}
+/*.titolo{margin:0;}
 .hero{
-  max-width:27rem;
+  max-width:55rem;
+  max-height:7rem;
   display:flex; 
   align-items:center;
-  justify-content:center;}
+  justify-content:center;
+  margin:0;
+  padding:0;}
 h1{
   max-width:23.6rem; 
-  max-height:7.0rem; 
+  max-height:7rem; 
   font-family:'Newsreader', serif;
-  font-size:42px;
+  font-size:4.2rem;
   font-weight:400;
   line-height:1;
-  margin:9.8rem 0 0.3rem 0;}
+  margin:0;
+  padding:0;}
 .hero_image{
   max-width:50rem; 
   max-height:37.7rem; 
   display:flex; 
   align-items:center; 
   justify-content:space-evenly;
-  padding:2.1rem 0 0 0;}
-.hero_image_uno{max-width:22%;}
-.hero_image_due{max-width:14%;}  
+  margin:14.4rem 0 0 0;
+.hero_image_uno{max-width:15%;}
+.hero_image_due{max-width:6%;}  */
 /*_______________________________________________________________________________________________________________________________________*/
-main{max-width:36rem;}
+/*main{max-width:100px;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
   font-weight:400; 
-  line-height:1.2;} 
+  line-height:1.2;} */
 /*_______________________________________________________________________________________________________________________________________*/
-.lineetta{
+/*.lineetta{
   max-width:233px;
   height:0.5rem; 
   margin:5.5rem 0 9.8rem 0;
-  background:#000;}  
+  background:#000;}  */
 /*_______________________________________________________________________________________________________________________________________*/
-.corpo{display:flex; flex-direction:column; justify-content:center;}
+/*.corpo{display:flex; flex-direction:column; justify-content:center;}
 .corpouno{
   font-family:'Newsreader', serif; 
   font-size:16px; 
@@ -236,9 +211,9 @@ main{max-width:36rem;}
   font-size:16px; 
   font-weight:400; 
   line-height:1.2;}
-span{font-weight:700;}
+span{font-weight:700;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-.aiuto{display:grid; margin:14.4rem 0 0 0;}
+/*.aiuto{display:grid; margin:14.4rem 0 0 0;}
 .titolo_aiuto{
   font-family:'Karla', sans-serif; 
   font-size:16px; 
@@ -269,17 +244,17 @@ span{font-weight:700;}
   text-decoration:none;
   color:#000;
   border:none;}
-.continuauno:hover{color:#fff;}  
+.continuauno:hover{color:#fff;}  */
 /*_______________________________________________________________________________________________________________________________________*/
-.quindici{display:flex; justify-content:center; text-align:center;}
+/*.quindici{display:flex; justify-content:center; text-align:center;}
 .titolocards{
   max-width:25rem; 
   font-size:26px; 
   font-weight:700; 
   line-height:1;
-  margin:9.8rem 0 5.5rem 0;}
+  margin:9.8rem 0 5.5rem 0;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-.grid{
+/*.grid{
   display:flex; 
   flex-direction:column; 
   align-content:center; 
@@ -297,9 +272,9 @@ span{font-weight:700;}
   font-weight:400;
   max-width:25.4rem; 
   padding:1.2rem 0.8rem 1.2rem 0.8rem;}
-img.erba{margin:0 auto; object-fit:cover;}
+img.erba{margin:0 auto; object-fit:cover;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-.bottoneuno{display:flex; justify-content:end;}
+/*.bottoneuno{display:flex; justify-content:end;}
 .bottonecard{
   background-color: #fffffc;
   font-family:'Karla', sans-serif;
@@ -316,9 +291,9 @@ img.erba{margin:0 auto; object-fit:cover;}
   text-decoration:none;}
 .scoprispecie:hover{background-color:red;}  
 .scopricard:hover{background-color:red; color:white;}
-.scopricard{text-decoration:none; color:#000; background-color: #fffffc;}
+.scopricard{text-decoration:none; color:#000; background-color: #fffffc;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-.verbo{display:grid; margin:4.6rem 0 9.8rem 0;}
+/*.verbo{display:grid; margin:4.6rem 0 9.8rem 0;}
 .titolo_verbo{
   font-family:'Karla', sans-serif; 
   font-size:16px; 
@@ -348,9 +323,9 @@ img.erba{margin:0 auto; object-fit:cover;}
   text-decoration:none;
   color:#000;
   border:none;}
-.continuacall:hover{color:#fff;}
+.continuacall:hover{color:#fff;}*/
 /*_______________________________________________________________________________________________________________________________________*/
-footer{
+/*footer{
   background-color:#f7f7f7; 
   height:6.5rem; 
   display:flex; 
@@ -365,5 +340,4 @@ footer a{
   line-height:90%;
   font-weight:700;
   padding:0 0 0 3.4rem;}
-footer a:hover{text-decoration:underline; text-decoration-style:wavy;}
-}
+footer a:hover{text-decoration:underline; text-decoration-style:wavy;}*/}
