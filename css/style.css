@@ -144,7 +144,7 @@ footer a{
   line-height:90%;
 font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-@media (max-width:360px) {
+@media (max-width:36.3rem) {
 html{font-size:10px;}
 header{
   max-width:100%;
@@ -183,7 +183,7 @@ nav ul{
   border-right:0.8rem solid #000;
   margin:0;
   padding:0;}
-nav ul:hover{color:#d45959;}
+.nav:hover{color:#d45959;}
 .tradem{max-height:4rem; margin:0; padding:0;}
 /*_______________________________________________________________________________________________________________________________________*/
 .titolo{display:flex; justify-content:center; margin:0;}
@@ -210,7 +210,7 @@ h1{
 .hero_image_uno{max-width:22%;}
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
-main{max-width:27rem;}
+main{max-width:100%;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
