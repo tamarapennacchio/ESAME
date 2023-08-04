@@ -43,7 +43,7 @@ h1{
   font-weight:400;
   line-height:90%;
   margin:6.13rem 0 0 0;}
-.hero{background-color: #a0deac; padding:0 0 0 9rem;}
+.hero{padding:0 0 0 9rem;}
 .hero_image{
   max-height:23.56rem;
   display:flex; 
@@ -60,28 +60,23 @@ h1{
   font-size:2.44rem;
   line-height:1.2; 
   font-weight:400;
-  margin:0 0 6.13rem 0;}
+  margin:0;}
 .spaccazza{display:flex; justify-content:center; margin:0;}
 hr{
   width:61.69rem; 
   height:0.5rem; 
   background-color:#000; 
-  border-style:none;} 
+  border-style:none;
+  margin:6.13rem 0 14.57rem 0;} 
 /*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
-/*.corpo{max-width:45.57rem; margin:auto;}
+.corpo{max-width:45.57rem; margin:auto;}
 .corpouno{
-  margin:14.57rem 0 0 0; 
-  font-family:'Newsreader', serif; 
-  font-size:24px; 
-  line-height:1.2;
-  font-weight:400;}
-.corpodue{
   margin:0; 
   font-family:'Newsreader', serif; 
-  font-size:24px; 
+  font-size:1.5rem; 
   line-height:1.2;
   font-weight:400;}
-span{font-weight:700;}  */
+span{font-weight:700;} 
 /*--------------------------------------------------------------- A I U T O -------------------------------------------------------------*/  
 /*.aiuto{background-color: #a76969; display:flex; flex-wrap:wrap; justify-content:start; margin:14.57rem; max-width:51.13rem;}
 .titolo_aiuto{
@@ -212,28 +207,27 @@ h1{
   font-size:1.6rem; 
   font-weight:400; 
   line-height:1.2;
-  margin:0 0 5.5rem 0;}
+  margin:0;}
 /*_______________________________________________________________________________________________________________________________________*/
 .spaccazza{display:flex; justify-content:center; margin:0;}
 hr{
   width:23.3rem; 
   height:0.5rem; 
   background-color:#000; 
-  border-style:none;} 
+  border-style:none;
+  margin:5.5rem 0 9.8rem;} 
 /*_______________________________________________________________________________________________________________________________________*/
-/*.corpo{display:flex; flex-direction:column; justify-content:center;}
+.corpo{display:flex; justify-content:center;}
 .corpouno{
+  background-color:#e6e4e5;
+  max-width:26.5rem;
   font-family:'Newsreader', serif; 
-  font-size:16px; 
-  font-weight:400; 
+  font-size:1.6rem; 
   line-height:1.2;
-  padding:0 0 0.5rem 0;}
-.corpodue{
-  font-family:'Newsreader', serif; 
-  font-size:16px; 
-  font-weight:400; 
-  line-height:1.2;}
-span{font-weight:700;}*/
+  font-weight:400;
+  padding:1.2rem 0 1.2rem 0;
+  margin:0;}
+span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
 /*.aiuto{display:grid; margin:14.4rem 0 0 0;}
 .titolo_aiuto{
