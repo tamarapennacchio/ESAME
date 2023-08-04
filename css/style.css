@@ -144,18 +144,16 @@ footer a{
   line-height:90%;
 font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-@media (max-width:36.3rem) {
+@media (max-width:360px) {
 html{font-size:10px;}
 header{
   max-width:100%;
-  background-color:#ebe4e4;
   position:-webkit-sticky; 
   position:sticky; 
   top:0;
   margin:0;
   padding:2.1rem 0.8rem 1.3rem 0.8rem}
 nav{
-  background-color:#acebf6;
   flex-wrap:nowrap;
   justify-content:space-between;
   margin:0;
@@ -210,7 +208,7 @@ h1{
 .hero_image_uno{max-width:22%;}
 .hero_image_due{max-width:14%;}  
 /*_______________________________________________________________________________________________________________________________________*/
-main{max-width:100%;}
+main{max-width:36rem;}
 .hero_sottotitolo{
   font-family:'Newsreader', serif; 
   font-size:16px; 
