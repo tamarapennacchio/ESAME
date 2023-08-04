@@ -53,15 +53,20 @@ h1{
   gap:3.44rem;}
 .hero_image_uno{max-width:12.5%; padding:0 0 6.13rem 0;}
 .hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
-/*.hero_sottotitolo{
+.hero_sottotitolo{
   max-width:65rem;
   max-height:5.82rem;
   font-family:'Newsreader', serif; 
-  font-size:39px;
+  font-size:2.44rem;
   line-height:1.2; 
   font-weight:400;
   margin:0 0 6.13rem 0;}
-hr{; height:8px; background-color:#000; border-style:none; margin:auto}  */
+.spaccazza{display:flex; justify-content:center; margin:0;}
+hr{
+  width:61.69rem; 
+  height:0.5rem; 
+  background-color:#000; 
+  border-style:none;} 
 /*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
 /*.corpo{max-width:45.57rem; margin:auto;}
 .corpouno{
@@ -191,27 +196,30 @@ h1{
   margin:9.8rem 0 0 0;
   padding:0;}
 .hero_image{
-  background-color:#dcd4da;
   max-width:36rem; 
   max-height:37.7rem; 
   display:flex; 
+  align-items:center;
   justify-content:center;
-  margin:auto;
-.hero_image_uno{max-width:27%; border:1px solid red; margin:0;}
-.hero_image_due{max-width:13%; border:1px solid red;}
+  margin:auto;}
+.hero_image_uno{max-width:20%; padding:1rem;}  
+.hero_image_due{max-width:9.5%; padding:0;}
 /*_______________________________________________________________________________________________________________________________________*/
-/*main{max-width:100px;}
+.sottotitolo{display:flex; justify-content:center;}
 .hero_sottotitolo{
+  max-width:27.1rem;
   font-family:'Newsreader', serif; 
-  font-size:16px; 
+  font-size:1.6rem; 
   font-weight:400; 
-  line-height:1.2;} */
+  line-height:1.2;
+  margin:0 0 5.5rem 0;}
 /*_______________________________________________________________________________________________________________________________________*/
-/*.lineetta{
-  max-width:233px;
+.spaccazza{display:flex; justify-content:center; margin:0;}
+hr{
+  width:23.3rem; 
   height:0.5rem; 
-  margin:5.5rem 0 9.8rem 0;
-  background:#000;}  */
+  background-color:#000; 
+  border-style:none;} 
 /*_______________________________________________________________________________________________________________________________________*/
 /*.corpo{display:flex; flex-direction:column; justify-content:center;}
 .corpouno{
