@@ -1,13 +1,13 @@
 body{
   margin:0 0;
-  background-color:#f1f1f0; 
+  background-color:#e9e9e5; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#f1f1f0;
+  background-color:#e9e9e5;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -33,7 +33,7 @@ ul{border-right:0.5rem solid #000;}
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  max-width:78.13rem;
+  max-width:78.13rem; /*1250px*/
   margin:0 auto;}
 h1{
   max-width:24.57rem; 
@@ -104,7 +104,7 @@ span{font-weight:700;}
   max-width:5.57rem;
   max-height:3.19rem;}
 .bottone_aiuto{
-  background-color:#f1f1f0;
+  background-color:#e9e9e5;
   color:#000;
   text-decoration:none; 
   border:none;
@@ -129,6 +129,7 @@ span{font-weight:700;}
   margin:0 0 6.13rem 0;}
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
 .specie h2, .specie p{
+  border:1px solid red;
   max-width:21.69rem;}
 .titolo_card{
   font-family:'Karla', sans-serif; 
@@ -138,7 +139,7 @@ span{font-weight:700;}
   margin:0;
   padding:1.13rem 0 1.13rem 0;}
 p{
-  background-color:#dad4d9;
+  background-color:#fff;
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
   font-weight:400; 
@@ -148,11 +149,12 @@ p{
 .grid{
   display:grid; 
   grid-template-columns:repeat(3, 5fr); 
-  gap:6.13rem}
+  gap:6.13rem} /*98px*/
 .grid .item img{
   height:180px; 
   max-width:85%; 
   object-fit:contain;}
+.erba{margin:0; padding:0 0 1.32rem 0; max-width:9.94rem; border:1px solid red;}
 .bottoneuno{
   max-width:30.0rem; 
   display:flex; 
