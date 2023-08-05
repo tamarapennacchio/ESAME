@@ -335,16 +335,18 @@ span{font-weight:700;}
   display:flex; 
   justify-content:center;
   align-items:center; 
-  flex-direction:column;}
+  flex-direction:column;
+  margin:0;
+  padding:0;}
 .specie h2, .specie p{
-  max-width:20rem;}
+  max-width:25.5rem;}
 .titolo_card{
   font-family:'Karla', sans-serif; 
   font-size:1.6rem; 
   font-weight:700; 
   line-height:1.2; 
   margin:0;
-  padding:1.13rem 0 1.13rem 0;}
+  padding:1rem 0 1rem 0;}
 p{
   background-color:#fff;
   font-family:'Newsreader', serif; 
@@ -352,15 +354,15 @@ p{
   font-weight:400; 
   line-height:1.2; 
   margin:0;
-  padding:1.2rem 0.8rem 1.2rem 0.8rem;}
+  padding:1.2rem 0.8rem;}
 .grid{
   display:flex; 
   flex-direction:column; 
-  gap:6.13rem} /*98px*/
+  gap:9.8rem;}
 .erba{
-  margin:0; 
+  margin:0 0 2.1rem 0; 
   padding:0 0 1.32rem 0; 
-  max-width:75%; }
+  max-width:75%;}
 .bottoneuno{
   display:flex; 
   justify-content:end; 
