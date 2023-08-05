@@ -170,6 +170,47 @@ p{
   text-align:center;
   margin:1.13rem 0 1.13rem 0}
 .scopricard{text-decoration:none; color:#000; font-weight:800;}
+/*---------------------------------------------------------- V E R B O -----------------------------------------------------------------*/    
+.verbo{
+  max-width:53.3rem;
+  max-height:6.2rem;
+  display:flex; 
+  flex-wrap:wrap; 
+  justify-content:start; 
+  margin:auto;
+  padding:14.57rem 0 14.57rem 0;}
+.titolo_verbo{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  line-height:90%;
+  font-weight:700;
+  margin:0;}
+.corpo_verbo{
+  max-width:31.63rem;
+  font-family:'Newsreader', serif;
+  font-size:1.5rem;
+  line-height:1.2;
+  font-weight:400;
+  margin:1.13rem 14.57rem 1.13rem 0;}
+.bottoneverbo{
+  display:flex; 
+  max-width:5.57rem;
+  max-height:3.19rem;}
+.bottone_verbo{
+  background-color:#e9e9e5;
+  color:#000;
+  text-decoration:none; 
+  border:none;
+  border-bottom:5px solid #000;
+  margin:0;}
+.bottone_verbo:hover{background-color:#f32424;}
+.continuadue{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  line-height:90%;
+  text-decoration:none; 
+  color:#000;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 /*footer{background-color:#d45959; padding:5px;}
 footer a{
@@ -379,8 +420,9 @@ p{
   padding:1.2rem 0 0.8rem 0;
   margin:0;}
 .scopricard{text-decoration:none; color:#000; font-weight:700;}
+.scopricard:hover{color:#f32424;}  
 /*_______________________________________________________________________________________________________________________________________*/
-/*.verbo{display:grid; margin:4.6rem 0 9.8rem 0;}
+.verbo{display:grid; margin:4.6rem 0 9.8rem 0;}
 .titolo_verbo{
   font-family:'Karla', sans-serif; 
   font-size:16px; 
@@ -410,7 +452,7 @@ p{
   text-decoration:none;
   color:#000;
   border:none;}
-.continuacall:hover{color:#fff;}*/
+.continuacall:hover{color:#fff;}
 /*_______________________________________________________________________________________________________________________________________*/
 /*footer{
   background-color:#f7f7f7; 
