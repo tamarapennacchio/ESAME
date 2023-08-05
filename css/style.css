@@ -212,15 +212,14 @@ p{
   text-decoration:none; 
   color:#000;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
-/*footer{background-color:#d45959; padding:5px;}
+footer{background-color:#d45959; padding:5px;}
 footer a{
   text-decoration:none; 
   color:#fff; 
-  font-family:'Karla', 
-  sans-serif; 
-  font-size:16px; 
+  font-family:'Karla', sans-serif; 
+  font-size:1.5rem; 
   line-height:90%;
-font-weight:700;}*/
+ font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
 html{font-size:10px;}
@@ -468,20 +467,15 @@ p{
   color:#000000;}
 .bottone_verbo:hover{background-color:#f32424;}
 /*_______________________________________________________________________________________________________________________________________*/
-footer{
-  background-color:#f1f1f0; 
-  height:6.5rem; 
-  display:flex; 
-  justify-content:start; 
-  align-items:center;
-  border-top:5px solid #000;
-  margin:23.3rem 0 0 0;}
+footer{background-color:#d45959; padding:5px; margin:23.3rem 0 0 0;}
 footer a{
+  display:inline-block;
+  justify-content:center;
+  align-items:start;
   text-decoration:none; 
-  color:#000000; 
+  color:#fff; 
   font-family:'Karla', sans-serif; 
-  font-size:16px; 
+  font-size:1.6rem; 
   line-height:90%;
-  font-weight:700;
-  padding:0 0 0 3.4rem;}
+  font-weight:700;}
 footer a:hover{text-decoration:underline; text-decoration-style:wavy;}}
