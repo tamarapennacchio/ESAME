@@ -272,46 +272,60 @@ hr{
   margin:0;}
 span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
-/*.aiuto{display:grid; margin:14.4rem 0 0 0;}
+.aiuto{
+  border:1px solid red;
+  max-width:24.8rem;
+  max-height:8rem;
+  display:flex;   
+  justify-content:start; 
+  margin:auto;}
 .titolo_aiuto{
-  font-family:'Karla', sans-serif; 
-  font-size:16px; 
-  font-weight:700; 
-  line-height:1; 
-  margin:0;}
+  font-family:'Karla', sans-serif;
+  font-size:1.6rem;
+  line-height:1;
+  font-weight:700;
+  margin:9.8rem 0 0 0;}
 .corpo_aiuto{
-  max-width:25.0rem; 
-  font-family:'Newsreader', 
-  serif; font-size:16px; 
-  font-weight:400; 
-  line-height:1.2; 
+  border:1px solid red;
+  background-color:#d1c4ce;
+  font-family:'Newsreader', serif;
+  font-size:1.6rem;
+  line-height:1.2;
+  font-weight:400;
+  padding:0;
   margin:1.2rem 0 1.2rem 0;}
-.bottoneaiuto{display:flex; justify-content:end;}
+.bottoneaiuto{
+  display:flex;
+  justify-content:end;
+  align-items:end;
+  border:1px solid red;  
+  max-width:7.5rem;
+  max-height:2.75rem;}
 .bottone_aiuto{
-  background-color:#fffffc;
-  max-width:6.9rem;    
-  text-decoration:none; 
-  border:none;
+  background-color:#f4f426;
+  color:#000;
+  text-decoration:none;
   border-bottom:5px solid #000;
-  margin:1.2rem 0 0 0;
-  padding:1.2rem 0 0.8rem 0;}
+  margin:1.2rem 0 0.8rem 0;}
 .bottone_aiuto:hover{background-color:#f32424;}
 .continuauno{
-  font-family:'Karla', sans-serif; 
-  font-weight:16px;
+  display:grid;
+  justify-content:end;
+  align-items:end;
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
   font-weight:700;
-  text-decoration:none;
-  color:#000;
-  border:none;}
-.continuauno:hover{color:#fff;}  */
+  line-height:90%;
+  text-decoration:none; 
+  color:#000000;}
 /*_______________________________________________________________________________________________________________________________________*/
-/*.quindici{display:flex; justify-content:center; text-align:center;}
+.quindici{display:flex; justify-content:center; text-align:center;}
 .titolocards{
   max-width:25rem; 
   font-size:26px; 
   font-weight:700; 
   line-height:1;
-  margin:9.8rem 0 5.5rem 0;}*/
+  margin:14.4rem 0 5.5rem 0;}
 /*_______________________________________________________________________________________________________________________________________*/
 /*.grid{
   display:flex; 
@@ -331,7 +345,7 @@ span{font-weight:700;}
   font-weight:400;
   max-width:25.4rem; 
   padding:1.2rem 0.8rem 1.2rem 0.8rem;}
-img.erba{margin:0 auto; object-fit:cover;}*/
+img.erba{max-width:50rem; margin:0 auto; object-fit:cover;}*/
 /*_______________________________________________________________________________________________________________________________________*/
 /*.bottoneuno{display:flex; justify-content:end;}
 .bottonecard{
