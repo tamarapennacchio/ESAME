@@ -51,7 +51,7 @@ h1{
   justify-content:end; 
   display:flex;
   gap:3.44rem;}
-.hero_image_uno{max-width:12.5%; padding:0 0 6.13rem 0;}
+.hero_image_uno{max-width:11.5%; padding:0 0 6.13rem 0;}
 .hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
 .hero_sottotitolo{
   max-width:65rem;
@@ -150,11 +150,11 @@ p{
   display:grid; 
   grid-template-columns:repeat(3, 5fr); 
   gap:6.13rem} /*98px*/
-.grid .item img{
-  height:180px; 
-  max-width:85%; 
-  object-fit:contain;}
-.erba{margin:0; padding:0 0 1.32rem 0; max-width:9.94rem; border:1px solid red;}
+.erba{
+  margin:0; 
+  padding:0 0 1.32rem 0; 
+  max-width:95%; 
+  border:1px solid red;}
 .bottoneuno{
   max-width:30.0rem; 
   display:flex; 
