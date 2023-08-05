@@ -273,11 +273,9 @@ hr{
 span{font-weight:700;}
 /*_______________________________________________________________________________________________________________________________________*/
 .aiuto{
-  border:1px solid red;
   max-width:24.8rem;
   max-height:8rem;
-  display:flex;   
-  justify-content:start; 
+  display:flex;  
   margin:auto;}
 .titolo_aiuto{
   font-family:'Karla', sans-serif;
@@ -286,8 +284,7 @@ span{font-weight:700;}
   font-weight:700;
   margin:9.8rem 0 0 0;}
 .corpo_aiuto{
-  border:1px solid red;
-  background-color:#d1c4ce;
+  background-color:#e4dfe3;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   line-height:1.2;
@@ -295,29 +292,29 @@ span{font-weight:700;}
   padding:0;
   margin:1.2rem 0 1.2rem 0;}
 .bottoneaiuto{
-  display:flex;
   justify-content:end;
-  align-items:end;
-  border:1px solid red;  
+  align-items:end; 
   max-width:7.5rem;
-  max-height:2.75rem;}
+  max-height:2.75rem;
+  margin:0;
+padding:0 0 0 17.2rem;}
 .bottone_aiuto{
-  background-color:#f4f426;
+  display:flex;
+  align-items:end;
+  justify-content:end;
+  background-color:#f1f1f0;
   color:#000;
   text-decoration:none;
   border-bottom:5px solid #000;
   margin:1.2rem 0 0.8rem 0;}
-.bottone_aiuto:hover{background-color:#f32424;}
 .continuauno{
-  display:grid;
-  justify-content:end;
-  align-items:end;
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   font-weight:700;
   line-height:90%;
   text-decoration:none; 
   color:#000000;}
+.bottone_aiuto:hover{background-color:#f32424;}
 /*_______________________________________________________________________________________________________________________________________*/
 .quindici{display:flex; justify-content:center; text-align:center;}
 .titolocards{
