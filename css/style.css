@@ -33,7 +33,7 @@ ul{border-right:0.5rem solid #000;}
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  max-width:75rem;
+  max-width:87.5rem;
   margin:0 auto;}
 h1{
   max-width:24.57rem; 
@@ -129,30 +129,26 @@ span{font-weight:700;}
   margin:0 0 6.13rem 0;}
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
 .specie h2, .specie p{
-  max-width:15.88rem; 
-  margin:0; 
-  padding:0; }
+  max-width:21.69rem;}
 .titolo_card{
-  border:1px solid red;
   font-family:'Karla', sans-serif; 
   font-size:1.5rem; 
   font-weight:700; 
   line-height:1.2; 
-  margin-top:12px; 
-  margin-bottom:12px;}
+  margin:0;
+  padding:1.13rem 0 1.13rem 0;}
 p{
-  border:1px solid red;
+  background-color:#dad4d9;
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
   font-weight:400; 
   line-height:1.2; 
-  margin:0.75rem 0.5rem 0.75rem 0.5rem;}
-.specie p{
-  background-color:#d6ced4;}
+  margin:0;
+  padding:1.13rem 0.5rem 1.13rem 0.5rem;}
 .grid{
   display:grid; 
   grid-template-columns:repeat(3, 5fr); 
-  gap:55px}
+  gap:6.13rem}
 .grid .item img{
   height:180px; 
   max-width:85%; 
