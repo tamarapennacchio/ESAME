@@ -71,54 +71,95 @@ hr{
 /*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
 .corpo{max-width:45.57rem; margin:auto;}
 .corpouno{
-  margin:0; 
+  margin:0 0 14.57rem 0; 
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
   line-height:1.2;
   font-weight:400;}
 span{font-weight:700;} 
 /*--------------------------------------------------------------- A I U T O -------------------------------------------------------------*/  
-/*.aiuto{background-color: #a76969; display:flex; flex-wrap:wrap; justify-content:start; margin:14.57rem; max-width:51.13rem;}
+.aiuto{
+  max-width:53.3rem;
+  max-height:6.2rem;
+  display:flex; 
+  flex-wrap:wrap; 
+  justify-content:start; 
+  margin:auto;
+  padding:0 0 14.57rem 0;}
 .titolo_aiuto{
   font-family:'Karla', sans-serif;
-  font-size:24px;
+  font-size:1.5rem;
   line-height:90%;
   font-weight:700;
   margin:0;}
 .corpo_aiuto{
-  background-color: #a9b4c1;
   max-width:31.63rem;
   font-family:'Newsreader', serif;
-  font-size:24px;
+  font-size:1.5rem;
   line-height:1.2;
   font-weight:400;
-  margin:1.13rem 9.1rem 1.13rem 0;}
-.bottoneaiuto{display:flex; justify-content:center; align-items:center;}
+  margin:1.13rem 14.57rem 1.13rem 0;}
+.bottoneaiuto{
+  display:flex; 
+  max-width:5.57rem;
+  max-height:3.19rem;}
 .bottone_aiuto{
   background-color:#f1f1f0;
   color:#000;
-  max-width:6.9rem;
   text-decoration:none; 
   border:none;
   border-bottom:5px solid #000;
-  margin:0.75rem 0 0.75rem 0;}
+  margin:0;}
 .bottone_aiuto:hover{background-color:#f32424;}
 .continuauno{
   font-family:'Karla', sans-serif;
-  font-size:16px;
+  font-size:1.5rem;
   font-weight:700;
   line-height:90%;
   text-decoration:none; 
-  color:#000;
-  margin:1.3rem 0;}*/
+  color:#000;}
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
-/*.specie h2, .specie p{  max-width:290px; margin:0; padding:0; font-size:18px;}
-.titolo_card{font-family:'Karla', sans-serif; font-size:16px; font-weight:700; line-height:1.2; margin-top:12px; margin-bottom:12px;}
-p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:1.2; margin-top:12px; margin-bottom:12px;}
-.specie p{background-color:#ebebeb; padding:8px; margin:8px 0 0 0;}
-.grid{display:grid; grid-template-columns:repeat(3, 5fr); gap:55px}
-.grid .item img{height:180px; max-width:85%; object-fit:contain;}
-.bottoneuno{max-width:30.0rem; display:flex; justify-content:end; align-items:end;}
+.quindici{display:flex;}
+.titolocards{
+  font-family:'Newsreader', serif;
+  font-size:2.44rem;
+  font-weight:700;
+  line-height:90%;
+  margin:0 0 6.13rem 0;}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.specie h2, .specie p{
+  max-width:15.88rem; 
+  margin:0; 
+  padding:0; }
+.titolo_card{
+  border:1px solid red;
+  font-family:'Karla', sans-serif; 
+  font-size:1rem; 
+  font-weight:700; 
+  line-height:1.2; margin-top:12px; margin-bottom:12px;}
+p{
+  border:1px solid red;
+  font-family:'Newsreader', serif; 
+  font-size:1rem; 
+  font-weight:400; 
+  line-height:1.2; 
+  margin:0.75rem 0.5rem 0.75rem 0.5rem;}
+.specie p{
+  background-color:#fefdec; 
+}
+.grid{
+  display:grid; 
+  grid-template-columns:repeat(3, 5fr); 
+  gap:55px}
+.grid .item img{
+  height:180px; 
+  max-width:85%; 
+  object-fit:contain;}
+.bottoneuno{
+  max-width:30.0rem; 
+  display:flex; 
+  justify-content:end; 
+  align-items:end;}
 .bottonecard{
   font-family:'Karla', sans-serif;
   font-size:16px;
@@ -133,7 +174,7 @@ p{font-family:'Newsreader', serif; font-size:16px; font-weight:400; line-height:
   text-align:center;
   margin-top:12px;
   margin-bottom:8px;}
-.scopricard{text-decoration:none; color:#000; font-weight:800;}*/
+.scopricard{text-decoration:none; color:#000; font-weight:800;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 /*footer{background-color:#d45959; padding:5px;}
 footer a{
