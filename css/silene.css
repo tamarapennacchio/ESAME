@@ -54,14 +54,115 @@ main{
 .pane{color:#4d4d4d; text-decoration:none;}
 .panebis{color:#a3a3a3;}  
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
-img{max-width:55%; display:flex; margin:auto;}
-.titolo{border:1px solid red; display:flex; justify-content:center; align-items:center;}  
-.specie{border:1px solid blue; max-width:62.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column;}
+img{max-width:40%; display:flex; margin:auto;}
+.titolo{
+  border:1px solid red; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center;}  
+.specie{
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column;
+  margin:2.13rem 0 0 0;}
+.nome{
+  background-color:#df7373;
+  font-family:'Newsreader', serif;
+  font-size:4rem;
+  line-height:90%;
+  font-weight:400;
+  margin:0;
+  padding:0.94rem 0 2.82rem 0;}
+
+
 .binomiale{display:flex; justify-content:center; align-items:center; flex-direction:column;}
+.linneo{
+  background-color:#5ac3fb;
+  font-family:'Newsreader', serif;
+  font-style:italic;
+  font-size:2.44rem;
+  line-height:90%;
+  font-weight:400;
+  margin:0;
+  padding:0.94rem 0 0.94rem 0;} 
+
+
 .famiglia{display:flex; justify-content:center; align-items:center; flex-direction:column;}
-.morfo{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
-.habi{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
-.cuc{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
+.taxa{
+  background-color:#73dfab;
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  line-height:90%;
+  font-weight:400;
+  margin:0;
+  padding:1.13rem 0 1.13rem 0;} 
+
+
+.morfo{
+  background-color:#ffe437;
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column;}
+.bio{
+  background-color:#70f8ca;
+  font-family:'Karla', sans-serif; 
+  font-size:1.5rem; 
+  line-height:90%; 
+  font-weight:700;
+  margin:14.57rem 0 0 0;}
+.biodue{
+  max-width:31rem;
+  font-family:'Newsreader', serif;
+  font-family:1.5rem;
+  line-height:1.2;
+  font-weight:400;
+  margin:1.13rem 0 1.13rem 0;}
+
+
+.habi{
+  background-color:#6072db;
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column;}
+.where{
+  background-color:#70f8ca;
+  font-family:'Karla', sans-serif; 
+  font-size:1.5rem; 
+  line-height:90%; 
+  font-weight:700;
+  margin:6.13rem 0 0 0;}
+.wheredue{
+  max-width:31rem;
+  font-family:'Newsreader', serif;
+  font-family:1.5rem;
+  line-height:1.2;
+  font-weight:400;
+  margin:1.13rem 0 1.13rem 0;}
+
+
+.cuc{
+  background-color:#15ffa5;
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column;}
+.eat{
+  background-color:#faf9fc;
+  font-family:'Karla', sans-serif; 
+  font-size:1.5rem; 
+  line-height:90%; 
+  font-weight:700;
+  margin:6.13rem 0 0 0;}
+.eatdue{
+  max-width:31rem;
+  font-family:'Newsreader', serif;
+  font-family:1.5rem;
+  line-height:1.2;
+  font-weight:400;
+  margin:1.13rem 0 1.13rem 0;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
 .down{background-color:#e9e9e5;}
 ul.footer{
