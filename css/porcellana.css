@@ -1,1 +1,145 @@
-body{background-color: #c2c2c2;}
+body{
+    margin:0 0;
+    background-color:#e9e9e5; 
+    font-family: 'Karla', sans-serif;
+    font-family: 'Newsreader', serif;
+    scroll-behavior:smooth;}
+img{max-width:100%; display:block;}
+/*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
+header{
+    background-color:#e9e9e5;
+    max-height:9.8rem;
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+    margin:0;
+    padding:3.44rem 0 0.82rem 0}
+nav{
+    display:flex; 
+    flex-wrap:wrap;  
+    align-items: end;
+    justify-content:space-between;
+    margin:0 8.94rem 0 8.94rem;}  
+ul li.su{
+  display:inline-flex;
+  font-family:'Karla', sans-serif;
+  font-size:24px;
+  font-weight:700;
+  line-height:1;
+  margin:0 3.44rem 0 0;
+  list-style:none;}
+ul>li.su>a{text-decoration:none; margin:0; color:#000;} 
+ul.navbar{border-right:0.5rem solid #000;} 
+.tradem{max-width:6.13rem;}
+/*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
+main{
+  max-width:78.13rem; /*1250px*/
+  margin:0 auto;}
+/*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
+img{max-width:25%; display:flex; margin:auto;}
+.titolo{border:1px solid red; display:flex; justify-content:center; align-items:center;}  
+.specie{border:1px solid blue; max-width:62.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column;}
+.binomiale{display:flex; justify-content:center; align-items:center; flex-direction:column;}
+.famiglia{display:flex; justify-content:center; align-items:center; flex-direction:column;}
+.morfo{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
+.habi{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
+.cuc{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
+/*--------------------------------------------------------------- P A N E ---------------------------------------------------------------*/
+.briciole{
+  display:flex; 
+  justify-content:start; 
+  align-items:center; 
+  margin:0.82rem 0 0 9rem;
+  gap:0.5rem;
+  padding:0;}  
+.mollichine{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  list-style:none; 
+  color:#4d4d4d;
+  margin:0;}
+.pane{color:#4d4d4d; text-decoration:none;}
+.panebis{color:#a3a3a3;}
+/*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
+.down{background-color:#e9e9e5;}
+ul.footer{
+  display:flex;
+  justify-content:start;
+  align-items:start;
+  list-style:none;
+  text-decoration:none; 
+  font-family:'Karla', sans-serif; 
+  font-size:1.5rem; 
+  line-height:90%;
+  font-weight:700;
+  padding:1.32rem 0 2.13rem 2.13rem;
+  margin:14.57rem 0 0 0;
+  border-top:0.32rem solid #000;}
+.piede{
+  text-decoration:none;
+  color:#000;
+  padding:0 2.13rem 0 0;}
+/*_______________________________________________________________________________________________________________________________________*/
+@media (max-width:39.3rem) {
+  html{font-size:10px;}
+  header{
+    background-color:#e9e9e5;
+    max-height:10.7rem;
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+    margin:0;
+    padding:0;}
+  .tradem{max-width:7.6rem;}  
+  nav{
+    background-color:#e9e9e5;
+    align-items:center;
+    margin:2.1rem 2.7rem 0 2.7rem;
+    padding:0 0 1.3rem 0;}
+  ul.navbar{display:flex; gap: 1.3rem; flex-direction:column; align-items:end;}  
+  ul li.su{
+    max-height:7.3rem;
+    font-family:'Karla', sans-serif;
+    font-size:1.6rem;
+    font-weight:700;
+    line-height:1;
+    list-style:none;
+    margin:0 0.8rem 0 0;
+    padding:0;}
+  ul>li.su>a{text-decoration:none; margin:0; color:#000; padding:0;} 
+  ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;} 
+  /*_______________________________________________________________________________________________________________________________________*/
+  .briciole{
+    display:flex; 
+    justify-content:start; 
+    align-items:center; 
+    margin:1.3rem 0 0 2.5rem;
+    gap:0.5rem;
+    padding:0;}  
+  .mollichine{
+    font-family:'Karla', sans-serif;
+    font-size:1.6rem;
+    font-weight:700;
+    list-style:none; 
+    color:#4d4d4d;
+    margin:0;}
+  .pane{color:#4d4d4d; text-decoration:none;}
+  .panebis{color:#a3a3a3;}
+  /*_______________________________________________________________________________________________________________________________________*/
+  ul.footer{
+    display:flex; 
+    justify-content:start; 
+    align-items:center;
+    text-decoration:none; 
+    font-family:'Karla', sans-serif; 
+    font-size:1.6rem; 
+    line-height:90%;
+    font-weight:700;
+    padding:2.1rem 0 3.4rem 2.1rem;
+    margin:0;
+    border-top:0.5rem solid #000;
+    list-style:none;}
+  .piede{text-decoration:none;
+    color:#000;
+    padding:0 3.4rem 0 0;}}
