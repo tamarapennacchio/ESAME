@@ -35,8 +35,26 @@ ul.navbar{border-right:0.5rem solid #000;}
 main{
 max-width:78.13rem; /*1250px*/
 margin:0 auto;}
+/*--------------------------------------------------------------- P A N E ---------------------------------------------------------------*/
+.briciole{
+  border:1px solid red;
+  display:flex; 
+  justify-content:start; 
+  align-items:center; 
+  margin:0.82rem 0 0 9rem;
+  gap:0.5rem;
+  padding:6.13rem 0 0 0;}  
+.mollichine{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  list-style:none; 
+  color:#4d4d4d;
+  margin:0;}
+.pane{color:#4d4d4d; text-decoration:none;}
+.panebis{color:#a3a3a3;}  
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
-img{max-width:25%; display:flex; margin:auto;}
+img{max-width:55%; display:flex; margin:auto;}
 .titolo{border:1px solid red; display:flex; justify-content:center; align-items:center;}  
 .specie{border:1px solid blue; max-width:62.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column;}
 .binomiale{display:flex; justify-content:center; align-items:center; flex-direction:column;}
@@ -44,23 +62,6 @@ img{max-width:25%; display:flex; margin:auto;}
 .morfo{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
 .habi{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
 .cuc{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
-/*--------------------------------------------------------------- P A N E ---------------------------------------------------------------*/
-.briciole{
-display:flex; 
-justify-content:start; 
-align-items:center; 
-margin:0.82rem 0 0 9rem;
-gap:0.5rem;
-padding:0;}  
-.mollichine{
-font-family:'Karla', sans-serif;
-font-size:1.5rem;
-font-weight:700;
-list-style:none; 
-color:#4d4d4d;
-margin:0;}
-.pane{color:#4d4d4d; text-decoration:none;}
-.panebis{color:#a3a3a3;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
 .down{background-color:#e9e9e5;}
 ul.footer{
