@@ -37,7 +37,6 @@ main{
   margin:0 auto;}
 /*--------------------------------------------------------------- P A N E ---------------------------------------------------------------*/
 .briciole{
-  border:1px solid red;
   display:flex; 
   justify-content:start; 
   align-items:center; 
@@ -61,19 +60,21 @@ img{max-width:40%; display:flex; margin:auto;}
   justify-content:center; 
   align-items:center;}  
 .specie{
-  background-color:#df7373;
   display:flex; 
   justify-content:center; 
   align-items:center; 
-  flex-direction:column;}
+  flex-direction:column;
+  margin:2.13rem 0 14.57rem 0;}
 .nome{
+  background-color:#df7373;
   font-family:'Newsreader', serif;
   font-size:4rem;
   line-height:90%;
   font-weight:400;
-  margin:2.13rem 0 0 0;
+  margin:0;
   padding:0.94rem 0 2.82rem 0;}
 .linneo{
+  background-color:#5ac3fb;
   font-family:'Newsreader', serif;
   font-style:italic;
   font-size:2.44rem;
@@ -82,12 +83,13 @@ img{max-width:40%; display:flex; margin:auto;}
   margin:0;
   padding:0.94rem 0 0.94rem 0;}
 .taxa{
+  background-color:#73dfab;
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   line-height:90%;
   font-weight:400;
   margin:0;
-  padding:1.13rem 0 0 0;}  
+  padding:1.13rem 0 1.13rem 0;}  
 .binomiale{display:flex; justify-content:center; align-items:center; flex-direction:column;}
 .famiglia{display:flex; justify-content:center; align-items:center; flex-direction:column;}
 .morfo{max-width:26.5rem; display:flex; justify-content:center; align-items:center; flex-direction:column; margin:auto; padding-top:2.1rem;}
