@@ -33,7 +33,7 @@ ul.navbar{border-right:0.5rem solid #000;}
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  max-width:78.13rem; /*1250px*/
+  max-width:100%; /*1250px*/
   margin:0 auto;}
 .briciole{
   display:flex; 
@@ -41,7 +41,7 @@ main{
   align-items:center; 
   margin:0.82rem 0 0 9rem;
   gap:0.5rem;
-  padding:0;}  
+  padding:6.13rem 0 0 0;}  
 .mollichine{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
@@ -51,6 +51,70 @@ main{
   margin:0;}
 .pane{color:#4d4d4d; text-decoration:none;}
 .panebis{color:#a3a3a3;}  
+/*--------------------------------------------------------- M A N O ---------------------------------------------------------------------*/    
+.mano{display:flex; justify-content:end; align-items:end;}
+.ditina{max-width:100%; max-width:50%;}
+/*--------------------------------------------------------- R E G O L E -----------------------------------------------------------------*/    
+h1{
+  font-family:'Newsreader', serif;
+  font-size:4rem;
+  line-height:90%;
+  font-weight:400;
+  margin:0 0 0 9rem;}
+
+.primoduo{
+  display:flex; 
+  justify-content:center; 
+  align-items:center;
+  margin:0;}
+.primeregole{
+  max-width:36.94rem;
+  margin:0;}  
+.regolapadding{padding:14.57rem 0 0.82rem 0;}  
+h4{
+  font-family:'Newsreader', serif;
+  font-size:1.5rem;
+  line-height:1.2;
+  font-weight:400;
+  margin:0.75rem 0 0.75rem 0;}  
+
+.spaccazza{display:flex; justify-content:center; margin:0;}
+hr{
+  width:61.69rem; 
+  height:0.5rem; 
+  background-color:#000; 
+  border-style:none;
+  margin:14.57rem 0 14.57rem 0;} 
+
+.secondoduo{display:flex; justify-content:center; align-items:center; margin:0;}
+.altro{max-width:22.07rem;}
+.resto{
+  background-color:#fff;
+  border:1px solid red; 
+  display:flex; 
+  justify-content:start; 
+  align-items:center; 
+  flex-direction:column;}
+.bloccodue{ 
+  max-width:23.5rem;
+  display:flex;
+  justify-content:start;
+  align-items:center;
+flex-direction:column;}
+h3{
+  border:1px solid blue;
+  font-family:'Karla', sans-serif; 
+  font-size:2.44rem; 
+  line-height:90%; 
+  font-weight:400;
+  margin:0;
+  padding:0.63rem 0 0.63rem 0;}
+p{background-color:#fff; margin:0; line-height:1.2;}
+.posti{margin:0.75rem 0 0 0; background-color:#fff;}
+.conosci{margin:0 0 0.75rem 0; background-color:#fff;}
+.lascia{margin:0.75rem 0 0 0; background-color:#fff;}
+.consumi{background-color:#fff;}
+.numeroso{margin:0 0 0.75rem 0;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
