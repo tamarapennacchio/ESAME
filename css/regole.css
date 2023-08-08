@@ -33,7 +33,7 @@ ul.navbar{border-right:0.5rem solid #000;}
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  max-width:100%; /*1250px*/
+  max-width:100%;
   margin:0 auto;}
 .briciole{
   display:flex; 
@@ -85,24 +85,29 @@ hr{
   background-color:#000; 
   border-style:none;
   margin:14.57rem 0 14.57rem 0;} 
-
-.secondoduo{display:flex; justify-content:center; align-items:center; margin:0;}
-.altro{max-width:22.07rem;}
-.resto{
-  background-color:#fff;
-  border:1px solid red; 
+ 
+.regole_bis{ 
+  max-width:300px;
   display:flex; 
-  justify-content:start; 
-  align-items:center; 
+  align-items:start center; 
+  justify-content:center; 
+  flex-direction:column; 
+  margin:auto;}
+.secondoduo_a{margin:0 0 6.13rem 0;}
+
+.resto_a{
+  max-width:16rem;
+  background-color:#fff;
+  display:flex; 
+  justify-content:center; 
+  align-items:start; 
   flex-direction:column;}
-.bloccodue{ 
-  max-width:23.5rem;
-  display:flex;
-  justify-content:start;
-  align-items:center;
-flex-direction:column;}
+
+.posti{margin:0.75rem 0.75rem 0 0.75rem;}
+.conosci{margin:0 0.75rem 0.75rem 0.75rem;}
+
+
 h3{
-  border:1px solid blue;
   font-family:'Karla', sans-serif; 
   font-size:2.44rem; 
   line-height:90%; 
@@ -110,11 +115,19 @@ h3{
   margin:0;
   padding:0.63rem 0 0.63rem 0;}
 p{background-color:#fff; margin:0; line-height:1.2;}
-.posti{margin:0.75rem 0 0 0; background-color:#fff;}
-.conosci{margin:0 0 0.75rem 0; background-color:#fff;}
-.lascia{margin:0.75rem 0 0 0; background-color:#fff;}
-.consumi{background-color:#fff;}
-.numeroso{margin:0 0 0.75rem 0;}
+
+.resto_b{ 
+  max-width:15rem;
+  background-color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:start;
+  flex-direction:column;}
+
+
+.lascia{margin:0.75rem 0 0 0.75rem; background-color:#fff;}
+.consumi{margin:0 0.75rem 0 0.75rem; background-color:#fff;}
+.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#fff;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
