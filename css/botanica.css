@@ -124,29 +124,63 @@ margin:0 auto;}
 .d .e > label{
   padding-left:5px; margin:0;}
   
-  .vetrina{display:flex; justify-content:start; align-items:start; border:1px solid red;}
-  .prova{max-width:50%; margin:0 1.32rem 0 0; border:1px solid green;}
-  .foglia{font-family:'Karla', sans-serif; font-size:2.44rem; line-height:90%; font-weight:700; border:1px solid orange; margin:0;}
 
+.anatomia{
+  display:flex; 
+  justify-content:start; 
+  align-items:start;}
+.prova{
+  max-width:50%; 
+  margin:1.57rem 1.32rem 1.57rem 0;}
+.foglia{
+  font-family:'Karla', sans-serif; 
+  font-size:2.44rem; 
+  line-height:90%; 
+  font-weight:700; 
+  margin:1.57rem 0 0 0;}
+/*------------------------------------------ T I T O L O -----------------------------------------------------------------------------*/
 h1{
   font-family:'Newsreader', serif;
   font-size:4rem;
   line-height:90%;
   font-weight:400;
   margin:0;}
+h2{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  line-height:90%;
+  font-weight:700;
+  margin:14.57rem 0 9rem 0;}
+/*------------------------------------------ C O N T E N U T O -----------------------------------------------------------------------------*/
+.lamineuno{
+  max-width:1000px;
+  background-color: #c5b6b6;
+  display:grid;
+  align-content:center;
+  justify-content:center;
+  grid-template-columns:repeat(6, 1fr);
+  margin:auto;
+  padding:98px 0 0 0;
+  gap:21px;}
+.formalaminauno{
+  background-color: #fff;
+  max-width:100%; 
+display:flex;
+justify-content: center;}
 
-.lamine{
+.laminedue{
   max-width:900px;
   background-color: #c5b6b6;
   display:grid;
   justify-content:center;
   align-content:center;
-  grid-template-columns:repeat(6, 1fr);
+  grid-template-columns:repeat(4, 1fr);
   margin:auto;
   padding:98px 0 0 0;}
-.formalamina{
-  max-width:80%; 
-  margin:auto;}  
+.formalaminadue{
+  max-width:75%; 
+  margin:auto;}    
+
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
