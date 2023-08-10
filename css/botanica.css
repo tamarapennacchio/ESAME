@@ -56,7 +56,7 @@ margin:0 auto;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:463px;
+  left:470px;
   display:flex;
   flex-direction:row;
   flex-flow:row;
@@ -146,6 +146,7 @@ h1{
   font-weight:400;
   margin:0;}
 h2{
+  background-color:#c8bebe;
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   line-height:90%;
@@ -216,7 +217,6 @@ h2{
 .pictre{max-width:150%;}
 
 
-
 .elencoquattro{
   max-width:50rem;
   display:grid;
@@ -236,7 +236,6 @@ h2{
   font-size:0.94rem;
   max-width:130px;}
 .picquattro{max-width:150%;}
-
 
 
 .elencocinq{
@@ -260,14 +259,13 @@ h2{
 .piccinq{max-width:150%;}
 
 
-
 .elencosei{
   max-width:25rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
-  padding:0;}
+  padding:0 0 9rem 0;}
 .laminasei{
   max-width:7.53rem;
   display:flex;
@@ -282,6 +280,78 @@ h2{
   margin:0;}
 .picsei{max-width:150%;}
 
+/*-----------------------*/
+.gruppo{
+  max-width:25rem;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:0;
+  margin:0 auto;
+  padding:0 0 9rem 0;}
+.pari{
+  max-width:7.53rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;}
+.text{
+  font-family:'Karla', sans-serif;
+  font-size:0.94rem;
+  max-width:130px;
+  margin:0;}
+.picpari{max-width:150%; margin:0;}  
+
+/*-----------------------*/
+.gruppodue{
+  background-color: #fff;
+  max-width:800px;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:0;
+  margin:0 auto;
+  padding:0 0 9rem 0;}
+.margine{
+  background-color: #e86c6c;
+  max-width:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;}
+.text{
+  background-color: #c5d6e5;
+  font-family:'Karla', sans-serif;
+  font-size:0.94rem;
+  max-width:500px;
+  margin:0; 
+  text-align:center;}
+.picmargine{max-width:90%; margin:0; background-color: #ffd54b;} 
+/*--------------------------*/
+.gruppotre{
+  background-color: #fff;
+  max-width:800px;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:0;
+  margin:0 auto;
+  padding:0 0 9rem 0;}
+.margine{
+  background-color: #e86c6c;
+  max-width:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;}
+.text{
+  background-color: #c5d6e5;
+  font-family:'Karla', sans-serif;
+  font-size:0.94rem;
+  max-width:500px;
+  margin:0; 
+  text-align:center;}
+.picmargine{max-width:90%; margin:0; background-color: #ffd54b;} 
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
