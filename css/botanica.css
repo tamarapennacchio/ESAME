@@ -154,45 +154,46 @@ h2{
   margin:14.57rem 0 9rem 0;}
 /*------------------------------------------ C O N T E N U T O -----------------------------------------------------------------------------*/
 .lamineuno{
-  max-width:1000px;
-  background-color: #c5b6b6;
+  max-width:50.25rem;
+  background-color: #87d7fa;
   display:grid;
   align-content:center;
   justify-content:center;
   grid-template-columns:repeat(6, 1fr);
-  margin:auto;
-  padding:98px 0 0 0;
-  gap:34px;}
+  margin:auto;}
 .formalaminauno{
+  border:1px solid red;
   background-color: #fff;
   max-width:100%; 
   display:flex;
-  justify-content: center;}
+  justify-content: center;
+  padding:3.43rem 0 3.43rem 0;}
 
 .laminedue{
-  max-width:1000px;
+  max-width:32.96rem;
   background-color: #c5b6b6;
   display:grid;
   grid-template-columns:repeat(4, 4fr);
   margin:auto;
-  padding:34px 0 144px 0;
-  gap:34px;}
+  padding:3.43rem 0 0 0;}
 .formalaminadue{
+  border:1px solid red;
   background-color: #fff;;
-  max-width:60%;
-  margin:auto;}   
+  max-width:100%;
+  margin:auto;
+  padding:3.43rem 0 3.43rem 0;}   
 
-.laminetre{max-width:1000px;
-  background-color: #c5b6b6;
+.laminetre{max-width:16.38rem;
+  background-color: #65f098;
   display:grid;
   grid-template-columns:repeat(2, 2fr);
-  margin:auto;
-  padding:34px 0 144px 0;
-  gap:34px;}  
+  margin:auto;}  
   .formalaminatre{
+    border:1px solid red;
     background-color: #fff;;
-    max-width:30%;
-    margin:auto;}  
+    max-width:100%;
+    margin:auto;
+    padding:3.43rem 0 3.43rem 0;}  
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
