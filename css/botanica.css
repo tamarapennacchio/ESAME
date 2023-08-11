@@ -507,16 +507,16 @@ h2{
   padding:14.4rem 0 5.5rem 0;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .elencouno{
-  max-width:20rem;
+  background-color: #fff;
+  max-width:28rem;
   display:grid;
-  grid-template-columns:repeat(6, 1fr);
+  grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
-
 .lamina{
-
-  max-width:8.13rem;
+  background-color: #dad5d5;
+  max-width:8rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -530,15 +530,16 @@ h2{
 
 
 .elencodue{
-  max-width:10rem;
+  background-color: #ac9e9e;
+  max-width:28rem;
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminadue{
-
-  max-width:7.53rem;
+  background-color: #cce099;
+  max-width:8rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -552,13 +553,15 @@ h2{
 
 
 .elencotre{
-  max-width:10rem;
+  background-color: rgb(244, 244, 208);
+  max-width:28rem;
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminatre{
+  background-color: #8695f7;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -573,14 +576,15 @@ h2{
 
 
 .elencoquattro{
-  max-width:10rem;
+  background-color: #caedd6;
+  max-width:28rem;
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminaquattro{
-
+  background-color: #c5b2f2;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -595,14 +599,15 @@ h2{
 
 
 .elencocinq{
-  max-width:10rem;
+  background-color: #1f6929;
+  max-width:28rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminacinq{
-
+  background-color: #f59d31;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -617,13 +622,15 @@ h2{
 
 
 .elencosei{
-  max-width:10rem;
+  background-color: #b21818;
+  max-width:28rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 9rem 0;}
 .laminasei{
+  background-color: #ef2727;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
