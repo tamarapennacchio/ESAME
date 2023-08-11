@@ -529,6 +529,7 @@ h2{
   padding:0 0 3.44rem 0;}
 
 .lamina{
+  background-color: #61b7f9;
   max-width:8.13rem;
   display:flex;
   flex-direction:column;
@@ -550,6 +551,7 @@ h2{
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminadue{
+  background-color: #82ed85;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -571,6 +573,7 @@ h2{
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminatre{
+  background-color: #ffec3c;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -592,6 +595,7 @@ h2{
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminaquattro{
+  background-color: #c6b1f7;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -613,6 +617,7 @@ h2{
   margin:0 auto;
   padding:0 0 3.44rem 0;}
 .laminacinq{
+  background-color: #cedcde;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -634,6 +639,7 @@ h2{
   margin:0 auto;
   padding:0 0 9rem 0;}
 .laminasei{
+  background-color: #632d2d;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
