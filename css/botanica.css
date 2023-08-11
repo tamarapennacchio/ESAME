@@ -514,12 +514,14 @@ h2{
   font-size:1.6rem;}  
 
 .elencouno{
+  display:flex;
+  justify-content: center;
   background-color: #1c19dc;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  padding:0 0 3.44rem 0;}
+  gap:5rem;}
 .lamina{
   background-color: #f4eb4d;
   max-width:30rem;
@@ -528,74 +530,82 @@ h2{
 .pic{max-width:15rem;}
 
 .elencodue{
+  display:flex;
+  justify-content: center;
   background-color: #ac9e9e;
-  max-width:31rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 3.44rem 0;}
+  gap:5rem;}
 .laminadue{
   background-color: #cce099;
-  max-width:10rem;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.picdue{max-width:15rem;}
 
 .elencotre{
+  display:flex;
+  justify-content: center;
   background-color: rgb(244, 244, 208);
-  max-width:28rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 3.44rem 0;}
+  gap:5rem;}
 .laminatre{
   background-color: #8695f7;
-  max-width:7.53rem;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.pictre{max-width:15rem;}  
 
 
 .elencoquattro{
+  display:flex;
+  justify-content: center;
   background-color: #caedd6;
-  max-width:28rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 3.44rem 0;}
+  gap:5rem;}
 .laminaquattro{
   background-color: #c5b2f2;
-  max-width:7.53rem;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.picquattro{max-width:15rem;}
 
 
 .elencocinq{
+  display:flex;
+  justify-content: center;
   background-color: #1f6929;
-  max-width:28rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 3.44rem 0;}
+  gap:5rem;}
 .laminacinq{
   background-color: #f59d31;
-  max-width:7.53rem;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.piccinq{max-width:15rem;}  
 
 .elencosei{
   background-color: #b21818;
