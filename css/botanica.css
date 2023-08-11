@@ -510,7 +510,7 @@ h2{
   max-width:100rem;
   font-size:1.6rem;}
 .textura{
-  max-width:100rem;
+  max-width:150rem;
   font-size:1.6rem;}  
 
 .elencouno{
@@ -628,32 +628,32 @@ h2{
 
 /*-----------------------*/
 .gruppodue{
-  background-color: #198af3;
-  max-width:28rem;
+  background-color: #6d5ab1;
+  max-width:40rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 9rem 0;}
-.margine{
-  background-color: #e8f80b;
-  max-width:7.53rem;
+  padding:0 0 9rem 0;
+  gap:5rem;}
+.marginedue{
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.picmargine{max-width:15rem;} 
 /*--------------------------*/
 .gruppotre{
   background-color: #71738a;
-  max-width:28rem;
+  max-width:40rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 9rem 0;}
 .margine{
-  background-color: #e12d0d;
+  background-color: #d68375;
   max-width:150px;
   display:flex;
   flex-direction:column;
