@@ -154,6 +154,7 @@ h2{
   margin:14.57rem 0 9rem 0;}
 /*------------------------------------------ C O N T E N U T O -----------------------------------------------------------------------------*/
 .elencouno{
+  background-color: #fccb50;
   max-width:75rem;
   display:grid;
   grid-template-columns:repeat(6, 1fr);
@@ -171,11 +172,12 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;}
+  max-width:1000px;}
 .pic{max-width:150%;}  
 
 
 .elencodue{
+  background-color: #98ffba;
   max-width:50rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
@@ -192,11 +194,12 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;}
+  max-width:1000px;}
 .picdue{max-width:150%;}
 
 
 .elencotre{
+  background-color: #70a0ff;
   max-width:50rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
@@ -213,11 +216,12 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;}
+  max-width:1000px;}
 .pictre{max-width:150%;}
 
 
 .elencoquattro{
+  background-color: #edc3f3;
   max-width:50rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
@@ -234,11 +238,12 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;}
+  max-width:1000px;}
 .picquattro{max-width:150%;}
 
 
 .elencocinq{
+  background-color: #fd5959;
   max-width:25rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
@@ -255,11 +260,12 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;}
+  max-width:1000px;}
 .piccinq{max-width:150%;}
 
 
 .elencosei{
+  background-color: #b4e61e;
   max-width:25rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
@@ -276,19 +282,21 @@ h2{
 .text{
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;
+  max-width:1000px;
   margin:0;}
 .picsei{max-width:150%;}
 
 /*-----------------------*/
 .gruppo{
-  max-width:25rem;
+  background-color: #38edd2;
+  max-width:50rem;
   display:grid;
   grid-template-columns:repeat(3, 1fr);
   gap:0;
   margin:0 auto;
-  padding:0 0 9rem 0;}
+  padding:0;}
 .pari{
+  background-color: #edf914;
   max-width:7.53rem;
   display:flex;
   flex-direction:column;
@@ -296,62 +304,64 @@ h2{
   align-items:center;
   margin:0 auto;}
 .text{
+  background-color: #9f51df;
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:130px;
+  max-width:1000px;
   margin:0;}
-.picpari{max-width:150%; margin:0;}  
+.picpari{max-width:150%; margin:0; background-color: #0fcb12;}  
 
 /*-----------------------*/
 .gruppodue{
-  background-color: #fff;
-  max-width:800px;
+  background-color: #feb33a;
+  max-width:60rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 9rem 0;}
-.margine{
-  background-color: #e86c6c;
-  max-width:150px;
+.marginedue{
+  background-color: #f53636;
+  max-width:9rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  background-color: #c5d6e5;
+.textura{
+  background-color: #2293f6;
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:500px;
+  max-width:90rem;
   margin:0; 
   text-align:center;}
-.picmargine{max-width:90%; margin:0; background-color: #ffd54b;} 
+.picmargine{max-width:100%; margin:0; background-color: #ffd54b;} 
 /*--------------------------*/
 .gruppotre{
-  background-color: #fff;
-  max-width:800px;
+  background-color: #f10ccf;
+  max-width:75rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
   gap:0;
   margin:0 auto;
   padding:0 0 9rem 0;}
 .margine{
-  background-color: #e86c6c;
-  max-width:150px;
+  background-color: #99e990;
+  max-width:7.53rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
 .text{
-  background-color: #c5d6e5;
+  background-color: #ffffff;
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
-  max-width:500px;
+  max-width:1000px;
   margin:0; 
   text-align:center;}
-.picmargine{max-width:90%; margin:0; background-color: #ffd54b;} 
+.picmargine{max-width:150%; margin:0; background-color: #ffd54b;}
+.distanza{margin:0; padding:0; background-color: #d0ff13;} 
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#e9e9e5;}
 ul.footer{
