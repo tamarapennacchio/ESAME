@@ -605,41 +605,26 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.piccinq{max-width:15rem;}  
-
-.elencosei{
-  background-color: #b21818;
-  max-width:28rem;
-  display:grid;
-  grid-template-columns:repeat(2, 1fr);
-  gap:0;
-  margin:0 auto;
-  padding:0 0 9rem 0;}
-.laminasei{
-  background-color: #ef2727;
-  max-width:7.53rem;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  margin:0 auto;}
+.piccinq{max-width:15rem;} 
+/*------- digitata e pedata senza padd --------*/  
 /*-----------------------*/
 .gruppo{
   background-color: #277b84;
-  max-width:28rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 9rem 0;}
+  padding:0 0 9rem 0;
+  gap:5rem;}
 .pari{
   background-color: #71b176;
-  max-width:7.53rem;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
+.picpari{max-width:15rem;}
 
 /*-----------------------*/
 .gruppodue{
