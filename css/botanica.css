@@ -477,7 +477,7 @@ h1{
   margin:0 0 0 2.4rem;}
 
 .abc{
-  max-width:23.3rem;
+  max-width:14.4rem;
   display:flex;
   flex-direction:column;
   margin:auto;
@@ -497,13 +497,14 @@ span{
   line-height:90%;}
 
 h2{
-  max-width:250px;
+  max-width:27.1rem;
   background-color:#c8bebe;
   font-family:'Karla', sans-serif;
   font-size:26px;
   line-height:90%;
   font-weight:700;
-  margin:14.57rem 0 9rem 0;}  
+  margin:auto;
+  padding:14.4rem 0 5.5rem 0;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .elencouno{
   max-width:20rem;
