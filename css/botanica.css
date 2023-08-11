@@ -383,12 +383,12 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:18.80rem;
+  left:19.20rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:6.7rem 0 0 0;}
+  margin:7.3rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.6rem;
@@ -398,7 +398,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .divider > hr{
   border:0;
   border-top:0.20rem dotted #000;
-  width:11.0rem;
+  width:11.8rem;
   margin:0 0.82rem 0 0;}
 .divider .right > label{
   padding-left:5px; margin:0;}
@@ -407,12 +407,12 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .b{
   position:absolute; 
   z-index:2;
-  left:13.9rem;
+  left:19.20rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:18rem 0 0 0;}
+  margin:17rem 0 0 0;}
 .b > label{
   font-family:'Karla', sans-serif;
   font-size:2.6rem;
@@ -422,7 +422,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .b > hr{
   border:0;
   border-top:0.20rem dotted #000000;
-  width:16.2rem;
+  width:11.8rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
   padding-left:5px; margin:0;}
@@ -430,12 +430,12 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .d{
   position:absolute; 
   z-index:2;
-  left:14.8rem;
+  left:19.20rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:22rem 0 0 0;}
+  margin:21.4rem 0 0 0;}
 .d > label{
   font-family:'Karla', sans-serif;
   font-size:2.6rem;
@@ -445,7 +445,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .d > hr{
   border:0;
   border-top:0.20rem dotted #000;
-  width:15.4rem;
+  width:11.8rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{
   padding-left:5px; margin:0;}
