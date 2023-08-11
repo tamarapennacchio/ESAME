@@ -153,6 +153,20 @@ h2{
   font-weight:700;
   margin:14.57rem 0 9rem 0;}
 /*------------------------------------------ C O N T E N U T O -----------------------------------------------------------------------------*/
+.text{
+  background-color: #e8daf4;
+  font-family:'Karla', sans-serif;
+  font-size:0.94rem;
+  max-width:700px;
+  margin:0;}
+.textura{
+  background-color: #2293f6;
+  font-family:'Karla', sans-serif;
+  font-size:0.94rem;
+  max-width:90rem;
+  margin:0; 
+  text-align:center;}
+
 .elencouno{
   background-color: #fccb50;
   max-width:75rem;
@@ -161,7 +175,6 @@ h2{
   gap:0;
   margin:0 auto;
   padding:0 0 3.44rem 0;}
-
 .lamina{
   max-width:8.13rem;
   display:flex;
@@ -169,10 +182,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;}
 .pic{max-width:150%;}  
 
 
@@ -191,10 +200,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;}
 .picdue{max-width:150%;}
 
 
@@ -213,10 +218,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;}
 .pictre{max-width:150%;}
 
 
@@ -235,10 +236,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;}
 .picquattro{max-width:150%;}
 
 
@@ -257,10 +254,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;}
 .piccinq{max-width:150%;}
 
 
@@ -279,11 +272,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;
-  margin:0;}
 .picsei{max-width:150%;}
 
 /*-----------------------*/
@@ -303,12 +291,6 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  background-color: #9f51df;
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;
-  margin:0;}
 .picpari{max-width:150%; margin:0; background-color: #0fcb12;}  
 
 /*-----------------------*/
@@ -328,18 +310,11 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.textura{
-  background-color: #2293f6;
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:90rem;
-  margin:0; 
-  text-align:center;}
 .picmargine{max-width:100%; margin:0; background-color: #ffd54b;} 
 /*--------------------------*/
 .gruppotre{
   background-color: #f10ccf;
-  max-width:75rem;
+  max-width:60rem;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
   gap:0;
@@ -347,19 +322,12 @@ h2{
   padding:0 0 9rem 0;}
 .margine{
   background-color: #99e990;
-  max-width:7.53rem;
+  max-width:9rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.text{
-  background-color: #ffffff;
-  font-family:'Karla', sans-serif;
-  font-size:0.94rem;
-  max-width:1000px;
-  margin:0; 
-  text-align:center;}
 .picmargine{max-width:150%; margin:0; background-color: #ffd54b;}
 .distanza{margin:0; padding:0; background-color: #d0ff13;} 
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
