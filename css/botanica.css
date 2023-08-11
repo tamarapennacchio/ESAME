@@ -57,12 +57,12 @@ margin:0 auto;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:470px;
+  left:19.94rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:63px 0 0 0;}
+  margin:5.75rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -71,22 +71,22 @@ margin:0 auto;}
   margin:0;}
 .divider > hr{
   border:0;
-  border-top:3.5px dotted #000;
-  width:20rem;
+  border-top:3.5px dotted #fc5b5b;
+  width:30rem;
   margin:0 0.82rem 0 0;}
 .divider .right > label{
-  padding-left:5px; margin:0;}
+  padding-left:0.32rem; margin:0;}
 
 
 .b{
   position:absolute; 
   z-index:2;
-  left:570px;
+  left:36.88rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:240px 0 0 0;}
+  margin:14.69rem 0 0 0;}
 .b > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -95,21 +95,21 @@ margin:0 auto;}
   margin:0;}
 .b > hr{
   border:0;
-  border-top:3.5px dotted #000000;
-  width:17rem;
+  border-top:3.5px dotted #ff5b5b;
+  width:20rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
-  padding-left:5px; margin:0;}
+  padding-left:0.32rem; margin:0;}
 
 .d{
   position:absolute; 
   z-index:2;
-  left:700px;
+  left:44.5rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:260px 0 0 0;}
+  margin:16.63rem 0 0 0;}
 .d > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -118,11 +118,11 @@ margin:0 auto;}
   margin:0;}
 .d > hr{
   border:0;
-  border-top:3.5px dotted #000;
-  width:240px;
+  border-top:3.5px dotted #ff5b5b;
+  width:15rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{
-  padding-left:5px; margin:0;}
+  padding-left:0.32rem; margin:0;}
   
 
 .anatomia{
