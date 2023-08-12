@@ -1,10 +1,10 @@
 body{
-  ::selection {background-color: #aceca8;}
-  margin:0 0;
+    margin:0 0;
   background-color:#e9e9e5; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
+  ::selection {background-color: #aceca8;}  
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
@@ -57,12 +57,12 @@ margin:0 auto;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:19.94rem;
+  left:47rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:5.75rem 0 0 0;}
+  margin:5rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -72,7 +72,7 @@ margin:0 auto;}
 .divider > hr{
   border:0;
   border-top:3.5px dotted #fc5b5b;
-  width:30rem;
+  width:20rem;
   margin:0 0.82rem 0 0;}
 .divider .right > label{
   padding-left:0.32rem; margin:0;}
@@ -81,12 +81,12 @@ margin:0 auto;}
 .b{
   position:absolute; 
   z-index:2;
-  left:36.88rem;
+  left:58.88rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:14.69rem 0 0 0;}
+  margin:11.33rem 0 0 0;}
 .b > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -96,7 +96,7 @@ margin:0 auto;}
 .b > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:20rem;
+  width:11.5rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
   padding-left:0.32rem; margin:0;}
@@ -104,12 +104,12 @@ margin:0 auto;}
 .d{
   position:absolute; 
   z-index:2;
-  left:44.5rem;
+  left:64.5rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:16.63rem 0 0 0;}
+  margin:13.33rem 0 0 0;}
 .d > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -119,7 +119,7 @@ margin:0 auto;}
 .d > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:15rem;
+  width:9rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{
   padding-left:0.32rem; margin:0;}
@@ -132,7 +132,8 @@ margin:0 auto;}
   align-items:start;}
 .info{
   max-width:50%; 
-  margin:0.32rem 0 1.57rem 0;}
+  max-height:20.32rem;
+  margin:0.32rem 0 1.57rem 23.57rem;}
 .foglia{
   font-family:'Karla', sans-serif; 
   font-size:2.44rem; 
@@ -145,13 +146,34 @@ h1{
   font-size:4rem;
   line-height:90%;
   font-weight:400;
-  margin:0;}
+  margin:0;}  
+
+.abc{
+  background-color: #ffffff;
+  max-width:31.50rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:6.13rem 0 14.57rem 0;
+  border-bottom:0.32rem solid #000;}
+span{
+  font-family:'Karla', sans-serif;
+  font-size:1.5rem;
+  line-height:90%;
+  font-weight:700;}
+.letterina{
+  font-family:'Newsreader', serif;
+  font-size:1.5rem;
+  line-height:90%;
+  font-weight:400;
+  margin:0 3.44rem 0 0;}
+
 h2{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   line-height:90%;
   font-weight:700;
-  margin:14.57rem 0 9rem 0;}
+  margin:0 0 9rem 0;}
 /*------------------------------------------ C O N T E N U T O -----------------------------------------------------------------------------*/
 .text{
   font-family:'Karla', sans-serif;
@@ -469,12 +491,22 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0 0 1.3rem 2.4rem;
   padding:0;}
 
+ h1{
+  max-width:30.4rem;
+  font-family:'Newsreader', serif;
+  font-size:4.3rem;
+  line-height:90%;
+  font-weight:400;
+  margin:9.8rem 0 5.5rem 2.4rem;}
+
 .abc{
+  background-color: #fff;
   max-width:14.4rem;
   display:flex;
   flex-direction:column;
   margin:auto;
-  padding:5.5rem 0 2.1rem 0;} 
+  padding:1.2rem 0 1.2rem 0;
+  border:none;} 
 span{
   font-family:'Karla', serif;
   font-size:2.6rem;
@@ -485,17 +517,10 @@ span{
   margin:0;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
-  font-weight:400;
-  border-bottom:0.3rem solid #000;
-  line-height:90%;}
-
-h1{
-  max-width:30.4rem;
-  font-family:'Newsreader', serif;
-  font-size:4.3rem;
   line-height:90%;
   font-weight:400;
-  margin:9.8rem 0 5.5rem 2.4rem;}  
+  border-bottom:0.3rem solid #000;
+  line-height:90%;}  
 
 h2{
   max-width:29.0rem;
