@@ -500,7 +500,6 @@ span{
   line-height:90%;}
 
 h2{
-  border:1px solid black;
   max-width:29.0rem;
   font-family:'Karla', sans-serif;
   font-size:26px;
@@ -519,14 +518,12 @@ h2{
 .elencouno{
   display:flex;
   justify-content: center;
-  background-color: #1c19dc;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:5rem;}
+  gap:3rem;}
 .lamina{
-  background-color: #f4eb4d;
   max-width:30rem;
   flex-direction:column;
   margin:0 auto;}
@@ -535,14 +532,12 @@ h2{
 .elencodue{
   display:flex;
   justify-content: center;
-  background-color: #ac9e9e;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:5rem;}
+  gap:3rem;}
 .laminadue{
-  background-color: #cce099;
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -554,14 +549,12 @@ h2{
 .elencotre{
   display:flex;
   justify-content: center;
-  background-color: rgb(244, 244, 208);
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:5rem;}
+  gap:3rem;}
 .laminatre{
-  background-color: #8695f7;
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -574,14 +567,11 @@ h2{
 .elencoquattro{
   display:flex;
   justify-content: center;
-  background-color: #caedd6;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:5rem;}
-.laminaquattro{
-  background-color: #c5b2f2;
+  gap:3rem;}
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -594,33 +584,40 @@ h2{
 .elencocinq{
   display:flex;
   justify-content: center;
-  background-color: #1f6929;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:5rem;}
+  gap:3rem;}
+.elencocinqno{
+  display:flex;
+  justify-content: center;
+  max-width:34rem;
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  margin:0 auto;
+  padding:0;
+  gap:3rem;}
 .laminacinq{
-  background-color: #f59d31;
   max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.piccinq{max-width:15rem;} 
+.piccinq{max-width:15rem; padding:0;} 
+.pic_digitatanopad, .pic_pedatanopad{
+  max-width:15rem;}
 /*------- digitata e pedata senza padd --------*/  
 /*-----------------------*/
 .gruppo{
-  background-color: #277b84;
   max-width:34rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
-  padding:0 0 9rem 0;
-  gap:5rem;}
+  padding:0;
+  gap:3rem;}
 .pari{
-  background-color: #71b176;
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -631,13 +628,12 @@ h2{
 
 /*-----------------------*/
 .gruppodue{
-  background-color: #6d5ab1;
-  max-width:40rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
   padding:0 0 9rem 0;
-  gap:5rem;}
+  gap:3rem;}
 .marginedue{
   max-width:30rem;
   display:flex;
@@ -645,19 +641,17 @@ h2{
   justify-content:center;
   align-items:center;
   margin:0 auto;}
-.picmargine{max-width:15rem;} 
+.picmargine{max-width:15rem;} /*valida anche per il gruppotre sotto, che non ripete la voce*/
 /*--------------------------*/
 .gruppotre{
-  background-color: #71738a;
-  max-width:40rem;
+  max-width:34rem;
   display:grid;
   grid-template-columns:repeat(1, 1fr);
-  gap:0;
   margin:0 auto;
-  padding:0 0 9rem 0;}
+  padding:0 0 9rem 0;
+  gap:3rem;}
 .margine{
-  background-color: #d68375;
-  max-width:150px;
+  max-width:30rem;
   display:flex;
   flex-direction:column;
   justify-content:center;
