@@ -367,7 +367,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   display:flex; 
   justify-content:start; 
   align-items:center; 
-  margin:1.3rem 0 0 2.5rem;
+  margin:5.5rem 0 3.4rem 2.5rem;
   gap:0.5rem;
   padding:0;}  
 .mollichine{
@@ -383,12 +383,12 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:23.20rem;
+  left:22.20rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:7.8rem 0 0 0;}
+  margin:7.3rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.6rem;
@@ -403,11 +403,10 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .divider .right > label{
   padding-left:5px; margin:0;}
 
-
 .b{
   position:absolute; 
   z-index:2;
-  left:20.50rem;
+  left:20.30rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
@@ -449,42 +448,32 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0 0.82rem 0 0;}
 .d .e > label{
   padding-left:5px; margin:0;}
-  
+
 
 .anatomia{
-  background-color: #978383;
   display:flex; 
   justify-content:start;
   align-items:start;
   margin:0;
   max-width:23.3rem;}
-.info{
-  border:1px solid red;
-  transform:rotate(0.25turn);
-  max-width:23.3rem; 
-  margin:0;}
 .foglia{
   font-family:'Karla', sans-serif; 
   font-size:1.6rem; 
   line-height:90%; 
   font-weight:700; 
   margin:0 0 5.5rem 2.4rem;
-padding:0;}
-
-h1{
-  max-width:30.4rem;
-  font-family:'Newsreader', serif;
-  font-size:4.3rem;
-  line-height:90%;
-  font-weight:400;
-  margin:23.3rem 0 0 2.4rem;}
+  padding:0;}  
+.info{
+  transform:rotate(0.25turn);
+  max-width:23.3rem; 
+  margin:0;}
 
 .abc{
   max-width:14.4rem;
   display:flex;
   flex-direction:column;
   margin:auto;
-  padding:5.5rem 0 2.1rem 0;} 
+  padding:0;} 
 span{
   font-family:'Karla', serif;
   font-size:2.6rem;
@@ -492,12 +481,20 @@ span{
   line-height:90%;
   margin:0;}
 .letterina{
-  margin:0;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   font-weight:400;
   border-bottom:0.3rem solid #000;
-  line-height:90%;}
+  line-height:90%;
+  margin:0;}
+
+h1{
+  max-width:30.4rem;
+  font-family:'Newsreader', serif;
+  font-size:4.3rem;
+  line-height:90%;
+  font-weight:400;
+  margin:9.8rem 0 5.5rem 2.4rem;}  
 
 h2{
   max-width:29.0rem;
@@ -506,7 +503,7 @@ h2{
   line-height:90%;
   font-weight:700;
   margin:auto;
-  padding:14.4rem 0 5.5rem 0;}  
+  padding:9.8rem 0 5.5rem 0;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .text{
   max-width:100rem;
@@ -522,7 +519,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3rem;}
+  gap:3.44rem;}
 .lamina{
   max-width:30rem;
   flex-direction:column;
@@ -536,7 +533,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3rem;}
+  gap:3.44rem;}
 .laminadue{
   max-width:30rem;
   display:flex;
@@ -553,7 +550,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3rem;}
+  gap:3.44rem;}
 .laminatre{
   max-width:30rem;
   display:flex;
@@ -571,7 +568,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3rem;}
+  gap:3.44rem;}
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -588,7 +585,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3rem;}
+  gap:3.44rem;}
 .elencocinqno{
   display:flex;
   justify-content: center;
@@ -597,7 +594,7 @@ h2{
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
   padding:0;
-  gap:3rem;}
+  gap:3.44rem;}
 .laminacinq{
   max-width:30rem;
   display:flex;
@@ -616,7 +613,7 @@ h2{
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
   padding:0;
-  gap:3rem;}
+  gap:3.44rem;}
 .pari{
   max-width:30rem;
   display:flex;
@@ -633,7 +630,7 @@ h2{
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
   padding:0 0 9rem 0;
-  gap:3rem;}
+  gap:3.44rem;}
 .marginedue{
   max-width:30rem;
   display:flex;
@@ -648,8 +645,8 @@ h2{
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
-  padding:0 0 9rem 0;
-  gap:3rem;}
+  padding:0;
+  gap:3.44rem;}
 .margine{
   max-width:30rem;
   display:flex;
@@ -673,5 +670,5 @@ ul.footer{
   border-top:0.5rem solid #000;
   list-style:none;}
 .piede{text-decoration:none;
-      color:#000;
-      padding:0 3.4rem 0 0;}}
+   color:#000;
+   padding:0 3.4rem 0 0;}
