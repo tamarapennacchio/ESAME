@@ -15,7 +15,7 @@ header{
   z-index:3;
   top:0;
   margin:0;
-  padding:3.44rem 0 6.13rem 0}
+  padding:3.44rem 0 0.82rem 0}
 nav{
   display:flex; 
   flex-wrap:wrap;  
@@ -57,12 +57,12 @@ margin:0 auto;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:35rem;
+  left:19.94rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:5rem 0 0 0;}
+  margin:5.75rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -72,19 +72,21 @@ margin:0 auto;}
 .divider > hr{
   border:0;
   border-top:3.5px dotted #fc5b5b;
-  width:19rem;
+  width:30rem;
   margin:0 0.82rem 0 0;}
+.divider .right > label{
+  padding-left:0.32rem; margin:0;}
 
 
 .b{
   position:absolute; 
   z-index:2;
-  left:50rem;
+  left:36.88rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:13.8rem 0 0 0;}
+  margin:14.69rem 0 0 0;}
 .b > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -94,7 +96,7 @@ margin:0 auto;}
 .b > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:12rem;
+  width:20rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
   padding-left:0.32rem; margin:0;}
@@ -102,12 +104,12 @@ margin:0 auto;}
 .d{
   position:absolute; 
   z-index:2;
-  left:55rem;
+  left:44.5rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:16rem 0 0 0;}
+  margin:16.63rem 0 0 0;}
 .d > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -117,7 +119,7 @@ margin:0 auto;}
 .d > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:9rem;
+  width:15rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{
   padding-left:0.32rem; margin:0;}
@@ -130,13 +132,13 @@ margin:0 auto;}
   align-items:start;}
 .info{
   max-width:50%; 
-  margin:0.32rem 0 1.57rem 9rem;}
+  margin:0.32rem 0 1.57rem 0;}
 .foglia{
   font-family:'Karla', sans-serif; 
   font-size:2.44rem; 
   line-height:90%; 
   font-weight:700; 
-  margin:0.82rem 0 0 0;}
+  margin:1.57rem 0 0 0;}
 /*------------------------------------------ T I T O L O -----------------------------------------------------------------------------*/
 h1{
   font-family:'Newsreader', serif;
@@ -386,7 +388,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:7.3rem 0 0 0;}
+  margin:7.8rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.6rem;
@@ -401,10 +403,11 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .divider .right > label{
   padding-left:5px; margin:0;}
 
+
 .b{
   position:absolute; 
   z-index:2;
-  left:20.30rem;
+  left:20.0rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
@@ -454,24 +457,24 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   align-items:start;
   margin:0;
   max-width:23.3rem;}
+.info{
+  transform:rotate(0.25turn);
+  max-width:23.3rem; 
+  margin:5.5rem 0 0 0;}
 .foglia{
   font-family:'Karla', sans-serif; 
   font-size:1.6rem; 
   line-height:90%; 
   font-weight:700; 
-  margin:0 0 5.5rem 2.4rem;
-  padding:0;}  
-.info{
-  transform:rotate(0.25turn);
-  max-width:23.3rem; 
-  margin:0;}
+  margin:0 0 1.3rem 2.4rem;
+  padding:0;}
 
 .abc{
   max-width:14.4rem;
   display:flex;
   flex-direction:column;
   margin:auto;
-  padding:0;} 
+  padding:5.5rem 0 2.1rem 0;} 
 span{
   font-family:'Karla', serif;
   font-size:2.6rem;
@@ -479,12 +482,12 @@ span{
   line-height:90%;
   margin:0;}
 .letterina{
+  margin:0;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   font-weight:400;
   border-bottom:0.3rem solid #000;
-  line-height:90%;
-  margin:0;}
+  line-height:90%;}
 
 h1{
   max-width:30.4rem;
@@ -501,7 +504,7 @@ h2{
   line-height:90%;
   font-weight:700;
   margin:auto;
-  padding:9.8rem 0 5.5rem 0;}  
+  padding:14.4rem 0 5.5rem 0;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .text{
   max-width:100rem;
@@ -517,8 +520,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;
-  padding:0 0 3.44rem 0;}
+  gap:3rem;}
 .lamina{
   max-width:30rem;
   flex-direction:column;
@@ -532,7 +534,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;}
+  gap:3rem;}
 .laminadue{
   max-width:30rem;
   display:flex;
@@ -549,7 +551,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;}
+  gap:3rem;}
 .laminatre{
   max-width:30rem;
   display:flex;
@@ -567,8 +569,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;}
-.laminaquattro{
+  gap:3rem;}
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -585,7 +586,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;}
+  gap:3rem;}
 .elencocinqno{
   display:flex;
   justify-content: center;
@@ -594,7 +595,7 @@ h2{
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
   padding:0;
-  gap:3.44rem;}
+  gap:3rem;}
 .laminacinq{
   max-width:30rem;
   display:flex;
@@ -613,7 +614,7 @@ h2{
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
   padding:0;
-  gap:3.44rem;}
+  gap:3rem;}
 .pari{
   max-width:30rem;
   display:flex;
@@ -629,8 +630,8 @@ h2{
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
-  padding:0 0 3.44rem 0;
-  gap:3.44rem;}
+  padding:0 0 3rem 0; /* per il padding tra dentato e dentato-spinoso*/
+  gap:3rem;}
 .marginedue{
   max-width:30rem;
   display:flex;
@@ -646,7 +647,7 @@ h2{
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
   padding:0;
-  gap:3.44rem;}
+  gap:3rem;}
 .margine{
   max-width:30rem;
   display:flex;
