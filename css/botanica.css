@@ -519,7 +519,8 @@ h2{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
-  gap:3.44rem;}
+  gap:3.44rem;
+  padding:0 0 3.44rem 0;}
 .lamina{
   max-width:30rem;
   flex-direction:column;
@@ -569,6 +570,7 @@ h2{
   grid-template-columns:repeat(2, 1fr);
   margin:0 auto;
   gap:3.44rem;}
+.laminaquattro{
   max-width:30rem;
   display:flex;
   flex-direction:column;
@@ -629,7 +631,7 @@ h2{
   display:grid;
   grid-template-columns:repeat(1, 1fr);
   margin:0 auto;
-  padding:0 0 9rem 0;
+  padding:0 0 3.44rem 0;
   gap:3.44rem;}
 .marginedue{
   max-width:30rem;
