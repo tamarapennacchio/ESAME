@@ -15,7 +15,7 @@ header{
   z-index:3;
   top:0;
   margin:0;
-  padding:3.44rem 0 0.82rem 0}
+  padding:3.44rem 0 6.13rem 0}
 nav{
   display:flex; 
   flex-wrap:wrap;  
@@ -57,12 +57,12 @@ margin:0 auto;}
 .divider{
   position:absolute; 
   z-index:1;
-  left:19.94rem;
+  left:35rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:5.75rem 0 0 0;}
+  margin:5rem 0 0 0;}
 .divider > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -72,21 +72,19 @@ margin:0 auto;}
 .divider > hr{
   border:0;
   border-top:3.5px dotted #fc5b5b;
-  width:30rem;
+  width:19rem;
   margin:0 0.82rem 0 0;}
-.divider .right > label{
-  padding-left:0.32rem; margin:0;}
 
 
 .b{
   position:absolute; 
   z-index:2;
-  left:36.88rem;
+  left:50rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:14.69rem 0 0 0;}
+  margin:13.8rem 0 0 0;}
 .b > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -96,7 +94,7 @@ margin:0 auto;}
 .b > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:20rem;
+  width:12rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
   padding-left:0.32rem; margin:0;}
@@ -104,12 +102,12 @@ margin:0 auto;}
 .d{
   position:absolute; 
   z-index:2;
-  left:44.5rem;
+  left:55rem;
   display:flex;
   flex-direction:row;
   flex-flow:row;
   align-items:baseline;
-  margin:16.63rem 0 0 0;}
+  margin:16rem 0 0 0;}
 .d > label{
   font-family:'Karla', sans-serif;
   font-size:2.44rem;
@@ -119,7 +117,7 @@ margin:0 auto;}
 .d > hr{
   border:0;
   border-top:3.5px dotted #ff5b5b;
-  width:15rem;
+  width:9rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{
   padding-left:0.32rem; margin:0;}
@@ -132,13 +130,13 @@ margin:0 auto;}
   align-items:start;}
 .info{
   max-width:50%; 
-  margin:0.32rem 0 1.57rem 0;}
+  margin:0.32rem 0 1.57rem 9rem;}
 .foglia{
   font-family:'Karla', sans-serif; 
   font-size:2.44rem; 
   line-height:90%; 
   font-weight:700; 
-  margin:1.57rem 0 0 0;}
+  margin:0.82rem 0 0 0;}
 /*------------------------------------------ T I T O L O -----------------------------------------------------------------------------*/
 h1{
   font-family:'Newsreader', serif;
