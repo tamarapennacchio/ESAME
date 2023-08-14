@@ -238,11 +238,16 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .panebis{color:#a3a3a3;}
 
 .prima{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  z-index:-1;
   background-color: #af5353;
   transform:rotate(0.75turn);
-  max-width:50%;
-  padding:0;
-  margin:5.5rem 0 5.5rem 0;}
+  max-width:100%;
+  padding:7.0rem 0 9.8rem 0;
+  margin:0 auto;}
 .nome{
   background-color: #fff;
   text-align:center;
@@ -280,31 +285,39 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .bio{
   background-color: #cfefc4;
   margin:14.4rem 0 1.3rem 0;}
-.biodue{margin:0 0 9.8rem 0;}
+.biodue{
+  max-width:26.1rem;
+  background-color: #f7d266;
+  margin:0 0 9.8rem 0;}
 .habi{background-color: #cbdcf0;}
 .where{
   background-color: #f1b9b9;
   margin:0 0 1.3rem 0;}
 .wheredue{
+  max-width:29.1rem;
   background-color: #d3b1b1;
   margin:0 0 9.8rem 0;}
 .cuc{
   background-color: #fdfbb4;
   border:1px solid rgb(252, 111, 111); padding:0; margin:0;}
 .eat{
-  background-color: #dfffd5;
+  background-color: #70e84b;
   margin:0 0 1.3rem 0; 
   padding:0;}
-.eatdue{margin:0 0 14.4rem 0; padding:0;}
+.eatdue{
+  max-width:29.1rem;
+  margin:0 0 14.4rem 0; 
+  padding:0;}
 .art{
   max-height:23.3rem;
   background-color: #bad391;}
 p{
-  max-width:27.1rem;
+  border:1px solid red;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   line-height:1.2;
-  font-weight:400;}
+  font-weight:400; 
+  margin:0;}
 /*_______________________________________________________________________________________________________________________________________*/
 ul.footer{
   display:flex; 
