@@ -185,7 +185,6 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
 .panebis{color:#a3a3a3;}
 
 .ditina{ 
-  background-color: #d1bd9e;
   position:relative;
   z-index:-1;
   transform:rotate(90deg);
@@ -195,13 +194,48 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0 2.9rem 0 0;
   padding:0;}
 h1{
-  background-color: #944e4e;
   max-width:32rem;
   font-family:'Newsreader', serif;
   font-size:4.2rem;
   line-height:90%;
   font-weight:400;
   margin:5.5rem 0 5.5rem 2.4rem;}  
+.primeregole{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  max-width:25.8rem;
+  margin:0;
+  padding:0;
+  font-style:'Newsreader', serif;
+  font-size:1.6rem;
+  line-height:1.2rem;
+  font-weight:400;}  
+.regolapadding{
+  margin:1.2rem 0 1.2rem 0;
+  padding:0;}  
+.regoladue{
+  margin:0;
+  padding:0;}
+h4{margin:1.2rem 0 1.2rem 0;}
+.lineetta{margin:5.5rem 0 14.4rem 0; max-width:24.5rem;}  
+.regole_bis{
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+  align-items:start;
+  max-width:27rem;
+  margin:0 auto;}
+h3{
+  font-family:'Karla', sans-serif;
+  font-size:2.6rem;
+  line-height:90%;
+  font-weight:700;}  
+.resto_a{
+  max-width:18rem;}  
+.resto_b{
+  max-width:35rem;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .down{background-color:#e9e9e5;}
 ul.footer{
