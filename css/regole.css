@@ -53,14 +53,14 @@ main{
 .panebis{color:#a3a3a3;}  
 /*--------------------------------------------------------- M A N O ---------------------------------------------------------------------*/    
 .mano{display:flex; justify-content:end; align-items:end;}
-.ditina{max-width:100%;}
+.ditina{max-width:50%;}
 /*--------------------------------------------------------- R E G O L E -----------------------------------------------------------------*/    
 h1{
   font-family:'Newsreader', serif;
   font-size:4rem;
   line-height:90%;
   font-weight:400;
-  margin:0 0 0 9rem;}
+  margin:1.57rem 0 0 9rem;}
 .primoduo{
   display:flex; 
   justify-content:center; 
