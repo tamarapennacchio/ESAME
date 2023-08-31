@@ -1,13 +1,13 @@
 body{
     margin:0 0;
-    background-color:#e9e9e5; 
+    background-color:#E2C2F0; 
     font-family: 'Karla', sans-serif;
     font-family: 'Newsreader', serif;
     scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-    background-color:#e9e9e5;
+    background-color:#E2C2F0;
     max-height:9.8rem;
     position:-webkit-sticky; 
     position:sticky; 
@@ -172,7 +172,7 @@ img{max-width:40%; display:flex; margin:auto;}
   .seme{max-width:19%; margin:0;}
   .stelo{max-width:19%; margin:0;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
-.down{background-color:#e9e9e5;}
+.down{background-color:#E2C2F0;}
 ul.footer{
   display:flex;
   justify-content:start;
@@ -194,7 +194,7 @@ ul.footer{
 @media (max-width:39.3rem) {
 html{font-size:10px;}
 header{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   max-height:10.7rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -203,7 +203,7 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem;}  
 nav{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   align-items:center;
   margin:2.1rem 2.7rem 0 2.7rem;
   padding:0 0 1.3rem 0;}
