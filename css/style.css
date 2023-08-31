@@ -110,7 +110,6 @@ span{font-weight:700;}
   border:none;
   border-bottom:5px solid #000;
   margin:0;}
-.bottone_aiuto:hover{background-color:#D0F0C2;}
 .continuauno{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
@@ -118,6 +117,7 @@ span{font-weight:700;}
   line-height:90%;
   text-decoration:none; 
   color:#000;}
+.bottone_aiuto:hover{border-bottom:5px solid #D0F0C2;} 
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
 .quindici{display:flex; padding:0 0 9rem 0;}
 .titolocards{
@@ -204,7 +204,7 @@ p{
   border:none;
   border-bottom:5px solid #000;
   margin:0;}
-.bottone_verbo:hover{background-color:#d0f0c2;}
+.bottone_verbo:hover{border-bottom:5px solid #d0f0c2;}
 .continuadue{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
@@ -360,7 +360,7 @@ span{font-weight:700;}
   line-height:90%;
   text-decoration:none; 
   color:#000000;}
-.bottone_aiuto:hover{background-color:#d0f0c2;}
+.bottone_aiuto:hover{border-bottom:5px solid #d0f0c2;}
 /*_______________________________________________________________________________________________________________________________________*/
 .quindici{
   font-family:'Newsreader', serif;
@@ -477,7 +477,7 @@ img.erbauno{max-width:6%;}
   line-height:90%;
   text-decoration:none; 
   color:#000000;}
-.bottone_verbo:hover{background-color:#d0f0c2;}
+.bottone_verbo:hover{border-bottom:5px solid #d0f0c2;}
 /*_______________________________________________________________________________________________________________________________________*/
 .down{background-color:#E2C2F0;}
 ul.footer{
