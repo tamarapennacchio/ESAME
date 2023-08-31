@@ -1,13 +1,13 @@
 body{
   margin:0 0;
-  background-color:#e9e9e5; 
+  background-color:#E2C2F0; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -104,13 +104,13 @@ span{font-weight:700;}
   max-width:5.57rem;
   max-height:3.19rem;}
 .bottone_aiuto{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   color:#000;
   text-decoration:none; 
   border:none;
   border-bottom:5px solid #000;
   margin:0;}
-.bottone_aiuto:hover{background-color:#f32424;}
+.bottone_aiuto:hover{background-color:#D0F0C2;}
 .continuauno{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
@@ -138,7 +138,7 @@ span{font-weight:700;}
   margin:0;
   padding:1.13rem 0 1.13rem 0;}
 p{
-  background-color:#fff;
+  background-color:#d0f0c2;
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
   font-weight:400; 
@@ -166,9 +166,10 @@ p{
   border:none;    
   text-decoration:none; 
   border-bottom:0.32rem solid #000000;
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   text-align:center;
   margin:1.13rem 0 1.13rem 0}
+.bottonecard:hover{background-color:#D0F0C2;}  
 .scopricard{text-decoration:none; color:#000; font-weight:800;}
 /*---------------------------------------------------------- V E R B O -----------------------------------------------------------------*/    
 .verbo{
@@ -197,13 +198,13 @@ p{
   max-width:5.57rem;
   max-height:3.19rem;}
 .bottone_verbo{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   color:#000;
   text-decoration:none; 
   border:none;
   border-bottom:5px solid #000;
   margin:0;}
-.bottone_verbo:hover{background-color:#f32424;}
+.bottone_verbo:hover{background-color:#d0f0c2;}
 .continuadue{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
@@ -212,7 +213,7 @@ p{
   text-decoration:none; 
   color:#000;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
-.down{background-color:#e9e9e5;}
+.down{background-color:#E2C2F0;}
 ul.footer{
   display:flex;
   justify-content:start;
@@ -234,7 +235,7 @@ ul.footer{
 @media (max-width:39.3rem) {
 html{font-size:10px;}
 header{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   max-height:10.7rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -243,7 +244,7 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem;}  
 nav{
-  background-color:#e9e9e5;
+  background-color:#E2C2F0;
   align-items:center;
   margin:2.1rem 2.7rem 0 2.7rem;
   padding:0 0 1.3rem 0;}
