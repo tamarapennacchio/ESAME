@@ -260,6 +260,7 @@ ul li.su{
   padding:0;}
 ul>li.su>a{text-decoration:none; margin:0; color:#000; padding:0;} 
 ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;} 
+ul.navbar:hover{background-color:#d0f0c2;}
 /*_______________________________________________________________________________________________________________________________________*/
 .titolo{margin:0;}
 .hero{
