@@ -168,6 +168,7 @@ img{max-width:40%; display:flex; margin:auto;}
   margin:0;
   gap:0;
   padding:0;}
+span{font-style:italic;}    
 .fiore{max-width:33%; margin:0;}
 .seme{max-width:19%; margin:0;}
 .stelo{max-width:19%; margin:0;}
