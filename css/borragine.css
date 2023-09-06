@@ -112,7 +112,6 @@ img{max-width:40%; display:flex; margin:auto;}
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;}
-span{font-style:italic;}
 
 .habi{
   display:flex; 
@@ -171,6 +170,7 @@ span{font-style:italic;}
 .fiore{max-width:33%; margin:0;}
 .seme{max-width:19%; margin:0;}
 .stelo{max-width:19%; margin:0;}
+span{font-style:italic;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/
 .down{background-color:#E2C2F0;}
 ul.footer{
