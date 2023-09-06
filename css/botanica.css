@@ -412,7 +412,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0;}
 .divider > hr{
   border:0;
-  border-top:0.20rem dotted #000;
+  border-top:0.35rem dotted #D0F0C2;
   width:7.8rem;
   margin:0 0.82rem 0 0;}
 .divider .right > label{
@@ -436,7 +436,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0;}
 .b > hr{
   border:0;
-  border-top:0.20rem dotted #000000;
+  border-top:0.35rem dotted #D0F0C2;
   width:9.8rem;
   margin:0 0.82rem 0 0;}
 .b .c > label{
@@ -459,7 +459,7 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   margin:0;}
 .d > hr{
   border:0;
-  border-top:0.20rem dotted #000;
+  border-top:0.35rem dotted #D0F0C2;
   width:11.8rem;
   margin:0 0.82rem 0 0;}
 .d .e > label{

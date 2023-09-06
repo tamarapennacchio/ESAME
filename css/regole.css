@@ -93,7 +93,7 @@ hr{
 .secondoduo_a{margin:0 0 6.13rem 0;}
 .resto_a{
   max-width:16rem;
-  background-color:#fff;
+  background-color:#d0f0c2;
   display:flex; 
   justify-content:center; 
   align-items:start; 
@@ -107,17 +107,17 @@ h3{
   font-weight:400;
   margin:0;
   padding:0.63rem 0 0.63rem 0;}
-p{background-color:#fff; margin:0; line-height:1.2;}
+p{background-color:#D0F0C2; margin:0; line-height:1.2;}
 .resto_b{ 
   max-width:15rem;
-  background-color:#fff;
+  background-color:#D0F0C2;
   display:flex;
   justify-content:center;
   align-items:start;
   flex-direction:column;}
-.lascia{margin:0.75rem 0 0 0.75rem; background-color:#fff;}
-.consumi{margin:0 0.75rem 0 0.75rem; background-color:#fff;}
-.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#fff;}
+.lascia{margin:0.75rem 0 0 0.75rem; background-color:#D0F0C2;}
+.consumi{margin:0 0.75rem 0 0.75rem; background-color:#D0F0C2;}
+.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#D0F0C2;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#E2C2F0;}
 ul.footer{
