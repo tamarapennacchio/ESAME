@@ -28,7 +28,8 @@ ul li.su{
   line-height:1;
   margin:0 3.44rem 0 0;
   list-style:none;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#000;}
+ul>li.su>a:hover{color:#d0f0c2;}
 ul.navbar{border-right:0.5rem solid #000;} 
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
@@ -51,7 +52,8 @@ main{
   color:#4d4d4d;
   margin:0;}
 .pane{color:#4d4d4d; text-decoration:none;}
-.panebis{color:#a3a3a3;}  
+.pane:hover{color:#d0f0c2;}
+.panebis{color:#4d4d4d; background-color:#d0f0c2; text-decoration:none;}  
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
 img{max-width:40%; display:flex; margin:auto;}
 .titolo{
@@ -190,6 +192,7 @@ ul.footer{
   text-decoration:none;
   color:#000;
   padding:0 2.13rem 0 0;}
+.piede:hover{color:#d0f0c2;}  
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
 html{font-size:10px;}
