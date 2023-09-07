@@ -52,7 +52,7 @@ main{
 .pane{color:#4d4d4d; text-decoration:none;}
 .panebis{color:#a3a3a3;}
 .illustrazione{display:flex; justify-content:end; margin:0 5.56rem 0 0;}
-img.profilo{max-width:12.5rem; border:0.3rem solid #000; margin:0; padding:0; background-color:#E2C2F0;}
+img.profilo{max-width:12.5rem; border:0.3rem solid #000; margin:0; padding:0; background-color:#fff;}
 h1{margin-bottom:3.44rem;}
 .bio{margin:1.32rem 0 1.32rem 0;}
 p{
