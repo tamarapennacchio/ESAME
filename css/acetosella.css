@@ -53,7 +53,7 @@ main{
   margin:0;}
 .pane{color:#4d4d4d; text-decoration:none;}
 .pane:hover{color:#FF4613;}
-.panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none;}  
+.panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none; padding:2px;}  
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
 img{max-width:40%; display:flex; margin:auto;}
 .titolo{
