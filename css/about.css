@@ -1,13 +1,13 @@
 body{
   margin:0 0;
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -28,9 +28,9 @@ ul li.su{
   line-height:1;
   margin:0 3.44rem 0 0;
   list-style:none;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000;} 
-ul>li.su>a:hover{color:#d0f0c2;}
-ul.navbar{border-right:0.5rem solid #000;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2;} 
+ul>li.su>a:hover{color:#FF4613;}
+ul.navbar{border-right:0.5rem solid #8A2BE2;} 
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
@@ -51,13 +51,14 @@ main{
   color:#4d4d4d;
   margin:0;}
 .pane{color:#4d4d4d; text-decoration:none;}
-.pane:hover{color:#d0f0c2;}
-.panebis{color:#4d4d4d; background-color:#d0f0c2; text-decoration:none;} 
+.pane:hover{color:#FF4613;}
+.panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none; padding:2px;} 
 .illustrazione{display:flex; justify-content:end; margin:0 5.56rem 0 0;}
-img.profilo{max-width:12.5rem; border:0.4rem solid #000; margin:0; padding:0; background-color:#fff;}
+img.profilo{max-width:12.5rem; border-bottom:0.5rem solid #FF4613; margin:0; padding:0;}
 h1{margin-bottom:3.44rem;}
 .bio{margin:1.32rem 0 1.32rem 0;}
 p{
+  color:#8A2BE2;
   max-width:43rem;
   font-family:'Newsreader', serif;
   font-size:1.5rem;
@@ -71,7 +72,7 @@ span{
   line-height:90%;
   font-weight:700;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
-.down{    background-color:#E2C2F0;}
+.down{background-color:#E6F5C6;}
 ul.footer{
   display:flex;
   justify-content:start;
@@ -84,17 +85,17 @@ ul.footer{
   font-weight:700;
   padding:1.32rem 0 2.13rem 2.13rem;
   margin:14.57rem 0 0 0;
-  border-top:0.32rem solid #000;}
+  border-top:0.32rem solid #8A2BE2;}
 .piede{
   text-decoration:none;
-  color:#000;
+  color:#8A2BE2;
   padding:0 2.13rem 0 0;}
-.piede:hover{color:#d0f0c2;}    
+.piede:hover{color:#FF4613;}    
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
 html{font-size:10px;}
 header{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   max-height:10.7rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -103,7 +104,7 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem;}  
 nav{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   align-items:center;
   margin:2.1rem 2.7rem 0 2.7rem;
   padding:0 0 1.3rem 0;}
@@ -117,8 +118,8 @@ ul li.su{
   list-style:none;
   margin:0 0.8rem 0 0;
   padding:0;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000; padding:0;} 
-ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2; padding:0;} 
+ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;} 
 /*_______________________________________________________________________________________________________________________________________*/
 .briciole{
   display:flex; 
@@ -135,17 +136,15 @@ ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;}
   color:#4d4d4d;
   margin:0;}
 .pane{color:#4d4d4d; text-decoration:none;}
-.panebis{color:#a3a3a3;}
+.panebis{color:#E6F5C6;}
 /*_______________________________________________________________________________________________________________________________________*/
 .illustrazione{
   display:flex;
   justify-content:end;
   align-items:end;
   margin:3.4rem 3.4rem 3.4rem 0}
-img.profilo{
-  max-width:20rem; 
-  border:0.5rem solid #000;}
-.down{background-color:#E2C2F0;}
+img.profilo{max-width:20rem; border-bottom:0.5rem solid #FF4613;}
+.down{background-color:#E6F5C6;}
 /*_______________________________________________________________________________________________________________________________________*/
 h1{
   max-width:11.3rem;
@@ -183,8 +182,8 @@ ul.footer{
   font-weight:700;
   padding:2.1rem 0 3.4rem 2.1rem;
   margin:0;
-  border-top:0.5rem solid #000;
+  border-top:0.5rem solid #8A2BE2;
   list-style:none;}
 .piede{text-decoration:none;
-      color:#000;
-      padding:0 3.4rem 0 0;}}
+  color:#8A2BE2;
+  padding:0 3.4rem 0 0;}}

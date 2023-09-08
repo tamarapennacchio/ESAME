@@ -176,7 +176,7 @@ img{max-width:40%; display:flex; margin:auto;}
 .stelo{max-width:19%; margin:0;}  
 span{font-style:italic;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
-.down{background-color:#E6F5C6; }
+.down{background-color:#E6F5C6;}
 ul.footer{
   display:flex;
   justify-content:start;

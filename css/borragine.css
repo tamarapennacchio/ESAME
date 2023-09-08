@@ -191,14 +191,14 @@ ul.footer{
   border-top:0.32rem solid #8A2BE2;}
 .piede{
   text-decoration:none;
-  color:#000;
+  color:#8A2BE2;
   padding:0 2.13rem 0 0;}
 .piede:hover{color:#FF4613;;}   
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
   html{font-size:10px;}
   header{
-    background-color:#8A2BE2;
+    background-color:#E6F5C6;
     max-height:10.7rem;
     position:-webkit-sticky; 
     position:sticky; 
@@ -307,5 +307,5 @@ ul.footer{
     border-top:0.5rem solid #8A2BE2;
     list-style:none;}
   .piede{text-decoration:none;
-    color:#000;
+    color:#8A2BE2;
     padding:0 3.4rem 0 0;}}
