@@ -1,13 +1,13 @@
 body{
   margin:0 0;
-  background-color:#E2C2F0; 
+  background-color:#E6F5C6; 
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -28,15 +28,16 @@ ul li.su{
   line-height:1;
   margin:0 3.44rem 0 0;
   list-style:none;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000;} 
-ul>li.su>a:hover{color:#d0f0c2;}
-ul.navbar{border-right:0.5rem solid #000;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2;} 
+ul>li.su>a:hover{color:#FF4613;}
+ul.navbar{border-right:0.5rem solid #8A2BE2;} 
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
   max-width:78.13rem; /*1250px*/
   margin:0 auto;}
 h1{
+  color:#8A2BE2;
   max-width:24.57rem; 
   max-height:6.32rem;
   font-family:'Newsreader', serif;
@@ -55,6 +56,7 @@ h1{
 .hero_image_uno{max-width:11.5%; padding:0 0 6.13rem 0;}
 .hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
 .hero_sottotitolo{
+  color:#8A2BE2;
   max-width:65rem;
   max-height:5.82rem;
   font-family:'Newsreader', serif; 
@@ -66,12 +68,13 @@ h1{
 hr{
   width:61.69rem; 
   height:0.5rem; 
-  background-color:#000; 
+  background-color:#8A2BE2; 
   border-style:none;
   margin:6.13rem 0 14.57rem 0;} 
 /*--------------------------------------------------------------- C O R P O -------------------------------------------------------------*/  
 .corpo{max-width:45.57rem; margin:auto;}
 .corpouno{
+  color:#8A2BE2;
   margin:0 0 14.57rem 0; 
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
@@ -88,12 +91,14 @@ span{font-weight:700;}
   margin:auto;
   padding:0 0 14.57rem 0;}
 .titolo_aiuto{
+  color:#8A2BE2;
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   line-height:90%;
   font-weight:700;
   margin:0;}
 .corpo_aiuto{
+  color:#8A2BE2;
   max-width:31.63rem;
   font-family:'Newsreader', serif;
   font-size:1.5rem;
@@ -105,11 +110,11 @@ span{font-weight:700;}
   max-width:5.57rem;
   max-height:3.19rem;}
 .bottone_aiuto{
-  background-color:#E2C2F0;
-  color:#000;
+  background-color:#E6F5C6;
+  color:#8A2BE2;
   text-decoration:none; 
   border:none;
-  border-bottom:5px solid #000;
+  border-bottom:5px solid #8A2BE2;
   margin:0;}
 .continuauno{
   font-family:'Karla', sans-serif;
@@ -118,10 +123,11 @@ span{font-weight:700;}
   line-height:90%;
   text-decoration:none; 
   color:#000;}
-.bottone_aiuto:hover{border-bottom:5px solid #D0F0C2;} 
+.bottone_aiuto:hover{border-bottom:5px solid #FF4613;} 
 /*--------------------------------------------------------------- C A R D S -------------------------------------------------------------*/  
 .quindici{display:flex; padding:0 0 9rem 0;}
 .titolocards{
+  color:#8A2BE2;
   font-family:'Newsreader', serif;
   font-size:2.44rem;
   font-weight:700;
@@ -132,20 +138,21 @@ span{font-weight:700;}
 .specie h2, .specie p{
   max-width:21.69rem;}
 .titolo_card{
+  color:#8A2BE2;
   font-family:'Karla', sans-serif; 
   font-size:1.5rem; 
   font-weight:700; 
   line-height:1.2; 
   margin:0;
-  padding:1.13rem 0 1.13rem 0;}
+  padding:1.13rem 0 1.13rem 0;}  
 p{
-  background-color:#d0f0c2;
+  color:#8A2BE2;
   font-family:'Newsreader', serif; 
   font-size:1.5rem; 
   font-weight:400; 
   line-height:1.2; 
   margin:0;
-  padding:1.13rem 0.5rem 1.13rem 0.5rem;}
+  padding:1.13rem 0.5rem 1.13rem 0.5rem;}  
 .grid{
   display:grid; 
   grid-template-columns:repeat(3, 5fr); 
@@ -166,12 +173,12 @@ p{
   line-height:1.2;
   border:none;    
   text-decoration:none; 
-  border-bottom:0.32rem solid #000000;
-  background-color:#E2C2F0;
+  border-bottom:0.32rem solid #8A2BE2;
+  background-color:#E6F5C6;
   text-align:center;
   margin:1.13rem 0 1.13rem 0}
-.bottonecard:hover{border-bottom:0.32rem solid #D0F0C2;}  
-.scopricard{text-decoration:none; color:#000; font-weight:800;}
+.bottonecard:hover{border-bottom:0.32rem solid #FF4613;}  
+.scopricard{text-decoration:none; color:#8A2BE2; font-weight:800;}
 /*---------------------------------------------------------- V E R B O -----------------------------------------------------------------*/    
 .verbo{
   max-width:53.3rem;
@@ -182,12 +189,14 @@ p{
   margin:auto;
   padding:14.57rem 0 14.57rem 0;}
 .titolo_verbo{
+  color:#8A2BE2;
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   line-height:90%;
   font-weight:700;
   margin:0;}
 .corpo_verbo{
+  color:#8A2BE2;
   max-width:31.63rem;
   font-family:'Newsreader', serif;
   font-size:1.5rem;
@@ -199,22 +208,22 @@ p{
   max-width:5.57rem;
   max-height:3.19rem;}
 .bottone_verbo{
-  background-color:#E2C2F0;
-  color:#000;
+  background-color:#E6F5C6;
+  color:#8A2BE2;
   text-decoration:none; 
   border:none;
-  border-bottom:5px solid #000;
+  border-bottom:5px solid #8A2BE2;
   margin:0;}
-.bottone_verbo:hover{border-bottom:5px solid #d0f0c2;}
+.bottone_verbo:hover{border-bottom:5px solid #FF4613;}
 .continuadue{
   font-family:'Karla', sans-serif;
   font-size:1.5rem;
   font-weight:700;
   line-height:90%;
   text-decoration:none; 
-  color:#000;}
+  color:#8A2BE2;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
-.down{background-color:#E2C2F0;}
+.down{background-color:#E6F5C6;}
 ul.footer{
   display:flex;
   justify-content:start;
@@ -227,17 +236,17 @@ ul.footer{
   font-weight:700;
   padding:1.32rem 0 2.13rem 2.13rem;
   margin:14.57rem 0 0 0;
-  border-top:0.32rem solid #000;}
+  border-top:0.32rem solid #8A2BE2;}
 .piede{
   text-decoration:none;
-  color:#000;
+  color:#8A2BE2;
   padding:0 2.13rem 0 0;}
-.piede:hover{color:#d0f0c2;}    
+.piede:hover{color:#FF4613;}    
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
 html{font-size:10px;}
 header{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   max-height:10.7rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -246,7 +255,7 @@ header{
   padding:0;}
 .tradem{max-width:7.6rem;}  
 nav{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   align-items:center;
   margin:2.1rem 2.7rem 0 2.7rem;
   padding:0 0 1.3rem 0;}
@@ -260,8 +269,8 @@ ul li.su{
   list-style:none;
   margin:0 0.8rem 0 0;
   padding:0;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000; padding:0;} 
-ul.navbar{border-right:0.5rem solid #000; margin:0; padding:0;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2; padding:0;} 
+ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;} 
 /*_______________________________________________________________________________________________________________________________________*/
 .titolo{margin:0;}
 .hero{
@@ -302,13 +311,13 @@ h1{
 hr{
   width:23.3rem; 
   height:0.5rem; 
-  background-color:#000; 
+  background-color:#8A2BE2; 
   border-style:none;
   margin:5.5rem 0 9.8rem;} 
 /*_______________________________________________________________________________________________________________________________________*/
 .corpo{display:flex; justify-content:center;}
 .corpouno{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   max-width:26.5rem;
   font-family:'Newsreader', serif; 
   font-size:1.6rem; 
@@ -331,7 +340,7 @@ span{font-weight:700;}
   font-weight:700;
   margin:9.8rem 0 0 0;}
 .corpo_aiuto{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   line-height:1.2;
@@ -349,10 +358,10 @@ span{font-weight:700;}
   display:flex;
   align-items:end;
   justify-content:end;
-  background-color:#E2C2F0;
-  color:#000;
+  background-color:#E6F5C6;
+  color:#8A2BE2;
   text-decoration:none;
-  border-bottom:5px solid #000;
+  border-bottom:5px solid #8A2BE2;
   margin:1.2rem 0 0.8rem 0;
   padding:0;}
 .continuauno{
@@ -361,8 +370,8 @@ span{font-weight:700;}
   font-weight:700;
   line-height:90%;
   text-decoration:none; 
-  color:#000000;}
-.bottone_aiuto:hover{border-bottom:5px solid #d0f0c2;}
+  color:#8A2BE2;}
+.bottone_aiuto:hover{border-bottom:5px solid #FF4613;}
 /*_______________________________________________________________________________________________________________________________________*/
 .quindici{
   font-family:'Newsreader', serif;
@@ -399,7 +408,7 @@ span{font-weight:700;}
   margin:0;
   padding:1rem 0 1rem 0;}
 p{
-  background-color:#d0f0c2;
+  background-color:#8A2BE2;
   font-family:'Newsreader', serif; 
   font-size:1.6rem; 
   font-weight:400; 
@@ -427,13 +436,13 @@ img.erbauno{max-width:6%;}
   line-height:1.2;
   border:none;    
   text-decoration:none; 
-  border-bottom:0.32rem solid #000000;
-  background-color:#E2C2F0;
+  border-bottom:0.32rem solid #8A2BE2;
+  background-color:#E6F5C6;
   text-align:center;
   padding:1.2rem 0 0.8rem 0;
   margin:0;}
-.scopricard{text-decoration:none; color:#000; font-weight:700;}
-.scopricard:hover{color:#d0f0c2;}  
+.scopricard{text-decoration:none; color:#8A2BE2; font-weight:700;}
+.scopricard:hover{color:#FF4613;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .verbo{
   max-width:24.6rem;
@@ -448,7 +457,7 @@ img.erbauno{max-width:6%;}
   font-weight:700;
   margin:0;}
 .corpo_verbo{
-  background-color:#E2C2F0;
+  background-color:#E6F5C6;
   font-family:'Newsreader', serif;
   font-size:1.6rem;
   line-height:1.2;
@@ -466,10 +475,10 @@ img.erbauno{max-width:6%;}
   display:flex;
   align-items:end;
   justify-content:end;
-  background-color:#E2C2F0;
-  color:#000;
+  background-color:#E6F5C6;
+  color:#8A2BE2;
   text-decoration:none;
-  border-bottom:0.5rem solid #000;
+  border-bottom:0.5rem solid #8A2BE2;
   margin:1.2rem 0 0.8rem 0;
   padding:0;}
 .continuadue{
@@ -478,10 +487,10 @@ img.erbauno{max-width:6%;}
   font-weight:700;
   line-height:90%;
   text-decoration:none; 
-  color:#000000;}
-.bottone_verbo:hover{border-bottom:5px solid #d0f0c2;}
+  color:#8A2BE2;}
+.bottone_verbo:hover{border-bottom:5px solid #FF4613;}
 /*_______________________________________________________________________________________________________________________________________*/
-.down{background-color:#E2C2F0;}
+.down{background-color:#E6F5C6;}
 ul.footer{
   display:flex; 
   justify-content:start; 
@@ -493,8 +502,8 @@ ul.footer{
   font-weight:700;
   padding:2.1rem 0 3.4rem 2.1rem;
   margin:23.3rem 0 0 0;
-  border-top:0.5rem solid #000;
+  border-top:0.5rem solid #8A2BE2;
   list-style:none;}
 .piede{text-decoration:none;
-      color:#000;
+      color:#8A2BE2;
       padding:0 3.4rem 0 0;}}
