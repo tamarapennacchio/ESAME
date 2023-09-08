@@ -4,6 +4,7 @@ body{
     font-family: 'Karla', sans-serif;
     font-family: 'Newsreader', serif;
     scroll-behavior:smooth;}
+    ::selection {background-color:#FF4613;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
@@ -158,22 +159,22 @@ img{max-width:40%; display:flex; margin:auto;}
   padding:0 0 14.57rem 0;} 
   
   
-  .art{
-    max-width:70rem; 
-    display:flex; 
-    align-content:center; 
-    justify-content:center;
-    margin:0;}
-  .illu{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    margin:0;
-    gap:0;
-    padding:0;}
-  .fiore{max-width:33%; margin:0;}
-  .seme{max-width:19%; margin:0;}
-  .stelo{max-width:19%; margin:0;}
+.art{
+  max-width:70rem; 
+  display:flex; 
+  align-content:center; 
+  justify-content:center;
+  margin:0;}
+.illu{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:0;
+  gap:0;
+  padding:0;}
+.fiore{max-width:33%; margin:0;}
+.seme{max-width:19%; margin:0;}
+.stelo{max-width:19%; margin:0;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
 .down{background-color:#E6F5C6;}
 ul.footer{

@@ -4,6 +4,7 @@ body{
     font-family: 'Karla', sans-serif;
     font-family: 'Newsreader', serif;
     scroll-behavior:smooth;}
+    ::selection {background-color:#FF4613;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{

@@ -143,10 +143,11 @@ ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;}
   justify-content:end;
   align-items:end;
   margin:3.4rem 3.4rem 3.4rem 0}
-img.profilo{max-width:20rem; border-bottom:0.5rem solid #FF4613;}
+img.profilo{max-width:20rem; border-bottom:0.8rem solid #FF4613;}
 .down{background-color:#E6F5C6;}
 /*_______________________________________________________________________________________________________________________________________*/
 h1{
+  color:#8A2BE2;
   max-width:11.3rem;
   font-family:'Newsreader', serif;
   font-size:4.2rem;
