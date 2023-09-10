@@ -29,8 +29,9 @@ ul li.su{
   line-height:1;
   margin:0 3.44rem 0 0;
   list-style:none;}
-ul>li.su>a{text-decoration:none; margin:0; color:#000;} 
-ul.navbar{border-right:0.5rem solid #000;} 
+ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2;} 
+ul>li.su>a:hover{color:#FF4613;}
+ul.navbar{border-right:0.5rem solid #8A2BE2;} 
 .tradem{max-width:6.13rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
@@ -79,8 +80,9 @@ ul.footer{
   border-top:0.32rem solid #8A2BE2;}
 .piede{
   text-decoration:none;
-  color:#000;
+  color:#8A2BE2;
   padding:0 2.13rem 0 0;} 
+.piede:hover{color:#FF4613;}  
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {
   html{font-size:10px;}
