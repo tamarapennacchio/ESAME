@@ -4,6 +4,7 @@ body{
   font-family: 'Karla', sans-serif;
   font-family: 'Newsreader', serif;
   scroll-behavior:smooth;}
+  ::selection {background-color:#FF4613;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
@@ -53,10 +54,15 @@ main{
 .pane{color:#4d4d4d; text-decoration:none;}
 .pane:hover{color:#FF4613;}
 .panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none; padding:2px;} 
-.illustrazione{display:flex; justify-content:end; margin:0 5.56rem 0 0;}
-img.profilo{max-width:12.5rem; border-bottom:0.5rem solid #FF4613; margin:0; padding:0;}
-h1{margin-bottom:3.44rem;}
-.bio{margin:1.32rem 0 1.32rem 0;}
+.illustrazione{display:flex; justify-content:end; margin:0 9rem 0 0;}
+img.profilo{max-width:17rem; border-bottom:0.5rem solid #FF4613; margin:0;}
+h1{color:#8A2BE2;
+  font-family:'Newsreader', serif;
+  font-size:4rem;
+  line-height:90%;
+  font-weight:400;
+  margin:3.44rem 0 0 0;}
+.bio{margin:3.44rem 0 1.32rem 0;}
 p{
   color:#8A2BE2;
   max-width:43rem;
@@ -142,8 +148,8 @@ ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;}
   display:flex;
   justify-content:end;
   align-items:end;
-  margin:3.4rem 3.4rem 3.4rem 0}
-img.profilo{max-width:20rem; border-bottom:0.8rem solid #FF4613;}
+  margin:5.5rem 5.5rem 1.3rem 0}
+img.profilo{max-width:20rem; border-bottom:0.8rem solid #FF4613; margin:0;}
 .down{background-color:#E6F5C6;}
 /*_______________________________________________________________________________________________________________________________________*/
 h1{
@@ -157,7 +163,7 @@ h1{
 .bio{
   display:flex; 
   flex-direction:column;
-  margin:0 0 3.4rem 2.4rem;}
+  margin:0 0 0 2.4rem;}
 p{
   max-width:29rem;
   font-family:'Newsreader', serif;

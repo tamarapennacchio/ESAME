@@ -135,10 +135,6 @@ margin:0 auto;}
   flex-direction:column;
   justify-content:start; 
   align-items:start;}
-.info{
-  max-width:50%; 
-  max-height:20.32rem;
-  margin:0.32rem 0 1.57rem 23.57rem;}
 .foglia{
   color:#8A2BE2;
   font-family:'Karla', sans-serif; 
@@ -146,8 +142,13 @@ margin:0 auto;}
   line-height:90%; 
   font-weight:700; 
   margin:1.57rem 0 0 0;}
+.info{ /*pic*/
+  max-width:50%; 
+  max-height:20.32rem;
+  margin:0.32rem 0 1.57rem 23.57rem;}
 /*------------------------------------------ T I T O L O -----------------------------------------------------------------------------*/
 h1{
+  background-color:#ff991d;
   color:#8A2BE2;
   font-family:'Newsreader', serif;
   font-size:4rem;
