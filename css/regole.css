@@ -89,15 +89,15 @@ hr{
   border-style:none;
   margin:14.57rem 0 14.57rem 0;}  
 .regole_bis{ 
-  max-width:300px;
+  max-width:400px;
   display:flex; 
   align-items:start center; 
   justify-content:center; 
   flex-direction:column; 
-  margin:auto;}
+  margin:0 auto;}
 .secondoduo_a{margin:0 0 6.13rem 0;}
 .resto_a{
-  max-width:16rem;
+  max-width:23.5rem;
   background-color:#FF4613;
   display:flex; 
   justify-content:center; 
@@ -113,9 +113,9 @@ h3{
   font-weight:400;
   margin:0;
   padding:0.63rem 0 0.63rem 0;}
-p{background-color:#FF4613; margin:0; line-height:1.2; color:#E6F5C6;}
+p{background-color:#FF4613; margin:0; line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
 .resto_b{ 
-  max-width:15rem;
+  max-width:22.07rem;
   background-color:#FF4613;
   display:flex;
   justify-content:center;
