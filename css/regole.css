@@ -115,7 +115,7 @@ h3{
   padding:0.63rem 0 0.63rem 0;}
 p{background-color:#FF4613; margin:0; line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
 .resto_b{ 
-  max-width:22.07rem;
+  max-width:23.5rem;
   background-color:#FF4613;
   display:flex;
   justify-content:center;
@@ -239,9 +239,12 @@ h3{
   line-height:90%;
   font-weight:700;}  
 .resto_a{
-  max-width:18rem;}  
+  font-size:1.6rem;
+  max-width:26.6rem;}  
 .resto_b{
-  max-width:35rem;}  
+  background-color: #FF4613;
+  font-size:1.6rem;
+  max-width:26.6rem;}  
 /*_______________________________________________________________________________________________________________________________________*/
 .down{background-color:#E6F5C6;}
 ul.footer{
