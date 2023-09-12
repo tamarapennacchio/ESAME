@@ -111,6 +111,7 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:14.57rem 0 0 0;}
 .biodue{
+  background-color: #6f9fd6;
   max-width:31rem;
   font-family:'Newsreader', serif;
   font-family:1.5rem;
@@ -125,12 +126,14 @@ img{max-width:40%; display:flex; margin:auto;}
   align-items:center; 
   flex-direction:column;}
 .where{
+  background-color: #f6b46e;
   font-family:'Karla', sans-serif; 
   font-size:1.5rem; 
   line-height:90%; 
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .wheredue{
+  background-color: #f8e53b;
   max-width:31rem;
   font-family:'Newsreader', serif;
   font-family:1.5rem;
@@ -151,6 +154,7 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .eatdue{
+  background-color: #38bbef;
   max-width:31rem;
   font-family:'Newsreader', serif;
   font-family:1.5rem;
