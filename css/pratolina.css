@@ -58,6 +58,7 @@ main{
 .panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none; padding:2px;}    
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
 img{max-width:40%; display:flex; margin:auto;}
+p{font-size:1.5rem;}
 .titolo{
   color:#8A2BE2;;
   display:flex; 
@@ -111,9 +112,8 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:14.57rem 0 0 0;}
 .biodue{
-  max-width:31rem;
+  max-width:45rem;
   font-family:'Newsreader', serif;
-  font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;}
@@ -131,9 +131,8 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .wheredue{
-  max-width:31rem;
+  max-width:45rem;
   font-family:'Newsreader', serif;
-  font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;}
@@ -151,9 +150,8 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .eatdue{
-  max-width:31rem;
+  max-width:45rem;
   font-family:'Newsreader', serif;
-  font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;
