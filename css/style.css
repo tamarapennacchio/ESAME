@@ -8,23 +8,25 @@ body{
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color:#E6F5C6;
+  background-color: #e8beee;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
   top:0;
   margin:0;
-  padding:3.44rem 0 0.82rem 0}
+  padding:1.32rem 0 0.82rem 0}
 nav{
+  background-color: #7be779;
   display:flex; 
   flex-wrap:wrap;  
   align-items: end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
+  background-color: #f3edca;
   display:inline-flex;
   font-family:'Karla', sans-serif;
-  font-size:24px;
+  font-size:0.94rem;
   font-weight:700;
   line-height:1;
   margin:0 3.44rem 0 0;
@@ -32,22 +34,25 @@ ul li.su{
 ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2;} 
 ul>li.su>a:hover{color:#FF4613;}
 ul.navbar{border-right:0.5rem solid #8A2BE2;} 
-.tradem{max-width:6.13rem;}
+.tradem{max-width:5rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
+  background-color: #81daf3;
   max-width:78.13rem; /*1250px*/
   margin:0 auto;}
 h1{
+  background-color: #f77d1a;
   color:#8A2BE2;
   max-width:24.57rem; 
   max-height:6.32rem;
   font-family:'Newsreader', serif;
   font-size:4rem;
-  font-weight:400;
+  font-weight:700;
   line-height:90%;
-  margin:6.13rem 0 0 0;}
+  margin:9rem 0 0 0;}
 .hero{padding:0 0 0 9rem;}
 .hero_image{
+  background-color: #641616;
   max-height:23.56rem;
   display:flex; 
   align-items:end; 
