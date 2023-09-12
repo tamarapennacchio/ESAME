@@ -18,7 +18,7 @@ header{
 nav{
   display:flex; 
   flex-wrap:wrap;  
-  align-items: end;
+  align-items:end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
@@ -73,16 +73,16 @@ ul.footer{
   list-style:none;
   text-decoration:none; 
   font-family:'Karla', sans-serif; 
-  font-size:1.5rem; 
+  font-size:0.94rem; 
   line-height:90%;
   font-weight:700;
   padding:1.32rem 0 2.13rem 2.13rem;
-  margin:6.13rem 0 0 0;
+  margin:14.57rem 0 0 0;
   border-top:0.32rem solid #8A2BE2;}
 .piede{
   text-decoration:none;
   color:#8A2BE2;
-  padding:0 2.13rem 0 0;} 
+  padding:0 2.13rem 0 0;}
 .piede:hover{color:#FF4613;}  
 /*_______________________________________________________________________________________________________________________________________*/
 @media (max-width:39.3rem) {

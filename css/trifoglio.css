@@ -18,7 +18,7 @@ header{
 nav{
   display:flex; 
   flex-wrap:wrap;  
-  align-items: end;
+  align-items:end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
@@ -177,7 +177,7 @@ img{max-width:40%; display:flex; margin:auto;}
 .stelo{max-width:19%; margin:0;}  
 span{font-style:italic;}
 /*--------------------------------------------------------------- F O O T E R ---------------------------------------------------------------*/  
-.down{background-color:#E6F5C6; }
+.down{background-color:#E6F5C6;}
 ul.footer{
   display:flex;
   justify-content:start;
@@ -185,7 +185,7 @@ ul.footer{
   list-style:none;
   text-decoration:none; 
   font-family:'Karla', sans-serif; 
-  font-size:1.5rem; 
+  font-size:0.94rem; 
   line-height:90%;
   font-weight:700;
   padding:1.32rem 0 2.13rem 2.13rem;

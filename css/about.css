@@ -8,7 +8,7 @@ body{
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color: #E6F5C6;
+  background-color:#E6F5C6;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -18,11 +18,11 @@ header{
 nav{
   display:flex; 
   flex-wrap:wrap;  
-  align-items: end;
+  align-items:end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
-  background-color: #E6F5C6;
+  background-color:#E6F5C6;
   display:inline-flex;
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
