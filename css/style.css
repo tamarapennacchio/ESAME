@@ -160,7 +160,7 @@ p{
   grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
   /*grid-template-columns:repeat(3, 5fr);*/
   padding:0 2.13rem 0 2.13rem;
-  gap:6.13rem} /*98px*/
+  gap:3.44rem} /*98px*/
 .erba{
   margin:0; 
   padding:0 0 1.32rem 0; 
