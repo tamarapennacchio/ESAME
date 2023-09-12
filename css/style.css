@@ -8,7 +8,7 @@ body{
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-  background-color: #e8beee;
+  background-color: #E6F5C6;
   max-height:9.8rem;
   position:-webkit-sticky; 
   position:sticky; 
@@ -16,14 +16,13 @@ header{
   margin:0;
   padding:1.32rem 0 0.82rem 0}
 nav{
-  background-color: #7be779;
   display:flex; 
   flex-wrap:wrap;  
   align-items: end;
   justify-content:space-between;
   margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
-  background-color: #f3edca;
+  background-color: #E6F5C6;
   display:inline-flex;
   font-family:'Karla', sans-serif;
   font-size:0.94rem;
@@ -37,13 +36,11 @@ ul.navbar{border-right:0.5rem solid #8A2BE2;}
 .tradem{max-width:5rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
-  background-color: #81daf3;
   max-width:78.13rem; /*1250px*/
   margin:0 auto;}
 h1{
-  background-color: #f77d1a;
   color:#8A2BE2;
-  max-width:24.57rem; 
+  max-width:26rem; 
   max-height:6.32rem;
   font-family:'Newsreader', serif;
   font-size:4rem;
@@ -52,14 +49,13 @@ h1{
   margin:9rem 0 0 0;}
 .hero{padding:0 0 0 9rem;}
 .hero_image{
-  background-color: #641616;
-  max-height:23.56rem;
+  max-height:14.57rem;
   display:flex; 
   align-items:end; 
   justify-content:end; 
   display:flex;
   gap:3.44rem;}
-.hero_image_uno{max-width:11.5%; padding:0 0 6.13rem 0;}
+.hero_image_uno{max-width:11.5%; padding:1.32rem 0 3.44rem 0;}
 .hero_image_due{max-width:6%; padding:0 6.63rem 0 0;}
 .hero_sottotitolo{
   color:#8A2BE2;
