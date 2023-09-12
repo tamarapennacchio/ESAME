@@ -1,30 +1,31 @@
 body{
-    margin:0 0;
-    background-color:#E6F5C6; 
-    font-family: 'Karla', sans-serif;
-    font-family: 'Newsreader', serif;
-    scroll-behavior:smooth;}
-    ::selection {background-color:#FF4613;}
+  margin:0 0;
+  background-color:#E6F5C6; 
+  font-family: 'Karla', sans-serif;
+  font-family: 'Newsreader', serif;
+  scroll-behavior:smooth;}
+  ::selection {background-color:#FF4613;}
 img{max-width:100%; display:block;}
 /*------------------------------------------------------------ N A V  B A R -------------------------------------------------------------*/
 header{
-    background-color:#E6F5C6;
-    max-height:9.8rem;
-    position:-webkit-sticky; 
-    position:sticky; 
-    top:0;
-    margin:0;
-    padding:3.44rem 0 0.82rem 0}
+  background-color: #E6F5C6;
+  max-height:9.8rem;
+  position:-webkit-sticky; 
+  position:sticky; 
+  top:0;
+  margin:0;
+  padding:1.32rem 0 0.82rem 0}
 nav{
-    display:flex; 
-    flex-wrap:wrap;  
-    align-items: end;
-    justify-content:space-between;
-    margin:0 8.94rem 0 8.94rem;}  
+  display:flex; 
+  flex-wrap:wrap;  
+  align-items: end;
+  justify-content:space-between;
+  margin:0 8.94rem 0 8.94rem;}  
 ul li.su{
+  background-color: #E6F5C6;
   display:inline-flex;
   font-family:'Karla', sans-serif;
-  font-size:24px;
+  font-size:0.94rem;
   font-weight:700;
   line-height:1;
   margin:0 3.44rem 0 0;
@@ -32,7 +33,7 @@ ul li.su{
 ul>li.su>a{text-decoration:none; margin:0; color:#8A2BE2;} 
 ul>li.su>a:hover{color:#FF4613;}
 ul.navbar{border-right:0.5rem solid #8A2BE2;} 
-.tradem{max-width:6.13rem;}
+.tradem{max-width:5rem;}
 /*--------------------------------------------------------------- M A I N ---------------------------------------------------------------*/  
 main{
   max-width:78.13rem; /*1250px*/
