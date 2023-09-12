@@ -58,6 +58,7 @@ main{
 .panebis{color:#E6F5C6; background-color:#FF4613; text-decoration:none; padding:2px;}  
 /*------------------------------------------------------------ S P E C I E --------------------------------------------------------------*/  
 img{max-width:40%; display:flex; margin:auto;}
+p{font-size:1.5rem;}
 .titolo{
   color:#8A2BE2;
   display:flex; 
@@ -111,10 +112,8 @@ img{max-width:40%; display:flex; margin:auto;}
   font-weight:700;
   margin:14.57rem 0 0 0;}
 .biodue{
-  background-color: #6f9fd6;
-  max-width:31rem;
+  max-width:45rem;
   font-family:'Newsreader', serif;
-  font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;}
@@ -126,20 +125,18 @@ img{max-width:40%; display:flex; margin:auto;}
   align-items:center; 
   flex-direction:column;}
 .where{
-  background-color: #f6b46e;
   font-family:'Karla', sans-serif; 
   font-size:1.5rem; 
   line-height:90%; 
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .wheredue{
-  background-color: #f8e53b;
-  max-width:31rem;
   font-family:'Newsreader', serif;
   font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
-  margin:1.13rem 0 1.13rem 0;}
+  margin:1.13rem 0 1.13rem 0;
+  max-width:45rem;}
 
 
 .cuc{
@@ -149,19 +146,16 @@ img{max-width:40%; display:flex; margin:auto;}
   flex-direction:column;}
 .eat{
   font-family:'Karla', sans-serif; 
-  font-size:1.5rem; 
   line-height:90%; 
   font-weight:700;
   margin:6.13rem 0 0 0;}
 .eatdue{
-  background-color: #38bbef;
-  max-width:31rem;
   font-family:'Newsreader', serif;
-  font-family:1.5rem;
   line-height:1.2;
   font-weight:400;
   margin:1.13rem 0 1.13rem 0;
-  padding:0 0 14.57rem 0;} 
+  padding:0 0 14.57rem 0;
+  max-width:45rem;} 
   
   
 .art{
@@ -294,7 +288,6 @@ ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;}
 .art{max-height:23.3rem;}
 p{
   font-family:'Newsreader', serif;
-  font-size:1.6rem;
   line-height:1.2;
   font-weight:400; 
   margin:0;}
