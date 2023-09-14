@@ -84,7 +84,7 @@ h4{
   margin:0.75rem 0 0.75rem 0;} 
 .spaccazza{display:flex; justify-content:center; margin:0;}
 hr{
-  width:61.69rem; 
+  width:1200px; 
   height:0.5rem; 
   background-color:#8A2BE2; 
   border-style:none;
@@ -95,7 +95,7 @@ hr{
   justify-content:space-between;
   margin:0 auto;}
 .pulito{max-width:200px; margin:0 0 34px 0;}  
-.spacca{max-width:400px; height:8px; margin:0; color:#ff4613;}
+.spacca{max-width:400px; height:8px; margin:0; background-color:#ff4613;}
 .secondoduo_a{
   margin:0;}
 .posti{margin:0.75rem 0.75rem 0 0.75rem;}
