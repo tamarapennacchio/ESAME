@@ -95,15 +95,16 @@ hr{
   display:flex; 
   margin:0 auto;
   gap:377px;}
-.pulito{max-width:180px;}  
+.pulito{max-width:200px;}  
 .secondoduo_a{
-  background-color: #ff4242;
-  margin:0 0 6.13rem 0;}
+  background-color:#a1ff42;
+  margin:0;}
 .resto_a{
-  background-color:#13ffe0;}
-.posti{max-width:200px; margin:0.75rem 0.75rem 0 0.75rem;}
-.conosci{max-width:200px; margin:0 0.75rem 0.75rem 0.75rem;}
+  background-color:#bcdbd7;}
+.posti{margin:0.75rem 0.75rem 0 0.75rem;}
+.conosci{margin:0 0.75rem 0.75rem 0.75rem;}
 h3{
+  background-color: #d8bada;
   color:#8A2BE2;
   font-family:'Karla', sans-serif; 
   font-size:2.44rem; 
@@ -111,14 +112,14 @@ h3{
   font-weight:400;
   margin:0;
   padding:0.63rem 0 0.63rem 0;}
-p{background-color:#FF4613; margin:0; line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
+p{line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
+.posti{margin:0.75rem;}
+.conosci{margin:0.75rem;}
 .resto_b{ 
-  background-color:#13ff91;
-  display:flex;
-  flex-direction:column;}
-.lascia{margin:0.75rem 0 0 0.75rem; background-color:#ffc813; color:#E6F5C6;}
-.consumi{margin:0 0.75rem 0 0.75rem; background-color:#a2604e; color:#E6F5C6;}
-.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#13acff; color:#E6F5C6;}
+  background-color:#13ff91;}
+.lascia{margin:0.75rem; background-color:#ffc813; color:#E6F5C6;}
+.consumi{margin:0.75rem; background-color:#a2604e; color:#E6F5C6;}
+.numeroso{margin: 0.75rem; background-color:#13acff; color:#E6F5C6;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#E6F5C6;}
 ul.footer{
