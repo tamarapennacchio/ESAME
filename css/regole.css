@@ -90,7 +90,7 @@ hr{
   border-style:none;
   margin:14.57rem 0 14.57rem 0;}  
 .regole_bis{ 
-  max-width:65.63rem; /*1200px*/
+  max-width:65.63rem; /*1050px*/
   display:flex; 
   justify-content:space-between;
   margin:0 auto;}
@@ -98,8 +98,8 @@ hr{
 .spacca{max-width:400px; height:8px; margin:0; background-color:#ff4613;}
 .secondoduo_a{
   margin:0;}
-.posti{margin:0.75rem 0.75rem 0 0.75rem;}
-.conosci{margin:0 0.75rem 0.75rem 0.75rem;}
+.posti{margin:1.32rem;}
+.conosci{margin:1.32rem;}
 h3{
   color:#8A2BE2;
   font-family:'Karla', sans-serif; 
@@ -109,8 +109,7 @@ h3{
   margin:0;
   padding:0.63rem 0 0.63rem 0;}
 p{line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
-.conosci, .lascia, .consumi, .numeroso, .posti{margin:0.75rem; color:#8A2BE2; font-weight:700;}
-
+.conosci, .lascia, .consumi, .numeroso, .posti{margin:1.32rem; color:#8A2BE2; font-weight:700;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#E6F5C6;}
 ul.footer{
