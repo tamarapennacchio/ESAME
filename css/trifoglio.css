@@ -276,16 +276,16 @@ ul.navbar{border-right:0.5rem solid #8A2BE2; margin:0; padding:0;}
   margin:1.2rem 0 1.2rem 0;
   padding:0;}
   .titolo{padding:0; margin:0;}
-  .morfo{max-width:28.1rem; margin:0 auto; padding:0;}
+  .morfo{max-width:33rem; margin:0 auto; padding:0;}
   .bio{margin:14.4rem 0 1.3rem 0;}
   .biodue{margin:0 0 9.8rem 0;}
-  .habi{max-width:28.1rem; margin:0 auto; padding:0;}  
+  .habi{max-width:33rem; margin:0 auto; padding:0;}  
   .where{margin:0 0 1.3rem 0;}
   .wheredue{margin:0 0 9.8rem 0;}
-  .cuc{max-width:28.1rem; padding:0; margin:0 auto;}
+  .cuc{max-width:33rem; padding:0; margin:0 auto;}
   .eat{margin:0 0 1.3rem 0; padding:0;}
   .eatdue{margin:0 0 14.4rem 0; padding:0;}
-  .art{max-height:23.3rem;}
+  .art{max-height:33rem;}
 p{
   font-family:'Newsreader', serif;
   font-size:1.6rem;
