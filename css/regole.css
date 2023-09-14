@@ -90,22 +90,19 @@ hr{
   border-style:none;
   margin:14.57rem 0 14.57rem 0;}  
 .regole_bis{ 
-  max-width:400px;
+  background-color: #7c6cf7;
+  max-width:87.5rem; /*1400px*/
   display:flex; 
-  align-items:start center; 
-  justify-content:center; 
-  flex-direction:column; 
-  margin:0 auto;}
-.secondoduo_a{margin:0 0 6.13rem 0;}
+  margin:0 auto;
+  gap:377px;}
+.pulito{max-width:180px;}  
+.secondoduo_a{
+  background-color: #ff4242;
+  margin:0 0 6.13rem 0;}
 .resto_a{
-  max-width:23.5rem;
-  background-color:#FF4613;
-  display:flex; 
-  justify-content:center; 
-  align-items:start; 
-  flex-direction:column;}
-.posti{margin:0.75rem 0.75rem 0 0.75rem;}
-.conosci{margin:0 0.75rem 0.75rem 0.75rem;}
+  background-color:#13ffe0;}
+.posti{max-width:200px; margin:0.75rem 0.75rem 0 0.75rem;}
+.conosci{max-width:200px; margin:0 0.75rem 0.75rem 0.75rem;}
 h3{
   color:#8A2BE2;
   font-family:'Karla', sans-serif; 
@@ -116,15 +113,12 @@ h3{
   padding:0.63rem 0 0.63rem 0;}
 p{background-color:#FF4613; margin:0; line-height:1.2; color:#E6F5C6; font-size:1.5rem;}
 .resto_b{ 
-  max-width:23.5rem;
-  background-color:#FF4613;
+  background-color:#13ff91;
   display:flex;
-  justify-content:center;
-  align-items:start;
   flex-direction:column;}
-.lascia{margin:0.75rem 0 0 0.75rem; background-color:#FF4613; color:#E6F5C6;}
-.consumi{margin:0 0.75rem 0 0.75rem; background-color:#FF4613; color:#E6F5C6;}
-.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#FF4613; color:#E6F5C6;}
+.lascia{margin:0.75rem 0 0 0.75rem; background-color:#ffc813; color:#E6F5C6;}
+.consumi{margin:0 0.75rem 0 0.75rem; background-color:#a2604e; color:#E6F5C6;}
+.numeroso{margin:0 0.75rem 0.75rem 0.75rem; background-color:#13acff; color:#E6F5C6;}
 /*--------------------------------------------------------- F O O T E R -----------------------------------------------------------------*/    
 .down{background-color:#E6F5C6;}
 ul.footer{
